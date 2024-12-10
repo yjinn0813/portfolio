@@ -10,6 +10,15 @@ export default function Education() {
       <div className="edu-title">Experience</div>
       <div className="edu-content">
         <div className="edu-item">
+          <div className="edu-time">2024.09 ~</div>
+          <div className="attribute">
+            Junior Frontend Developer
+            <br />
+            (growing as a Full-Stack Developer)
+          </div>
+        </div>
+
+        <div className="edu-item">
           <div className="edu-time">2024.07.01 ~ 2024.08.16</div>
           <div className="attribute">
             서울시 뉴딜 일자리 x 이젠아카데미 강남

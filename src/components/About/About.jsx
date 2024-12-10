@@ -76,8 +76,7 @@ export default function About() {
           <br />
           다양한 경험을 통해 지속적으로 성장하며,
           <br />
-          사용자를 먼저 생각하여 적재적소에 맞는 UX를 제공하는 개발자가 되고
-          싶습니다.
+          사용자 친화적인 UX를 제공하는 개발자가 되기 위해 노력하고 있습니다.
         </p>
       </div>
       <NextBtn to="/skill" text="Check my stacks 👀" />

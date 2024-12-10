@@ -1,0 +1,26 @@
+[
+  {
+    "name": "Python",
+    "path": "02-Python.svg"
+  },
+  {
+    "name": "Fast API",
+    "path": "02-Fast_API.svg"
+  },
+  {
+    "name": "maria DB",
+    "path": "02-Maria_DB.svg"
+  },
+  {
+    "name": "php",
+    "path": "02-php.svg"
+  },
+  {
+    "name": "apache",
+    "path": "02-Apache(WS).svg"
+  },
+  {
+    "name": "tomcat",
+    "path": "02-Tomcat.svg"
+  }
+]

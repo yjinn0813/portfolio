@@ -3,6 +3,7 @@
 import React from 'react';
 import NextBtn from '../NextBtn';
 import Frontend from './Frontend.json';
+import Backend from './Backend.json';
 import Library from './Library.json';
 import Control from './Control.json';
 import Develop from './Develop.json';
@@ -27,6 +28,19 @@ export default function Skill() {
           <div className="sk-item-title">Frontend</div>
           <div className="sk-item-value">
             {Frontend.map((badge, index) => (
+              <img
+                key={index}
+                src={getBadge(badge.path)}
+                alt={badge.name}
+                className="badge"
+              />
+            ))}
+          </div>
+        </div>
+        <div className="sk-item BE-badge">
+          <div className="sk-item-title">Backend</div>
+          <div className="sk-item-value">
+            {Backend.map((badge, index) => (
               <img
                 key={index}
                 src={getBadge(badge.path)}
