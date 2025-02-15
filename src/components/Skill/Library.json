@@ -14,5 +14,9 @@
   {
     "name": "mui",
     "path": "1-mui.svg"
+  },
+  {
+    "name": "socket",
+    "path": "3-socket.svg"
   }
 ]
