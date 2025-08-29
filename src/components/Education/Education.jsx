@@ -16,6 +16,19 @@ export default function Education() {
             <br />
             (growing as a Full-Stack Developer)
           </div>
+          <ul className='edu-info hlw'>
+            <li>2024.09~12, 할로와 테이블오더 & OMS</li>
+            <li>
+              2025.01~, 푸딘코 테이블오더 & 예약하기
+              <ul className='sub-list'>
+                <li>socket.io를 이용한 데이터 실시간 공유</li>
+                <li>2025.05.26 - 테이블오더 1차 런칭</li>
+                <li>2025.07.11 - 테이블오더 2차 런칭 (선/후불 기능)</li>
+                <li>2025.10 - 테이블오더 3차 런칭 (로그인/회원가입)</li>
+              </ul>
+            </li>
+            <li>2025 연말, 푸딘코 레거시 API 개선 작업 (Java)</li>
+          </ul>
         </div>
 
         <div className="edu-item">

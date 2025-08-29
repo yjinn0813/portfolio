@@ -1,5 +1,9 @@
 [
   {
+    "name": "socket",
+    "path": "3-socket.svg"
+  },
+  {
     "name": "Bootstrap",
     "path": "1-Bootstrap.svg"
   },
@@ -14,9 +18,5 @@
   {
     "name": "mui",
     "path": "1-mui.svg"
-  },
-  {
-    "name": "socket",
-    "path": "3-socket.svg"
   }
 ]

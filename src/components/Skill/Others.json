@@ -4,23 +4,23 @@
     "path": "4-Figma.svg"
   },
   {
-    "name": "Photoshop",
-    "path": "4-Photoshop.svg"
-  },
-  {
     "name": "Slack",
     "path": "4-Slack.svg"
   },
   {
-    "name": "Discord",
-    "path": "4-Discord.svg"
+    "name": "Notion",
+    "path": "4-Notion.svg"
   },
   {
     "name": "Zoom",
     "path": "4-Zoom.svg"
   },
   {
-    "name": "Notion",
-    "path": "4-Notion.svg"
+    "name": "Discord",
+    "path": "4-Discord.svg"
+  },
+  {
+    "name": "Photoshop",
+    "path": "4-Photoshop.svg"
   }
 ]

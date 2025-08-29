@@ -12,8 +12,20 @@
     "path": "1-JavaScript.svg"
   },
   {
+    "name": "JQuery",
+    "path": "1-JQuery.svg"
+  },
+   {
+    "name": "TypeScript",
+    "path": "1-typescript.svg"
+  },
+  {
     "name": "React",
     "path": "1-React.svg"
+  },
+    {
+    "name": "Nextjs",
+    "path": "1-nextjs.svg"
   },
   {
     "name": "React Query",
@@ -23,40 +35,32 @@
     "name": "Axios",
     "path": "01-Axios.svg"
   },
+    {
+    "name": "Zustand",
+    "path": "01-Zustand.svg"
+  },
   {
     "name": "Redux",
     "path": "1-Redux.svg"
-  },
-  {
-    "name": "Zustand",
-    "path": "01-Zustand.svg"
   },
   {
     "name": "Nodejs",
     "path": "1-Nodejs.svg"
   },
   {
-    "name": "SASS",
-    "path": "1-SASS.svg"
+    "name": "vite",
+    "path": "1-vite.svg"
   },
   {
     "name": "Tailwind",
     "path": "01-Tailwind.svg"
   },
   {
+    "name": "SASS",
+    "path": "1-SASS.svg"
+  },
+  {
     "name": "Styled Components",
     "path": "01-styled_components.svg"
-  },
-  {
-    "name": "Nextjs",
-    "path": "1-nextjs.svg"
-  },
-  {
-    "name": "TypeScript",
-    "path": "1-typescript.svg"
-  },
-  {
-    "name": "JQuery",
-    "path": "1-JQuery.svg"
   }
 ]

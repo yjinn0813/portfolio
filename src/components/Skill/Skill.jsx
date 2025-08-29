@@ -5,7 +5,6 @@ import NextBtn from '../NextBtn';
 import Frontend from './Frontend.json';
 import Backend from './Backend.json';
 import Library from './Library.json';
-import Control from './Control.json';
 import Develop from './Develop.json';
 import Others from './Others.json';
 import '../../styles/Skill/Skill.scss';
@@ -64,20 +63,7 @@ export default function Skill() {
           </div>
         </div>
         <div className="sk-item git-badge">
-          <div className="sk-item-title">Version Control</div>
-          <div className="sk-item-value">
-            {Control.map((badge, index) => (
-              <img
-                key={index}
-                src={getBadge(badge.path)}
-                alt={badge.name}
-                className="badge"
-              />
-            ))}
-          </div>
-        </div>
-        <div className="sk-item develop-badge">
-          <div className="sk-item-title">Development & Deploy Tool</div>
+          <div className="sk-item-title">Version Control, IDE & Deploy Tool</div>
           <div className="sk-item-value">
             {Develop.map((badge, index) => (
               <img

@@ -1,15 +1,19 @@
 [
   {
+    "name": "Git",
+    "path": "2-Git.svg"
+  },
+  {
+    "name": "GitHub",
+    "path": "2-GitHub.svg"
+  },
+  {
     "name": "VScode",
     "path": "3-VSCode.svg"
   },
   {
-    "name": "eslint",
-    "path": "3-eslint.svg"
-  },
-  {
-    "name": "prettier",
-    "path": "3-prettier.svg"
+    "name": "eclipse",
+    "path": "3-eclipse.svg"
   },
   {
     "name": "Netlify",
