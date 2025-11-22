@@ -4,12 +4,12 @@
     "path": "3-socket.svg"
   },
   {
-    "name": "Bootstrap",
-    "path": "1-Bootstrap.svg"
-  },
-  {
     "name": "swiper",
     "path": "1-swiper.svg"
+  },
+  {
+    "name": "Bootstrap",
+    "path": "1-Bootstrap.svg"
   },
   {
     "name": "gsap",

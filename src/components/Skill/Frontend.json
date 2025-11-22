@@ -15,7 +15,7 @@
     "name": "JQuery",
     "path": "1-JQuery.svg"
   },
-   {
+  {
     "name": "TypeScript",
     "path": "1-typescript.svg"
   },
@@ -23,19 +23,19 @@
     "name": "React",
     "path": "1-React.svg"
   },
-    {
+  {
     "name": "Nextjs",
     "path": "1-nextjs.svg"
+  },
+  {
+    "name": "Axios",
+    "path": "01-Axios.svg"
   },
   {
     "name": "React Query",
     "path": "01-React_Query.svg"
   },
   {
-    "name": "Axios",
-    "path": "01-Axios.svg"
-  },
-    {
     "name": "Zustand",
     "path": "01-Zustand.svg"
   },

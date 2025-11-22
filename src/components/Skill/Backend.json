@@ -4,6 +4,14 @@
     "path": "02-php.svg"
   },
   {
+    "name": "apache",
+    "path": "02-Apache.svg"
+  },
+  {
+    "name": "filezilla",
+    "path": "2-filezilla.svg"
+  },
+  {
     "name": "maria DB",
     "path": "02-Maria_DB.svg"
   },
@@ -18,14 +26,6 @@
   {
     "name": "gradle",
     "path": "2-Gradle.svg"
-  },
-  {
-    "name": "apache",
-    "path": "02-Apache.svg"
-  },
-  {
-    "name": "filezilla",
-    "path": "2-filezilla.svg"
   },
   {
     "name": "Python",
