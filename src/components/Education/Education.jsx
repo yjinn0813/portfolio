@@ -28,7 +28,6 @@ export default function Education() {
               </ul>
             </li>
             <li>2025.10~, 푸딘코 리액트 웹앱</li>
-            {/* <li>2025 연말, 푸딘코 레거시 API 개선 작업 (Java)</li> */}
           </ul>
         </div>
 
