@@ -39,10 +39,10 @@ export default function Education() {
               2025.01~, 푸딘코 테이블오더
               <ul className='sub-list'>
                 <li>기술스택: PHP, CSS, JavaScript, JQuery, Socket.io</li>
-                <li>Socket.io를 이용한 데이터 실시간 공유 적용</li>
                 <li>2025.05.26 - 테이블오더 1차 런칭</li>
                 <li>2025.07.11 - 테이블오더 2차 런칭 (선/후불 기능)</li>
                 {/* <li>3차 런칭 준비중: POS 추가, 로그인/회원가입/포인트 사용 기능 개발</li> */}
+                <li>Socket.io를 이용한 데이터 실시간 공유 적용</li>
                 <li>간단한 PHP 로직 직접 작성, DB 쿼리 작성 및 확인 경험</li>
                 <li>팀과 협업하며 서비스 운영 경험 강화</li>
               </ul>
@@ -50,10 +50,10 @@ export default function Education() {
             <li>
               2025.10~, 푸딘코 리액트 웹앱
               <ul className='sub-list'>
-                <li>기술스택: React, TypeScript, Vite, Zustand, React Query, Axios, Tailwind</li>
+                <li>기술스택: React, TypeScript, Vite, Zustand, React Query (TanStack Query), Axios, Tailwind</li>
                 <li>레포 구조 및 기술 스택 초기 기획 주도</li>
                 <li>Zustand를 활용한 로그인 상태 관리 및 API 호출 최적화</li>
-                <li>React Query, Axios 활용 데이터 패칭 및 오류 처리</li>
+                <li>React Query (TanStack Query), Axios 활용 데이터 패칭 및 오류 처리</li>
                 <li>AWS Apache 서버 배포 및 htaccess 라우팅 문제 해결</li>
               </ul>
             </li>
