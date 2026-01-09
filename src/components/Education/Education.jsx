@@ -29,10 +29,12 @@ export default function Education() {
               2024.09~, 펫벨업 자사몰 (외주)
               <ul className='sub-list'>
                 <li>기술스택: PHP, HTML, CSS, JavaScript, Figma, Filezilla</li>
-                <li>Figma 목업 제작 및 퍼블리싱 진행</li>
-                <li>Filezilla를 통한 서버 배포 경험, SSH 접속 학습</li>
-                <li>프로젝트 장기 참여로 유지보수 및 소규모 기능 개선 경험</li>
-                <li>간단한 PHP 로직 작성 경험으로, 풀스택 감각 보유</li>
+                <li>그누보드 기반 영카트 쇼핑몰 구축 및 유지보수 참여</li>
+                <li>Figma 목업 설계 및 UI 구조 기획</li>
+                <li>HTML/CSS/JavaScript로 초기 화면 골조 및 인터랙션 구현</li>
+                <li>PHP 기반 페이지 연동 이후 프론트엔드 세부 스타일링 및 기능 개선</li>
+                <li>모바일·태블릿·PC 환경에 최적화된 반응형 웹 UI 구현</li>
+                <li>FileZilla를 통한 배포 및 SSH 접속 경험</li>
               </ul>
             </li>
             <li>
@@ -41,7 +43,7 @@ export default function Education() {
                 <li>기술스택: PHP, CSS, JavaScript, JQuery, Socket.io</li>
                 <li>2025.05.26 - 테이블오더 1차 런칭</li>
                 <li>2025.07.11 - 테이블오더 2차 런칭 (선/후불 기능)</li>
-                {/* <li>3차 런칭 준비중: POS 추가, 로그인/회원가입/포인트 사용 기능 개발</li> */}
+                {/* <li>3차 런칭 준비중: POS 추가, PG추가, 로그인/회원가입/포인트 사용 기능 개발</li> */}
                 <li>Socket.io를 이용한 데이터 실시간 공유 적용</li>
                 <li>간단한 PHP 로직 직접 작성, DB 쿼리 작성 및 확인 경험</li>
                 <li>팀과 협업하며 서비스 운영 경험 강화</li>
