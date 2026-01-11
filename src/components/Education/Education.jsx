@@ -1,10 +1,18 @@
 // 교육이수내역
 
-import React from 'react';
+import { useState } from 'react';
 import NextBtn from '../NextBtn';
 import '../../styles/Education/Education.scss';
 
 export default function Education() {
+  const [isToggleOpen, setIsToggleOpen] = useState(false) // toggle 기본 닫힘
+  const [openIdx, setOpenIdx] = useState(null) // 프로젝트 인덱스 관리
+
+  // 토글 핸들러
+  const handleToggle = (idx) => {
+    setOpenIdx((prev) => (prev === idx ? null : idx))
+  }
+
   return (
     <div className="edu-inner">
       <div className="edu-title">Experience</div>
@@ -17,47 +25,68 @@ export default function Education() {
             (growing as a Full-Stack Developer)
           </div>
           <ul className='edu-info hlw'>
+            {/* TODO useState로 불리언 넘겨서 플젝명 토글시키기 */}
             <li>
-              2024.09~12, 할로와 테이블오더 & OMS
-              <ul className='sub-list'>
-                <li>기술스택: PHP, HTML, CSS, JavaScript, JQuery, Figma</li>
-                <li>기존 레포 코드 분석 및 오류 수정</li>
-                <li>OMS 리뉴얼 관련 목업 제작(Figma) 및 React로 연습 구현</li>
-              </ul>
+              <p 
+                onClick={() => handleToggle(0)}
+                className={`hlw-title ${openIdx === 0 ? 'open' : ''}`}
+              >2024.09~12, 할로와 테이블오더 & OMS</p>
+              {openIdx === 0 && (
+                <ul className='sub-list'>
+                  <li>기술스택: PHP, HTML, CSS, JavaScript, JQuery, Figma</li>
+                  <li>기존 레포 코드 분석 및 오류 수정</li>
+                  <li>OMS 리뉴얼 관련 목업 제작(Figma) 및 React로 연습 구현</li>
+                </ul>
+              )}
             </li>
             <li>
-              2024.09~, 펫벨업 자사몰 (외주)
-              <ul className='sub-list'>
-                <li>기술스택: PHP, HTML, CSS, JavaScript, Figma, Filezilla</li>
-                <li>그누보드 기반 영카트 쇼핑몰 구축 및 유지보수 참여</li>
-                <li>Figma 목업 설계 및 UI 구조 기획</li>
-                <li>HTML/CSS/JavaScript로 초기 화면 골조 및 인터랙션 구현</li>
-                <li>PHP 기반 페이지 연동 이후 프론트엔드 세부 스타일링 및 기능 개선</li>
-                <li>모바일·태블릿·PC 환경에 최적화된 반응형 웹 UI 구현</li>
-                <li>FileZilla를 통한 배포 및 SSH 접속 경험</li>
-              </ul>
+              <p 
+                onClick={() => handleToggle(1)}
+                className={`hlw-title ${openIdx === 1 ? 'open' : ''}`}
+              >2024.09~, 펫벨업 자사몰 (외주)</p>
+              {openIdx === 1 && (
+                <ul className='sub-list'>
+                  <li>기술스택: PHP, HTML, CSS, JavaScript, Figma, Filezilla</li>
+                  <li>그누보드 기반 영카트 쇼핑몰 구축 및 유지보수 참여</li>
+                  <li>Figma 목업 설계 및 UI 구조 기획</li>
+                  <li>HTML/CSS/JavaScript로 초기 화면 골조 및 인터랙션 구현</li>
+                  <li>PHP 기반 페이지 연동 이후 프론트엔드 세부 스타일링 및 기능 개선</li>
+                  <li>모바일·태블릿·PC 환경에 최적화된 반응형 웹 UI 구현</li>
+                  <li>FileZilla를 통한 배포 및 SSH 접속 경험</li>
+                </ul>
+              )}
             </li>
             <li>
-              2025.01~, 푸딘코 테이블오더
-              <ul className='sub-list'>
-                <li>기술스택: PHP, CSS, JavaScript, JQuery, Socket.io</li>
-                <li>2025.05.26 - 테이블오더 1차 런칭</li>
-                <li>2025.07.11 - 테이블오더 2차 런칭 (선/후불 기능)</li>
-                {/* <li>3차 런칭 준비중: POS 추가, PG추가, 로그인/회원가입/포인트 사용 기능 개발</li> */}
-                <li>Socket.io를 이용한 데이터 실시간 공유 적용</li>
-                <li>간단한 PHP 로직 직접 작성, DB 쿼리 작성 및 확인 경험</li>
-                <li>팀과 협업하며 서비스 운영 경험 강화</li>
-              </ul>
+              <p 
+                onClick={() => handleToggle(2)}
+                className={`hlw-title ${openIdx === 2 ? 'open' : ''}`}
+              >2025.01~, 푸딘코 테이블오더</p>
+              {openIdx === 2 && (
+                <ul className='sub-list'>
+                  <li>기술스택: PHP, CSS, JavaScript, JQuery, Socket.io</li>
+                  <li>2025.05.26 - 테이블오더 1차 런칭</li>
+                  <li>2025.07.11 - 테이블오더 2차 런칭 (선/후불 기능)</li>
+                  {/* <li>3차 런칭 준비중: POS 추가, PG추가, 로그인/회원가입/포인트 사용 기능 개발</li> */}
+                  <li>Socket.io를 이용한 데이터 실시간 공유 적용</li>
+                  <li>간단한 PHP 로직 직접 작성, DB 쿼리 작성 및 확인 경험</li>
+                  <li>팀과 협업하며 서비스 운영 경험 강화</li>
+                </ul>
+              )}
             </li>
             <li>
-              2025.10~, 푸딘코 리액트 웹앱
-              <ul className='sub-list'>
-                <li>기술스택: React, TypeScript, Vite, Zustand, React Query (TanStack Query), Axios, Tailwind</li>
-                <li>레포 구조 및 기술 스택 초기 기획 주도</li>
-                <li>Zustand를 활용한 로그인 상태 관리 및 API 호출 최적화</li>
-                <li>React Query (TanStack Query), Axios 활용 데이터 패칭 및 오류 처리</li>
-                <li>AWS Apache 서버 배포 및 htaccess 라우팅 문제 해결</li>
-              </ul>
+              <p 
+                onClick={() => handleToggle(3)}
+                className={`hlw-title ${openIdx === 3 ? 'open' : ''}`}
+              >2025.10~, 푸딘코 리액트 웹앱</p>
+              {openIdx === 3 && (
+                <ul className='sub-list'>
+                  <li>기술스택: React, TypeScript, Vite, Zustand, React Query (TanStack Query), Axios, Tailwind</li>
+                  <li>레포 구조 및 기술 스택 초기 기획 주도</li>
+                  <li>Zustand를 활용한 로그인 상태 관리 및 API 호출 최적화</li>
+                  <li>React Query (TanStack Query), Axios 활용 데이터 패칭 및 오류 처리</li>
+                  <li>AWS Apache 서버 배포 및 htaccess 라우팅 문제 해결</li>
+                </ul>
+              )}
             </li>
           </ul>
         </div>
