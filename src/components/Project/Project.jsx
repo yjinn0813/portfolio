@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Projects from './Projects.json';
-import NextBtn from '../NextBtn';
+import NextBtn from '../common/NextBtn';
 import '../../styles/Project/Project.scss';
 
 // swiper slide

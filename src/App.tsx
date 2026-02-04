@@ -1,8 +1,8 @@
 import React, { useRef, useEffect } from 'react';
 import { Route, Routes, useLocation } from 'react-router-dom';
 import './App.scss';
-import Header from './components/Header/Header';
-import Footer from './components/Footer/Footer';
+import Header from './components/common/Header';
+import Footer from './components/common/Footer';
 import About from './components/About/About';
 import Skill from './components/Skill/Skill';
 import Education from './components/Education/Education';
@@ -11,7 +11,7 @@ import Contact from './components/Contact/Contact';
 
 function App() {
   const location = useLocation();
-  const headerRef = useRef(null);
+  const headerRef = useRef<HTMLElement | null>(null);
 
   useEffect(() => {
     // 페이지 이동 시 헤더로 스크롤

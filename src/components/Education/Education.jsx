@@ -1,7 +1,7 @@
 // 교육이수내역
 
 import { useState } from 'react';
-import NextBtn from '../NextBtn';
+import NextBtn from '../common/NextBtn';
 import '../../styles/Education/Education.scss';
 
 export default function Education() {

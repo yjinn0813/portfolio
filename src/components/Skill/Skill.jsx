@@ -1,7 +1,6 @@
 // tech stacks
 
-import React from 'react';
-import NextBtn from '../NextBtn';
+import NextBtn from '../common/NextBtn';
 import Frontend from './Frontend.json';
 import Backend from './Backend.json';
 import Library from './Library.json';

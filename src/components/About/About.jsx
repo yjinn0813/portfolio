@@ -2,7 +2,7 @@
 
 import React, { useEffect, useRef } from 'react';
 import Typing from './Typing';
-import NextBtn from '../NextBtn';
+import NextBtn from '../common/NextBtn';
 import '../../styles/About/About.scss';
 
 import gsap from 'gsap';
