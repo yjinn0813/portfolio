@@ -1,7 +1,7 @@
 // footer
 
 import React from 'react';
-import '../../styles/Footer/Footer.scss';
+import '../../styles/common/Footer.scss';
 
 import EmailIcon from '@mui/icons-material/Email';
 import BookmarkIcon from '@mui/icons-material/Bookmark';

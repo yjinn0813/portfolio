@@ -2,7 +2,7 @@
 
 import React, { forwardRef } from 'react';
 import { Link } from 'react-router-dom';
-import '../../styles/Header/Header.scss';
+import '../../styles/common/Header.scss';
 
 import PersonIcon from '@mui/icons-material/Person';
 import ConstructionIcon from '@mui/icons-material/Construction';

@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
-import '../../styles/NextBtn.scss';
+import '../../styles/common/NextBtn.scss';
 
 export default function NextBtn({ to, text }) {
   return (
