@@ -90,20 +90,18 @@ https://github.com/hjinn0813/portfolio
  ┃ ┗ 📜index.html
  ┣ 📂src
  ┃ ┣ 📂assets
+ ┃ ┃ ┣ 📂badges
+ ┃ ┃ ┗ 📂projects
  ┃ ┣ 📂components
  ┃ ┃ ┣ 📂About
- ┃ ┃ ┃ ┣ 📜About.jsx
- ┃ ┃ ┃ ┗ 📜Typing.jsx
+ ┃ ┃ ┃ ┣ 📜About.tsx
+ ┃ ┃ ┃ ┗ 📜Typing.tsx
  ┃ ┃ ┣ 📂Contact
- ┃ ┃ ┃ ┗ 📜Contact.jsx
+ ┃ ┃ ┃ ┗ 📜Contact.tsx
  ┃ ┃ ┣ 📂Education
- ┃ ┃ ┃ ┗ 📜Education.jsx
- ┃ ┃ ┣ 📂Footer
- ┃ ┃ ┃ ┗ 📜Footer.jsx
- ┃ ┃ ┣ 📂Header
- ┃ ┃ ┃ ┗ 📜Header.jsx
+ ┃ ┃ ┃ ┗ 📜Education.tsx
  ┃ ┃ ┣ 📂Project
- ┃ ┃ ┃ ┣ 📜Project.jsx
+ ┃ ┃ ┃ ┣ 📜Project.tsx
  ┃ ┃ ┃ ┗ 📜Projects.json
  ┃ ┃ ┣ 📂Skill
  ┃ ┃ ┃ ┣ 📜Backend.json
@@ -112,8 +110,11 @@ https://github.com/hjinn0813/portfolio
  ┃ ┃ ┃ ┣ 📜Frontend.json
  ┃ ┃ ┃ ┣ 📜Library.json
  ┃ ┃ ┃ ┣ 📜Others.json
- ┃ ┃ ┃ ┗ 📜Skill.jsx
- ┃ ┃ ┗ 📜NextBtn.jsx
+ ┃ ┃ ┃ ┗ 📜Skill.tsx
+ ┃ ┃ ┗ 📂common
+ ┃ ┃ ┃ ┣ 📜Footer.tsx
+ ┃ ┃ ┃ ┣ 📜Header.tsx
+ ┃ ┃ ┃ ┗ 📜NextBtn.tsx
  ┃ ┣ 📂styles
  ┃ ┃ ┣ 📂About
  ┃ ┃ ┃ ┣ 📜About.scss
@@ -122,20 +123,21 @@ https://github.com/hjinn0813/portfolio
  ┃ ┃ ┃ ┗ 📜Contact.scss
  ┃ ┃ ┣ 📂Education
  ┃ ┃ ┃ ┗ 📜Education.scss
- ┃ ┃ ┣ 📂Footer
- ┃ ┃ ┃ ┗ 📜Footer.scss
- ┃ ┃ ┣ 📂Header
- ┃ ┃ ┃ ┗ 📜Header.scss
  ┃ ┃ ┣ 📂Project
  ┃ ┃ ┃ ┗ 📜Project.scss
  ┃ ┃ ┣ 📂Skill
  ┃ ┃ ┃ ┗ 📜Skill.scss
- ┃ ┃ ┣ 📜NextBtn.scss
+ ┃ ┃ ┣ 📂common
+ ┃ ┃ ┃ ┣ 📜Footer.scss
+ ┃ ┃ ┃ ┣ 📜Header.scss
+ ┃ ┃ ┃ ┗ 📜NextBtn.scss
  ┃ ┃ ┗ 📜root.scss
- ┃ ┣ 📜App.js
  ┃ ┣ 📜App.scss
- ┃ ┗ 📜index.js
+ ┃ ┣ 📜App.tsx
+ ┃ ┗ 📜index.tsx
+ ┣ 📜.gitignore
+ ┣ 📜README.md
  ┣ 📜package-lock.json
  ┣ 📜package.json
- ┗ 📜README.md
+ ┗ 📜tsconfig.json
 ```
