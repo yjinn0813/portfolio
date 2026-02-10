@@ -3,7 +3,11 @@
 @import '../root.scss';
 
 .pj-container {
-  @include viewport-size;
+  margin: 60px 100px;
+
+  @media (max-width: 768px) {
+    margin: 30px 50px;
+  }
 }
 .pj-title {
   @include page-title;
@@ -11,8 +15,7 @@
 
 // 카드 컴포넌트 디자인
 .pj-card {
-  width: 95%;
-  margin: 20px 0;
+  margin: 4px;
   padding: 20px;
   border: 1px solid $gray;
   border-radius: 12px;
@@ -97,4 +100,119 @@
 }
 .openlink {
   @include link-btn;
+}
+
+/* 프리뷰 */
+.pj-preview {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  max-width: 300px;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+
+    .pj-preview-overlay {opacity: 0.4;}
+  }
+}
+
+.pj-preview-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 24px;
+  justify-items: center;
+}
+
+.pj-preview-bg {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+}
+
+.pj-preview-overlay {
+  position: absolute;
+  inset: 0;
+  background: #000;
+  opacity: 0.6;
+  transition: opacity 0.2s ease;
+}
+
+.pj-preview-content {
+  position: relative;
+  z-index: 1;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.pj-preview-title {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+// 프리뷰 뱃지
+.pj-badge {
+  align-self: flex-start;
+  margin-bottom: 8px;
+  padding: 5px 10px;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 6px;
+
+  &.primary {
+    background: $pink;
+    color: #fff;
+  }
+
+  &.secondary {
+    background: $gray;
+    color: #fff;
+  }
+}
+
+/* 모달 화면 고정 */
+.pj-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1000;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pj-modal {
+  max-width: 960px;
+  width: 90%;
+  max-height: 90vh;
+  background: $ivory;
+  overflow-y: auto;
+  position: relative;
+}
+
+.pj-modal-close {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: $gray;
+  font-size: 24px;
+
+  &:hover {
+    color: $pink;
+  }
 }

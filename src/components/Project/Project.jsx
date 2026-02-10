@@ -1,18 +1,58 @@
 // 전체 프로젝트 확인 영역
 
-import React from 'react';
+import React, { useState } from 'react';
 import Projects from './Projects.json';
 import NextBtn from '../common/NextBtn';
 import ProjectCard from './ProjectCard';
+import ProjectPreview from './ProjectPreview';
+import CloseIcon from '@mui/icons-material/Close';
 import '../../styles/Project/Project.scss';
 
 export default function Project() {
+  const [isClicked, setIsClicked] = useState(null)
+
+  const handleOpen = (project) => {
+    setIsClicked(project)
+  }
+
+  const handleClose = () => {
+    setIsClicked(null)
+  }
+
   return (
     <div className="pj-container">
       <div className="pj-title">Projects</div>
-      {Projects.map((project) => (
-        <ProjectCard key={project.id} project={project} className="pj-card" />
-      ))}
+
+      {/* preview */}
+      <div className="pj-preview-grid">
+        {Projects.map((project) => (
+          <ProjectPreview
+            key={project.id}
+            project={project}
+            onClick={handleOpen}
+          />
+        ))}
+      </div>
+
+      {/* modal */}
+      {isClicked && (
+        <div className="pj-modal-overlay" onClick={handleClose}>
+          <div
+            className="pj-modal"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <button className="pj-modal-close"
+              onClick={handleClose}
+              aria-label="Close modal"
+            >
+              <CloseIcon />
+            </button>
+            
+            <ProjectCard project={isClicked} />
+          </div>
+        </div>
+      )}
+
       <NextBtn to="/contact" text="Contact Me!📧" />
     </div>
   );

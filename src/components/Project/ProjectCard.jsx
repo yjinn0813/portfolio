@@ -58,8 +58,13 @@ export default function ProjectCard({ project }) {
         <div className="pj-descript">{project.descript}</div>
 
         <div className="pj-date">
-          <div className="pj-info-title">기간 및 인원</div>
-          <div className="pj-info-value">{toBrTag(project.date)}</div>
+          <span className="pj-info-title">기간</span>
+          <span className="pj-info-value">{toBrTag(project.peroid)}</span>
+        </div>
+
+        <div className="pj-team">
+          <span className="pj-info-title">인원</span>
+          <span className="pj-info-value">{project.team}</span>
         </div>
 
         <div className="pj-skills">
