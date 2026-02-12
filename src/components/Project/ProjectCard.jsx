@@ -54,6 +54,9 @@ export default function ProjectCard({ project }) {
       )}
 
       <div className="pj-info">
+        <span className={`pj-badge ${project.type}`}>
+          {project.type.toUpperCase()}
+        </span>
         <p className="pj-item-title">{project.title}</p>
         <div className="pj-descript">{project.descript}</div>
 

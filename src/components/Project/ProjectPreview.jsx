@@ -29,11 +29,9 @@ export default function ProjectPreview({ project, onClick }) {
 
       {/* 텍스트 영역 */}
       <div className="pj-preview-content">
-        {project.tier && (
-          <span className={`pj-badge ${project.tier}`}>
-            {project.tier === 'primary' ? 'MAIN' : 'OTHER'}
-          </span>
-        )}
+        <span className={`pj-badge ${project.type}`}>
+          {project.type.toUpperCase()}
+        </span>
         <p className="pj-preview-title">{project.title}</p>
       </div>
     </div>
