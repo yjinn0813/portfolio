@@ -21,7 +21,7 @@ export default function Skill() {
 
   return (
     <div className="skill-inner">
-      <div className="skill-title">Skills</div>
+      <div className="skill-title">Tech Stack</div>
       <div className="skill-content">
         <SkillArea
           title="Frontend"

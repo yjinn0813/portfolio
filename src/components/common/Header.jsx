@@ -23,7 +23,7 @@ const Header = forwardRef((props, ref) => {
         <div className="nav-btn">
           <Link to="/skill" className="nav-link">
             <ConstructionIcon className="nav-icon" />
-            <div className="nav-txt">Skill</div>
+            <div className="nav-txt">Stacks</div>
           </Link>
         </div>
         <div className="nav-btn">
