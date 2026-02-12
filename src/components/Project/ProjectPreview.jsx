@@ -33,6 +33,7 @@ export default function ProjectPreview({ project, onClick }) {
           {project.type.toUpperCase()}
         </span>
         <p className="pj-preview-title">{project.title}</p>
+        <p className='pj-preview-subtitle'>{project.subtitle}</p>
       </div>
     </div>
   );

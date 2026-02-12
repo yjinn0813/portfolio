@@ -2,6 +2,7 @@
   {
     "id": 1,
     "title": "Frontend - 푸딘코 테이블오더",
+    "subtitle": "소켓 기반 실시간 주문 처리 QR 오더 서비스",
     "tier": "primary",
     "type": "work",
     "image": ["table1.png", "table2.png"],
@@ -14,6 +15,7 @@
   {
     "id": 2,
     "title": "Frontend - 푸딘코 리액트 웹앱",
+    "subtitle": "지도 기반 매장 탐색·큐레이션 서비스",
     "tier": "primary",
     "type": "work",
     "image": ["react1.png", "react2.png"],
@@ -25,14 +27,15 @@
   },
   {
     "id": 3,
-    "title": "Frontend - 초보 농부를 위한 정보 제공 사이트 '밭드림'",
+    "title": "Frontend - '밭드림'",
+    "subtitle": "초보 농부를 위한 농작물 재배 정보 플랫폼",
     "tier": "primary",
     "type": "team",
     "image": ["team3-0.png", "team3-1.png", "team3-2.png"],
     "peroid": "2024.04.26 ~ 05.16",
     "team": "6인 (FE)",
     "descript": "가족이 먹을 농작물을 주말농장에서 직접 재배하는 인구는 늘고 있지만, 관련 지식이 없으면 접근이 어렵다는 점에서 착안하여 기획 및 제작한 사이트입니다. 농작물의 성장에는 날씨가 중요하여 날씨&미세먼지 위젯을 담당했습니다. React 프로젝트와 fetch()로 데이터를 출력하는 과정을 처음 경험해보며, 컴포넌트를 기반으로 작업하는 방법을 알게 되었고, 프론트엔드 개발자도 백엔드 분야의 기본적인 지식은 알아야한다는 것을 느꼈습니다.",
-    "skills": "React, JavaScript, Redux, SASS, Bootstrap, Git, GitHub, VS Code, ESLint, Vercel, Figma, Slack, Notion, KakaoTalk",
+    "skills": "React, JavaScript, Redux, SASS, Bootstrap, Vercel, Figma, Slack, Notion, KakaoTalk",
     "response": "1. 날씨 위젯: geolocation API로 사용자의 현재 위치를 확인하여 날씨 정보 출력\n2. 미세먼지 위젯: '서울시 권역별 실시간 대기환경 정보'에서 강동구 정보만 추출하여 출력, 측정결과에 따라 3종의 다른 디자인 지정\n3. Not Found 페이지: 예외처리를 위한 페이지 제작, 디자인, 라우팅 연결",
     "links": [
       {
@@ -43,14 +46,15 @@
   },
   {
     "id": 4,
-    "title": "Frontend - 반려동물 관련 공간 예약 사이트 '루미펫'",
+    "title": "Frontend - 'LUMIPET'",
+    "subtitle": "반려동물 동반 가능 공간 탐색·예약 서비스",
     "tier": "secondary",
     "type": "team",
     "image": ["team2-0.png", "team2-1.png", "team2-2.png"],
     "peroid": "2024.03.13 ~ 03.28",
     "team": "5인 (FE)",
     "descript": "반려동물이 갑자기 아플 때 24시간 병원을 찾기 어려웠다는 실제 팀원의 경험에서 착안하여 기획 및 제작한 사이트입니다. 공간 예약에는 회원정보가 필요하여 로그인, 회원가입 페이지를 담당했습니다. 코딩 팀플을 처음 참여해보며, 하나의 페이지를 디자인부터 기능까지 제대로 만들어내기 위해 많은 양의 CSS, JS 코드가 필요하다는 것을 깨달았습니다. 또한 각자 담당하는 페이지를 만들고, 그 페이지를 모아서 하나의 사이트를 구축해내는 과정에서 스스로의 성장을 느꼈습니다.",
-    "skills": "HTML, CSS, JavaScript, Bootstrap, Git, GitHub, VS Code, Prettier, Netlify, Figma, Slack, ZOOM, Notion, KakaoTalk",
+    "skills": "HTML, CSS, JavaScript, Bootstrap, Netlify, Figma, Slack, ZOOM, Notion, KakaoTalk",
     "response": "1. 로그인: 아이디&비번의 확인 및 유효성 검사, '네이버 로그인' API 사용한 로그인 기능\n2. 회원가입: 아이디&비번의 값 실시간 확인 후 메시지 출력, '가입완료' 버튼 클릭하면 모든 '필수 입력' 영역에 값이 들어왔는지 검증하고 메인 페이지로 이동, 입력한 정보들을 Local Storage에 저장하여 회원 정보가 필요한 페이지에서 이용",
     "links": [
       {
@@ -61,7 +65,8 @@
   },
   {
     "id": 5,
-    "title": "UI/UX - 'EVERPOWER' 공식 쇼핑몰",
+    "title": "UI/UX - 'EVERPOWER'",
+    "subtitle": "가상의 스포츠웨어 브랜드 쇼핑몰",
     "tier": "secondary",
     "type": "team",
     "image": ["team1-1.png", "team1-2.png"],
@@ -79,14 +84,15 @@
   },
   {
     "id": 6,
-    "title": "Frontend - 개인 포트폴리오 사이트 ver.2",
+    "title": "Frontend - 포트폴리오 ver.2",
+    "subtitle": "React 기반 개인 포트폴리오 사이트",
     "tier": "primary",
     "type": "personal",
     "image": ["portfolio1.png", "portfolio2.png", "portfolio3.png"],
     "peroid": "\n- 2024.08.06 ~ 08.10 (초기 개발)\n- 2026.02 ~ (TypeScript 마이그레이션)",
     "team": "1인",
     "descript": "개인의 기술 스택과 작업 내역 정리를 위해 기획 및 제작한 포트폴리오 사이트입니다. 코딩 공부 초기에 순수 JS로 만든 사이트를 React와 SASS를 사용해 리뉴얼하며, 반복 사용되는 요소들을 컴포넌트로 관리하는 것이 작업의 효율성과 생산성 측면에서 우수하다고 다시 한번 느꼈습니다.",
-    "skills": "React, TypeScript, JavaScript, SASS, MUI, GSAP, Swiper, Git, GitHub, VS Code, ESLint, Prettier, Vercel",
+    "skills": "React, TypeScript, JavaScript, SASS, MUI, GSAP, Swiper, Vercel",
     "response": "- 'About' 페이지 타이핑 애니메이션과 GSAP Scroll Trigger\n- Header 호버 언더라인 이벤트와 페이지 라우팅\n- '프로젝트' 페이지 Image Carousel (Swiper) 등",
     "links": [
       {
@@ -97,7 +103,8 @@
   },
   {
     "id": 7,
-    "title":"Frontend - 'Nimbus'",
+    "title": "Frontend - 'Nimbus'",
+    "subtitle": "글로벌 날씨 정보 웹 애플리케이션",
     "tier": "primary",
     "type": "personal",
     "image": [
@@ -120,7 +127,8 @@
   },
   {
     "id": 8,
-    "title": "Frontend - 영화 리뷰 기록 및 공유 사이트 '시네톡'",
+    "title": "Frontend - 'cinetalk'",
+    "subtitle": "리뷰 중심의 영화 기록·공유 웹 애플리케이션",
     "tier": "secondary",
     "type": "personal",
     "image": [
@@ -131,9 +139,9 @@
     ],
     "peroid": "2024.07.01 ~ 08.08",
     "team": "1인",
-    "descript": "영화를 보고 리뷰를 기록하는 것이 취미여서, 리뷰에 중점을 둔 사이트로 기획 및 제작했습니다. 공부하고 있던 Swiper를 다양하게 활용해볼 수 있었고, 익숙하지 않던 Redux 상태 관리를 구현하며 작동 원리를 확실히 이해하게 되었습니다.",
-    "skills": "React, JavaScript, Redux, SASS, MUI, Swiper, Git, GitHub, VS Code, ESLint, Prettier, Vercel, Figma",
-    "response": "- 메인 페이지의 카드 슬라이드(Swiper)\n- 리뷰 확인/삭제/좋아요/공유하기\n- 로그인/로그아웃 검증(Redux)\n- 영화정보 검색(영화진흥위원회 API) 등",
+    "descript": "영화를 보고 리뷰를 기록하는 취미에서 출발해 기획·제작한 영화 리뷰 웹 애플리케이션입니다. 리뷰 작성과 관리에 초점을 맞춰 UI를 구성했으며, Swiper를 활용한 다양한 슬라이드 UI와 Redux 기반 상태 관리를 직접 구현하며 전역 상태 흐름과 데이터 구조에 대한 이해를 높였습니다.",
+    "skills": "React, JavaScript, Redux, SASS, MUI, Swiper, Vercel, Figma",
+    "response": "- Swiper를 활용한 메인 페이지 카드 슬라이드 및 박스오피스/광고 자동 슬라이드 구현\n- Redux를 이용한 로그인/로그아웃 및 전역 사용자 상태 관리\n- 회원가입 시 실시간 입력값 기반 유효성 검사 및 이용약관 동의 로직 구현\n- 리뷰 작성/조회/삭제 기능 구현 및 라이브러리(개인 기록) 페이지 연동\n- 영화진흥위원회 API를 활용한 영화 검색 기능 구현\n- 반응형 대응: 모바일 환경에서 리뷰 리스트 Swiper 슬라이드 적용",
     "links": [
       {
         "website": "https://cinetalk.vercel.app/",
