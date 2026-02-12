@@ -9,11 +9,11 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
 export default function ProjectCard({ project }) {
-  const getImage = (imageName) => {
+  const getImage = (type, imageName) => {
     try {
-      return require(`../../assets/projects/${imageName}`);
+      return require(`../../assets/projects/${type}/${imageName}`);
     } catch (error) {
-      console.error('Image not found:', error);
+      console.error('Image not found:', type, imageName);
       return null;
     }
   };
@@ -43,7 +43,7 @@ export default function ProjectCard({ project }) {
             <SwiperSlide key={index}>
               <div className="img-wrap">
                 <img
-                  src={getImage(img)}
+                  src={getImage(project.type, img)}
                   alt={`${project.title} - ${index + 1}`}
                   className="pj-image"
                 />

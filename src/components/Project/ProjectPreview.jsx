@@ -1,11 +1,11 @@
 import React from 'react'
 
 export default function ProjectPreview({ project, onClick }) {
-  const getImage = (imageName) => {
+  const getImage = (type, imageName) => {
     try {
-      return require(`../../assets/projects/${imageName}`);
+      return require(`../../assets/projects/${type}/${imageName}`);
     } catch (error) {
-      console.error('Image not found:', error);
+      console.error('Image not found:', type, imageName);
       return null;
     }
   };
@@ -20,7 +20,7 @@ export default function ProjectPreview({ project, onClick }) {
       <div
         className="pj-preview-bg"
         style={{
-          backgroundImage: `url(${getImage(project.image?.[0])})`,
+          backgroundImage: `url(${getImage(project.type, project.image?.[0])})`,
         }}
       />
 
