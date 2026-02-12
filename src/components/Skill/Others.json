@@ -1,25 +1,31 @@
 [
   {
+    "category": "Others",
     "name": "Figma",
     "path": "4-Figma.svg"
   },
   {
+    "category": "Others",
     "name": "Slack",
     "path": "4-Slack.svg"
   },
   {
+    "category": "Others",
     "name": "Notion",
     "path": "4-Notion.svg"
   },
   {
+    "category": "Others",
     "name": "GoogleSheet",
     "path": "5_GoogleSheet.svg"
   },
   {
+    "category": "Others",
     "name": "Zoom",
     "path": "4-Zoom.svg"
   },
   {
+    "category": "Others",
     "name": "Discord",
     "path": "4-Discord.svg"
   }

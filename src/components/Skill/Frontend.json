@@ -1,61 +1,76 @@
 [
   {
+    "category": "Frontend",
     "name": "HTML",
     "path": "1-HTML.svg"
   },
   {
+    "category": "Frontend",
     "name": "CSS",
     "path": "1-CSS.svg"
   },
   {
+    "category": "Frontend",
     "name": "JavaScript",
     "path": "1-JavaScript.svg"
   },
   {
+    "category": "Frontend",
     "name": "JQuery",
     "path": "1-JQuery.svg"
   },
   {
+    "category": "Frontend",
     "name": "TypeScript",
     "path": "1-typescript.svg"
   },
   {
+    "category": "Frontend",
     "name": "React",
     "path": "1-React.svg"
   },
   {
+    "category": "Frontend",
     "name": "Nextjs",
     "path": "1-nextjs.svg"
   },
   {
+    "category": "Frontend",
     "name": "Axios",
     "path": "01-Axios.svg"
   },
   {
+    "category": "Frontend",
     "name": "React Query",
     "path": "01-React_Query.svg"
   },
   {
+    "category": "Frontend",
     "name": "Zustand",
     "path": "01-Zustand.svg"
   },
   {
+    "category": "Frontend",
     "name": "Redux",
     "path": "1-Redux.svg"
   },
   {
+    "category": "Frontend",
     "name": "vite",
     "path": "1-vite.svg"
   },
   {
+    "category": "Frontend",
     "name": "Tailwind",
     "path": "01-Tailwind.svg"
   },
   {
+    "category": "Frontend",
     "name": "SASS",
     "path": "1-SASS.svg"
   },
   {
+    "category": "Frontend",
     "name": "Styled Components",
     "path": "01-styled_components.svg"
   }
