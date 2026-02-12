@@ -7,9 +7,15 @@ $ivory: #fffff0;
 $sky: #8fbce6;
 $olive: #a8bf7e;
 
-@import url('https://fonts.googleapis.com/css2?family=Gothic+A1&family=Nanum+Gothic&display=swap');
+@font-face {
+  font-family: 'Pretendard';
+  src: url('../assets/fonts/PretendardVariable.woff2') format('woff2');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
 * {
-  font-family: 'Nanum Gothic';
+  font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -48,7 +54,7 @@ body {
 
 @mixin page-title {
   font-size: 32px;
-  font-weight: 700;
+  font-weight: 600;
   display: flex;
   justify-content: center;
   align-items: center;
