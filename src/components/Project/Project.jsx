@@ -53,7 +53,7 @@ export default function Project() {
         </div>
       )}
 
-      <NextBtn to="/contact" text="Contact Me!📧" />
+      <NextBtn to="/contact" text="Contact Me! 📧" />
     </div>
   );
 }
