@@ -58,7 +58,7 @@ export default function Skill() {
           <div className="sk-item-value">정보처리기사 필기 합격(2024.05)</div>
         </div>
       </div>
-      <NextBtn to="/education" text="Check Experience 🎓" />
+      <NextBtn to="/experience" text="Check Experience 🎓" />
     </div>
   );
 }
