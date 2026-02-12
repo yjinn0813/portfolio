@@ -91,7 +91,15 @@ https://github.com/hjinn0813/portfolio
  ┣ 📂src
  ┃ ┣ 📂assets
  ┃ ┃ ┣ 📂badges
- ┃ ┃ ┗ 📂projects
+ ┃ ┃ ┃ ┣ 📂Backend
+ ┃ ┃ ┃ ┣ 📂Develop
+ ┃ ┃ ┃ ┣ 📂Frontend
+ ┃ ┃ ┃ ┣ 📂Library
+ ┃ ┃ ┃ ┗ 📂Others
+ ┃ ┃ ┣ 📂projects
+ ┃ ┃ ┃ ┣ 📂personal
+ ┃ ┃ ┃ ┣ 📂team
+ ┃ ┃ ┃ ┗ 📂work
  ┃ ┣ 📂components
  ┃ ┃ ┣ 📂About
  ┃ ┃ ┃ ┣ 📜About.tsx
@@ -102,15 +110,17 @@ https://github.com/hjinn0813/portfolio
  ┃ ┃ ┃ ┗ 📜Education.tsx
  ┃ ┃ ┣ 📂Project
  ┃ ┃ ┃ ┣ 📜Project.tsx
+ ┃ ┃ ┃ ┣ 📜ProjectCard.tsx
+ ┃ ┃ ┃ ┣ 📜ProjectPreview.tsx
  ┃ ┃ ┃ ┗ 📜Projects.json
  ┃ ┃ ┣ 📂Skill
  ┃ ┃ ┃ ┣ 📜Backend.json
- ┃ ┃ ┃ ┣ 📜Control.json
  ┃ ┃ ┃ ┣ 📜Develop.json
  ┃ ┃ ┃ ┣ 📜Frontend.json
  ┃ ┃ ┃ ┣ 📜Library.json
  ┃ ┃ ┃ ┣ 📜Others.json
- ┃ ┃ ┃ ┗ 📜Skill.tsx
+ ┃ ┃ ┃ ┣ 📜Skill.tsx
+ ┃ ┃ ┃ ┗ 📜SkillArea.tsx
  ┃ ┃ ┗ 📂common
  ┃ ┃ ┃ ┣ 📜Footer.tsx
  ┃ ┃ ┃ ┣ 📜Header.tsx
