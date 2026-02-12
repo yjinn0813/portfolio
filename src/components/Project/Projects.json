@@ -3,6 +3,7 @@
     "id": 1,
     "title": "Frontend - 푸딘코 테이블오더",
     "tier": "primary",
+    "type": "work",
     "image": ["table1.png", "table2.png"],
     "peroid": "2025.01 ~ 2026.02",
     "team": "2인 (FE 1, BE 1)",
@@ -14,17 +15,19 @@
     "id": 2,
     "title": "Frontend - 푸딘코 리액트 웹앱",
     "tier": "primary",
+    "type": "work",
     "image": ["react1.png", "react2.png"],
     "peroid": "2025.10 ~ 2025.12",
     "team": "3인 (FE 2, BE 1)",
     "descript": "지도 기반 탐색과 검색을 통해 제휴 매장을 쉽게 찾고, 매장의 상세 정보 및 공유 기능을 제공하는 식당 큐레이션 웹 서비스입니다. 프로젝트 초기부터 유지보수와 확장성을 고려해 디렉토리 구조와 상태 관리 방식을 설계하며 개발을 진행했습니다.",
-    "skills": "React, TypeScript, Vite, Zustand, React Query, Axios, Tailwind CSS, AWS EC2, Apache",
+    "skills": "React, TypeScript, Vite, TanStack Query, Axios, Zustand, Tailwind CSS, AWS EC2, Apache",
     "response": "- 프론트엔드 선임 역할 수행\n- 프로젝트 초기 레포 구조 및 기술 스택 선정 주도\n- 아키텍처 설계 및 구현, 서버 상태와 클라이언트 상태 분리 구조 설계\n- 배포 환경에서 SPA 라우팅 이슈 분석 및 개선 경험"
   },
   {
     "id": 3,
     "title": "Frontend - 초보 농부를 위한 정보 제공 사이트 '밭드림'",
     "tier": "primary",
+    "type": "team",
     "image": ["team3-0.png", "team3-1.png", "team3-2.png"],
     "peroid": "2024.04.26 ~ 05.16",
     "team": "6인 (FE)",
@@ -42,6 +45,7 @@
     "id": 4,
     "title": "Frontend - 반려동물 관련 공간 예약 사이트 '루미펫'",
     "tier": "secondary",
+    "type": "team",
     "image": ["team2-0.png", "team2-1.png", "team2-2.png"],
     "peroid": "2024.03.13 ~ 03.28",
     "team": "5인 (FE)",
@@ -59,6 +63,7 @@
     "id": 5,
     "title": "UI/UX - 'EVERPOWER' 공식 쇼핑몰",
     "tier": "secondary",
+    "type": "team",
     "image": ["team1-1.png", "team1-2.png"],
     "peroid": "2024.01.12 ~ 01.28",
     "team": "4인 (FE)",
@@ -76,6 +81,7 @@
     "id": 6,
     "title": "Frontend - 개인 포트폴리오 사이트 ver.2",
     "tier": "primary",
+    "type": "personal",
     "image": ["portfolio1.png", "portfolio2.png", "portfolio3.png"],
     "peroid": "\n- 2024.08.06 ~ 08.10 (초기 개발)\n- 2026.02 ~ (TypeScript 마이그레이션)",
     "team": "1인",
@@ -91,8 +97,32 @@
   },
   {
     "id": 7,
+    "title":"Frontend - 'Nimbus'",
+    "tier": "primary",
+    "type": "personal",
+    "image": [
+      "nimbus1.png",
+      "nimbus2.png",
+      "nimbus3.png",
+      "nimbus4.png"
+    ],
+    "peroid": "2025.06 ~ 2025.12",
+    "team": "1인",
+    "descript": "React 실무 프로젝트 투입 전 전반적인 개발 흐름과 상태 관리 패턴을 익히기 위해 제작한 전세계 날씨 정보 웹 애플리케이션입니다. OpenWeather API를 활용해 실제 서비스에 필요한 기능들을 구현하며 React + TypeScript 환경에 익숙해지는 것을 목표로 했습니다.",
+    "skills": "React, TypeScript, TanStack Query, Axios, Zustand, Tailwind CSS, Vercel",
+    "response": "- 전세계 도시 검색 기반 날씨 조회 기능 구현 (OpenWeather API)\n- 검색 성공/실패에 따른 페이지 이동 및 토스트 알림 처리\n- Geolocation API를 활용한 현재 위치 기반 날씨 위젯 구현\n- TanStack Query를 사용한 비동기 데이터 요청, 캐싱 및 로딩 상태 관리\n- 데이터 로딩 전 Skeleton UI 적용으로 사용자 경험 개선\n- Zustand를 활용한 다크모드 전역 상태 관리 및 LocalStorage 연동\n- 검색 결과(도시명)에 따른 상세 페이지 동적 라우팅 및 404 페이지 예외 처리",
+    "links":[
+      {
+        "website": "https://nimbus-meteo.vercel.app/",
+        "README": "https://github.com/hjinn0813/nimbus"
+      }
+    ]
+  },
+  {
+    "id": 8,
     "title": "Frontend - 영화 리뷰 기록 및 공유 사이트 '시네톡'",
     "tier": "secondary",
+    "type": "personal",
     "image": [
       "cinetalk0.png",
       "cinetalk1.png",
