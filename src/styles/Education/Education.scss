@@ -51,10 +51,11 @@
     font-size: 15px;
   }
 }
-.edu-info.hlw > li {margin:8px 0; list-style:none;}
-.edu-info.hlw > li p {cursor:pointer; margin-bottom:4px;}
-.edu-info.hlw > li p::before {content:'▸'; display:inline-block; margin-right:6px;}
-.edu-info.hlw > li p.open::before {transform:rotate(90deg);}
+.edu-info.exp-pj > li {margin:8px 0; list-style:none;}
+.edu-info.exp-pj > li p {cursor:pointer; margin-bottom:4px;}
+.edu-info.exp-pj > li p:hover {color:$pink;}
+.edu-info.exp-pj > li p::before {content:'▸'; display:inline-block; margin-right:6px;}
+.edu-info.exp-pj > li p.open::before {transform:rotate(90deg);}
 
 // github btn
 .edu-link {
