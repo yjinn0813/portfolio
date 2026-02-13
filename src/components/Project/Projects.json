@@ -9,8 +9,17 @@
     "peroid": "2025.01 ~ 2026.02",
     "team": "2인 (FE 1, BE 1)",
     "descript": "소켓 기반 실시간 주문 동기화를 지원하는 식당용 QR 테이블오더 서비스입니다. 로컬 환경 구현부터 개발 서버 테스트, 운영 배포까지 전 과정을 경험하며 실제 서비스 환경에서의 프론트엔드 역할과 책임을 체감했습니다.",
-    "skills": "PHP, JavaScript, jQuery, CSS, Socket.io, AWS EC2, Apache, Redis, MariaDB, Figma",
-    "response": "- 프론트엔드 단독 담당\n- 신규 기능 기획, 화면 설계, 개발 및 QA 전 과정 수행\n- 실서비스 런칭 과정에서 발생한 FE 이슈 대응 및 서비스 안정화 기여"
+    "skills": ["PHP", "CSS", "JavaScript", "jQuery", "Socket.io", "Figma", "Maria DB", "AWS EC2", "Apache", "Redis"],
+    "response": [
+      "- 프론트엔드 단독 담당",
+      "- 신규 기능의 기획, 화면 설계, 개발, QA 등 전 과정 수행",
+      "- Socket.io 기반 실시간 데이터 공유 기능 구현",
+      "- 간단한 PHP 로직 및 DB SQL 작성, 데이터 흐름 전반 이해",
+      "- 실서비스 런칭 과정에서 발생한 FE 이슈 대응 및 서비스 안정화 기여",
+      "- 2025.05, 테이블오더 1차 런칭",
+      "- 2025.07, 테이블오더 2차 런칭 (선/후불 기능)",
+      "- 2026.02, 테이블오더 3차 런칭 (POS 추가, 로그인/가입 기능)"
+    ]
   },
   {
     "id": 2,
@@ -22,8 +31,24 @@
     "peroid": "2025.10 ~ 2025.12",
     "team": "3인 (FE 2, BE 1)",
     "descript": "지도 기반 탐색과 검색을 통해 제휴 매장을 쉽게 찾고, 매장의 상세 정보 및 공유 기능을 제공하는 식당 큐레이션 웹 서비스입니다. 프로젝트 초기부터 유지보수와 확장성을 고려해 디렉토리 구조와 상태 관리 방식을 설계하며 개발을 진행했습니다.",
-    "skills": "React, TypeScript, Vite, TanStack Query, Axios, Zustand, Tailwind CSS, AWS EC2, Apache",
-    "response": "- 프론트엔드 선임 역할 수행\n- 프로젝트 초기 레포 구조 및 기술 스택 선정 주도\n- 아키텍처 설계 및 구현, 서버 상태와 클라이언트 상태 분리 구조 설계\n- 배포 환경에서 SPA 라우팅 이슈 분석 및 개선 경험"
+    "skills": [
+      "React",
+      "TypeScript",
+      "Vite",
+      "TanStack Query",
+      "Axios",
+      "Zustand",
+      "Tailwind CSS",
+      "AWS EC2",
+      "Apache"
+    ],
+    "response": [
+      "- 프론트엔드 선임 역할 수행",
+      "- 프로젝트 초기 레포 구조 및 기술 스택 선정 주도",
+      "- Zustand를 활용한 로그인 상태 관리",
+      "- React Query 기반 데이터 패칭 및 에러 처리",
+      "- AWS Apache 환경에서 SPA 라우팅 이슈 해결"
+    ]
   },
   {
     "id": 3,
@@ -35,8 +60,12 @@
     "peroid": "2024.04.26 ~ 05.16",
     "team": "6인 (FE)",
     "descript": "가족이 먹을 농작물을 주말농장에서 직접 재배하는 인구는 늘고 있지만, 관련 지식이 없으면 접근이 어렵다는 점에서 착안하여 기획 및 제작한 사이트입니다. 농작물의 성장에는 날씨가 중요하여 날씨&미세먼지 위젯을 담당했습니다. React 프로젝트와 fetch()로 데이터를 출력하는 과정을 처음 경험해보며, 컴포넌트를 기반으로 작업하는 방법을 알게 되었고, 프론트엔드 개발자도 백엔드 분야의 기본적인 지식은 알아야한다는 것을 느꼈습니다.",
-    "skills": "React, JavaScript, Redux, SASS, Bootstrap, Vercel, Figma, Slack, Notion, KakaoTalk",
-    "response": "1. 날씨 위젯: geolocation API로 사용자의 현재 위치를 확인하여 날씨 정보 출력\n2. 미세먼지 위젯: '서울시 권역별 실시간 대기환경 정보'에서 강동구 정보만 추출하여 출력, 측정결과에 따라 3종의 다른 디자인 지정\n3. Not Found 페이지: 예외처리를 위한 페이지 제작, 디자인, 라우팅 연결",
+    "skills": ["React", "JavaScript", "Redux", "SASS", "Bootstrap", "Vercel", "Figma", "Slack", "Notion", "KakaoTalk"],
+    "response": [
+      "1. 날씨 위젯: geolocation API로 사용자의 현재 위치를 확인하여 날씨 정보 출력",
+      "2. 미세먼지 위젯: '서울시 권역별 실시간 대기환경 정보'에서 강동구 정보만 추출하여 출력, 측정결과에 따라 3종의 다른 디자인 지정",
+      "3. Not Found 페이지: 예외처리를 위한 페이지 제작, 디자인, 라우팅 연결"
+    ],
     "links": [
       {
         "website": "https://batdream.vercel.app/",
@@ -54,8 +83,11 @@
     "peroid": "2024.03.13 ~ 03.28",
     "team": "5인 (FE)",
     "descript": "반려동물이 갑자기 아플 때 24시간 병원을 찾기 어려웠다는 실제 팀원의 경험에서 착안하여 기획 및 제작한 사이트입니다. 공간 예약에는 회원정보가 필요하여 로그인, 회원가입 페이지를 담당했습니다. 코딩 팀플을 처음 참여해보며, 하나의 페이지를 디자인부터 기능까지 제대로 만들어내기 위해 많은 양의 CSS, JS 코드가 필요하다는 것을 깨달았습니다. 또한 각자 담당하는 페이지를 만들고, 그 페이지를 모아서 하나의 사이트를 구축해내는 과정에서 스스로의 성장을 느꼈습니다.",
-    "skills": "HTML, CSS, JavaScript, Bootstrap, Netlify, Figma, Slack, ZOOM, Notion, KakaoTalk",
-    "response": "1. 로그인: 아이디&비번의 확인 및 유효성 검사, '네이버 로그인' API 사용한 로그인 기능\n2. 회원가입: 아이디&비번의 값 실시간 확인 후 메시지 출력, '가입완료' 버튼 클릭하면 모든 '필수 입력' 영역에 값이 들어왔는지 검증하고 메인 페이지로 이동, 입력한 정보들을 Local Storage에 저장하여 회원 정보가 필요한 페이지에서 이용",
+    "skills": ["HTML", "CSS", "JavaScript", "Bootstrap", "Netlify", "Figma", "Slack", "ZOOM", "Notion", "KakaoTalk"],
+    "response": [
+      "1. 로그인: 아이디&비번의 확인 및 유효성 검사, '네이버 로그인' API 사용한 로그인 기능",
+      "2. 회원가입: 아이디&비번의 값 실시간 확인 후 메시지 출력, '가입완료' 버튼 클릭하면 모든 '필수 입력' 영역에 값이 들어왔는지 검증하고 메인 페이지로 이동, 입력한 정보들을 Local Storage에 저장하여 회원 정보가 필요한 페이지에서 이용"
+    ],
     "links": [
       {
         "website": "https://lumipet.netlify.app/",
@@ -73,8 +105,12 @@
     "peroid": "2024.01.12 ~ 01.28",
     "team": "4인 (FE)",
     "descript": "팀원 모두가 패션을 좋아해서 2030세대를 타겟층으로 하는 가상의 스포츠웨어 브랜드 쇼핑몰 페이지를 기획 및 디자인했습니다. Figma를 사용한 UI/UX 프로젝트였고, 팀장이라 조금 더 많은 페이지를 담당했습니다. 팀원들과 함께 실제 존재하는 사이트처럼 모든 페이지를 제작해보며, 예쁜 UI만큼 고객들이 편하게 사용할 수 있는 UX도 중요하다는 것을 느꼈습니다. 또한 기획은 상황에 따라 수시로 변화할 수 있으니 항상 유연하게 생각해야 한다는 것을 배웠습니다.",
-    "skills": "Figma, Slack, Notion",
-    "response": "팀장으로 팀원들 이끌어서 프로젝트 진행\n- 웹: 맨, 우먼, 이벤트, 결제하기, 마이 페이지, 회원정보수정\n- 모바일: 맨, 우먼, 결제하기, 마이 페이지, 회원정보수정",
+    "skills": ["Figma", "Slack", "Notion"],
+    "response": [
+      "팀장으로 팀원들 이끌어서 프로젝트 진행",
+      "- 웹: 맨, 우먼, 이벤트, 결제하기, 마이 페이지, 회원정보수정",
+      "- 모바일: 맨, 우먼, 결제하기, 마이 페이지, 회원정보수정"
+    ],
     "links": [
       {
         "website": "https://phase-turquoise-0a5.notion.site/a2ec713d6e0548af98b2ebeb279f4ccf?v=1c247dba2fb24996b6ef39e9b463c7fd&pvs=4",
@@ -92,8 +128,15 @@
     "peroid": "\n- 2024.08.06 ~ 08.10 (초기 개발)\n- 2026.02 ~ (TypeScript 마이그레이션)",
     "team": "1인",
     "descript": "개인의 기술 스택과 작업 내역 정리를 위해 기획 및 제작한 포트폴리오 사이트입니다. 순수 JS로 만들었던 사이트를 React와 SASS를 사용해 리뉴얼하며, 반복 사용되는 요소들을 컴포넌트로 관리하는 것이 작업의 효율성과 생산성 측면에서 우수하다는 것을 다시 한번 느꼈습니다.",
-    "skills": "React, TypeScript, JavaScript, SASS, MUI, GSAP, Swiper, Vercel",
-    "response": "- 'About' 페이지 타이핑 애니메이션과 GSAP Scroll Trigger\n- Header 호버 언더라인 이벤트와 페이지 라우팅\n- '프로젝트' 페이지 Image Carousel (Swiper) 등",
+    "skills": ["React", "TypeScript", "JavaScript", "SASS", "MUI", "GSAP", "Swiper", "Vercel"],
+    "response": [
+      "- Header 호버 언더라인 이벤트, 페이지 라우팅",
+      "- 'About' 페이지에 타이핑 애니메이션, GSAP Scroll Trigger 적용",
+      "- 'Experience' 페이지에 상세내용 토글 기능 구현",
+      "- 'Project' 페이지에서 프리뷰 클릭시 모달 오픈, Image Carousel (Swiper) 적용",
+      "- JS → TS 리팩토링 및 CRA → Vite 마이그레이션 진행, 유지보수와 배포 안정성 강화",
+      "- 모든 페이지에 반응형 미디어쿼리 적용"
+    ],
     "links": [
       {
         "website": "https://hjinn0813.vercel.app",
@@ -116,8 +159,15 @@
     "peroid": "2025.06 ~ 2025.12",
     "team": "1인",
     "descript": "React 실무 프로젝트 투입 전 전반적인 개발 흐름과 상태 관리 패턴을 익히기 위해 제작한 글로벌 날씨 정보 웹 애플리케이션입니다. OpenWeather API를 활용해 실제 서비스에 필요한 기능들을 구현하며 React + TypeScript 환경에 익숙해지는 것을 목표로 했습니다.",
-    "skills": "React, TypeScript, TanStack Query, Axios, Zustand, Tailwind CSS, Vercel",
-    "response": "- 전세계 도시 검색 기반 날씨 조회 기능 구현 (OpenWeather API)\n- 검색 성공/실패에 따른 페이지 이동 및 토스트 알림 처리\n- Geolocation API를 활용한 현재 위치 기반 날씨 위젯 구현\n- TanStack Query를 사용한 비동기 데이터 요청, 캐싱 및 로딩 상태 관리\n- 데이터 로딩 전 Skeleton UI 적용으로 사용자 경험 개선\n- Zustand를 활용한 다크모드 전역 상태 관리 및 LocalStorage 연동\n- 검색 결과(도시명)에 따른 상세 페이지 동적 라우팅 및 404 페이지 예외 처리",
+    "skills": ["React", "TypeScript", "TanStack Query", "Axios", "Zustand", "Tailwind CSS", "Vercel"],
+    "response": [
+      "- 전세계 도시 검색 기반 날씨 조회 기능 구현 (OpenWeather API)",
+      "- Geolocation API를 활용한 현재 위치 기반 날씨 위젯 구현",
+      "- TanStack Query를 사용한 비동기 데이터 요청, 캐싱 및 로딩 상태 관리",
+      "- 데이터 로딩 전 Skeleton UI 적용으로 사용자 경험 개선",
+      "- Zustand를 활용한 다크모드 전역 상태 관리 및 LocalStorage 연동",
+      "- 검색 결과(도시명)에 따른 상세 페이지 동적 라우팅 및 404 페이지 예외 처리"
+    ],
     "links":[
       {
         "website": "https://nimbus-meteo.vercel.app/",
@@ -140,8 +190,15 @@
     "peroid": "2024.07.01 ~ 08.08",
     "team": "1인",
     "descript": "영화를 보고 리뷰를 기록하는 취미에서 출발해 기획·제작한 영화 리뷰 웹 애플리케이션입니다. 리뷰 작성과 관리에 초점을 맞춰 UI를 구성했으며, Swiper를 활용한 다양한 슬라이드 UI와 Redux 기반 상태 관리를 직접 구현하며 전역 상태 흐름과 데이터 구조에 대한 이해를 높였습니다.",
-    "skills": "React, JavaScript, Redux, SASS, MUI, Swiper, Vercel, Figma",
-    "response": "- Swiper를 활용한 메인 페이지 카드 슬라이드 및 박스오피스/광고 자동 슬라이드 구현\n- Redux를 이용한 로그인/로그아웃 및 전역 사용자 상태 관리\n- 회원가입 시 실시간 입력값 기반 유효성 검사 및 이용약관 동의 로직 구현\n- 리뷰 작성/조회/삭제 기능 구현 및 라이브러리(개인 기록) 페이지 연동\n- 영화진흥위원회 API를 활용한 영화 검색 기능 구현\n- 반응형 대응: 모바일 환경에서 리뷰 리스트 Swiper 슬라이드 적용",
+    "skills": ["React", "JavaScript", "Redux", "SASS", "MUI", "Swiper", "Figma", "Vercel"],
+    "response": [
+      "- Swiper를 활용한 메인 페이지 카드 슬라이드 및 박스오피스/광고 자동 슬라이드 구현",
+      "- Redux를 이용한 로그인/로그아웃 및 전역 사용자 상태 관리",
+      "- 회원가입 시 실시간 입력값 기반 유효성 검사 및 이용약관 동의 로직 구현",
+      "- 리뷰 작성/조회/삭제 기능 구현 및 라이브러리(개인 기록) 페이지 연동",
+      "- 영화진흥위원회 API를 활용한 영화 검색 기능 구현",
+      "- 반응형 대응: 모바일 환경에서 리뷰 리스트 Swiper 슬라이드 적용"
+    ],
     "links": [
       {
         "website": "https://cinetalk.vercel.app/",
