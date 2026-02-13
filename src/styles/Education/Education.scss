@@ -50,9 +50,11 @@
     padding-left: 1.5rem;
     font-size: 15px;
   }
+
+  li {font-weight:300}
 }
 .edu-info.exp-pj > li {margin:8px 0; list-style:none;}
-.edu-info.exp-pj > li p {cursor:pointer; margin-bottom:4px;}
+.edu-info.exp-pj > li p {cursor:pointer; margin-bottom:4px; font-weight:300}
 .edu-info.exp-pj > li p:hover {color:$pink;}
 .edu-info.exp-pj > li p::before {content:'▸'; display:inline-block; margin-right:6px;}
 .edu-info.exp-pj > li p.open::before {transform:rotate(90deg);}
