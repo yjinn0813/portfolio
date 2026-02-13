@@ -1,4 +1,4 @@
-// 전체 프로젝트 확인 영역
+/* 프로젝트 페이지 */
 
 import React, { useState } from 'react';
 import Projects from './Projects.json';
@@ -9,6 +9,7 @@ import CloseIcon from '@mui/icons-material/Close';
 import '../../styles/Project/Project.scss';
 
 export default function Project() {
+  // 모달 오픈
   const [isClicked, setIsClicked] = useState(null)
 
   const handleOpen = (project) => {
@@ -19,13 +20,35 @@ export default function Project() {
     setIsClicked(null)
   }
 
+  // 우선순위 정렬
+  const tierOrder = {
+    primary: 0,
+    secondary: 1
+  }
+  const typeOrder = {
+    work: 0,
+    team: 1,
+    personal: 2
+  }
+
+  const sortedProjects = [...Projects].sort((a, b) => {
+    // tier 비교
+    if (tierOrder[a.tier] !== tierOrder[b.tier]) {
+      return tierOrder[a.tier] - tierOrder[b.tier];
+    }
+
+    // type 비교
+    return typeOrder[a.type] - typeOrder[b.type];
+  });
+
+
   return (
     <div className="pj-container">
       <div className="pj-title">Projects</div>
 
       {/* preview */}
       <div className="pj-preview-grid">
-        {Projects.map((project) => (
+        {sortedProjects.map((project) => (
           <ProjectPreview
             key={project.id}
             project={project}
