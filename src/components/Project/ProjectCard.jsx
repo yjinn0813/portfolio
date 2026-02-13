@@ -72,12 +72,16 @@ export default function ProjectCard({ project }) {
 
         <div className="pj-skills">
           <div className="pj-info-title">사용 기술</div>
-          <div className="pj-info-value">{project.skills}</div>
+          <div className="pj-info-value">{project.skills.join(', ')}</div>
         </div>
 
         <div className="pj-response">
           <div className="pj-info-title">담당 파트/주요 기능</div>
-          <div className="pj-info-value">{toBrTag(project.response)}</div>
+          <div className="pj-info-value">
+            {project.response.map((item, idx) => (
+              <p key={idx}>{item}</p>
+            ))}
+          </div>
         </div>
 
         {/* 링크 없을 때 대비 */}
