@@ -125,17 +125,18 @@
     "tier": "primary",
     "type": "personal",
     "image": ["portfolio1.png", "portfolio2.png", "portfolio3.png"],
-    "peroid": "\n- 2024.08.06 ~ 08.10 (초기 개발)\n- 2026.02 ~ (TypeScript 마이그레이션)",
+    "peroid": "\n- 2024.08.06 ~ 08.10 (초기 개발)\n- 2026.02.05 ~ 02.00 (TypeScript 마이그레이션)",
     "team": "1인",
     "descript": "개인의 기술 스택과 작업 내역 정리를 위해 기획 및 제작한 포트폴리오 사이트입니다. 순수 JS로 만들었던 사이트를 React와 SASS를 사용해 리뉴얼하며, 반복 사용되는 요소들을 컴포넌트로 관리하는 것이 작업의 효율성과 생산성 측면에서 우수하다는 것을 다시 한번 느꼈습니다.",
     "skills": ["React", "TypeScript", "JavaScript", "SASS", "MUI", "GSAP", "Swiper", "Vercel"],
     "response": [
-      "- Header 호버 언더라인 이벤트, 페이지 라우팅",
-      "- 'About' 페이지에 타이핑 애니메이션, GSAP Scroll Trigger 적용",
-      "- 'Experience' 페이지에 상세내용 토글 기능 구현",
-      "- 'Project' 페이지에서 프리뷰 클릭시 모달 오픈, Image Carousel (Swiper) 적용",
-      "- JS → TS 리팩토링 및 CRA → Vite 마이그레이션 진행, 유지보수와 배포 안정성 강화",
-      "- 모든 페이지에 반응형 미디어쿼리 적용"
+      "- Header 호버 언더라인 이벤트 및 페이지 라우팅 구현",
+      "- 'About' 페이지에 타이핑 애니메이션 및 GSAP Scroll Trigger 적용",
+      "- 'Experience' 페이지 상세 내용 토글 기능 구현",
+      "- 'Project' 페이지 프리뷰 클릭 시 모달 오픈 및 Swiper 기반 Image Carousel 적용",
+      "- 모든 페이지에 반응형 미디어쿼리 적용",
+      "- JS → TS 리팩토링 및 CRA → Vite 마이그레이션 진행으로 유지보수성과 빌드 성능 개선",
+      "- GitHub Actions 기반 CI 환경 구성으로 PR 단계 코드 품질 검사 자동화"
     ],
     "links": [
       {
@@ -166,7 +167,9 @@
       "- TanStack Query를 사용한 비동기 데이터 요청, 캐싱 및 로딩 상태 관리",
       "- 데이터 로딩 전 Skeleton UI 적용으로 사용자 경험 개선",
       "- Zustand를 활용한 다크모드 전역 상태 관리 및 LocalStorage 연동",
-      "- 검색 결과(도시명)에 따른 상세 페이지 동적 라우팅 및 404 페이지 예외 처리"
+      "- 검색 결과(도시명)에 따른 상세 페이지 동적 라우팅 및 404 페이지 예외 처리",
+      "- CRA → Vite 마이그레이션 진행으로 유지보수성과 빌드 성능 개선",
+      "- GitHub Actions 기반 CI 환경 구성으로 PR 단계 코드 품질 검사 자동화"
     ],
     "links":[
       {
