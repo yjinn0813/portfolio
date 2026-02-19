@@ -1,18 +1,19 @@
 /* 프로젝트 페이지 */
 
-import React, { useState } from 'react';
+import { useState } from 'react';
 import Projects from './Projects.json';
 import NextBtn from '../common/NextBtn';
 import ProjectCard from './ProjectCard';
 import ProjectPreview from './ProjectPreview';
+import { ProjectItem } from '../../types/projects';
 import CloseIcon from '@mui/icons-material/Close';
 import '../../styles/Project/Project.scss';
 
-export default function Project() {
+export default function Project(): JSX.Element {
   // 모달 오픈
-  const [isClicked, setIsClicked] = useState(null)
+  const [isClicked, setIsClicked] = useState<ProjectItem | null>(null)
 
-  const handleOpen = (project) => {
+  const handleOpen = (project: ProjectItem) => {
     setIsClicked(project)
   }
 
@@ -21,17 +22,17 @@ export default function Project() {
   }
 
   // 우선순위 정렬
-  const tierOrder = {
+  const tierOrder: Record<string, number> = {
     primary: 0,
     secondary: 1
   }
-  const typeOrder = {
+  const typeOrder: Record<string, number> = {
     work: 0,
     team: 1,
     personal: 2
   }
 
-  const sortedProjects = [...Projects].sort((a, b) => {
+  const sortedProjects = [...(Projects as ProjectItem[])].sort((a, b) => {
     // tier 비교
     if (tierOrder[a.tier] !== tierOrder[b.tier]) {
       return tierOrder[a.tier] - tierOrder[b.tier];

@@ -1,11 +1,11 @@
-import React, { useRef, useEffect } from 'react';
+import { useRef, useEffect } from 'react';
 import { Route, Routes, useLocation } from 'react-router-dom';
 import './App.scss';
 import Header from './components/common/Header';
 import Footer from './components/common/Footer';
 import About from './components/About/About';
 import Skill from './components/Skill/Skill';
-import Education from './components/Education/Education';
+import Experience from './components/Experience/Experience';
 import Project from './components/Project/Project';
 import Contact from './components/Contact/Contact';
 
@@ -28,7 +28,7 @@ function App() {
           <Route path="/" element={<About />} />
           <Route path="/about" element={<About />} />
           <Route path="/skill" element={<Skill />} />
-          <Route path="/experience" element={<Education />} />
+          <Route path="/experience" element={<Experience />} />
           <Route path="/project" element={<Project />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>

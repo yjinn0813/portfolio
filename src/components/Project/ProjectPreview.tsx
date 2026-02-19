@@ -1,7 +1,12 @@
-import React from 'react'
+import { ProjectItem } from '../../types/projects';
 
-export default function ProjectPreview({ project, onClick }) {
-  const getImage = (type, imageName) => {
+interface ProjectPreviewProps {
+  project: ProjectItem;
+  onClick: (project: ProjectItem) => void;
+}
+
+export default function ProjectPreview({ project, onClick }: ProjectPreviewProps): JSX.Element {
+  const getImage = (type: string, imageName?: string) => {
     try {
       return require(`../../assets/projects/${type}/${imageName}`);
     } catch (error) {

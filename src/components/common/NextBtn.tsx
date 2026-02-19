@@ -1,31 +1,55 @@
-// 다음 페이지 이동 버튼
-
-import React from 'react';
 import { Link } from 'react-router-dom';
+import { CSSProperties, useEffect } from 'react';
 import '../../styles/common/NextBtn.scss';
 
-export default function NextBtn({ to, text }) {
+interface NextBtnProps {
+  to: string;
+  text: string;
+}
+
+export default function NextBtn({ to, text }: NextBtnProps) {
+  useEffect(() => {
+    const styleSheet = document.styleSheets[0];
+
+    const keyframes = `
+      @keyframes move {
+        0% {
+          transform: translateX(0);
+          opacity: 1;
+        }
+        100% {
+          transform: translateX(10px);
+          opacity: 0;
+        }
+      }
+    `;
+
+    if (styleSheet) {
+      styleSheet.insertRule(keyframes, styleSheet.cssRules.length);
+    }
+  }, []);
+
   return (
-    <div className="move-btn" style={styles.moveBtn}>
+    <div className="move-btn">
       <Link to={to} style={styles.moveLink} className="move-link">
         {text}
         <span style={styles.arrowContainer}>
           <span
             className="moving-arrow"
             style={{ ...styles.arrow, ...styles.firstArrow }}
-          ></span>
+          />
           <span
             className="moving-arrow"
             style={{ ...styles.arrow, ...styles.secondArrow }}
-          ></span>
+          />
         </span>
       </Link>
     </div>
   );
 }
 
-// arrow style
-const styles = {
+// 스타일 타입 지정
+const styles: Record<string, CSSProperties> = {
   arrowContainer: {
     display: 'flex',
     marginLeft: '16px',
@@ -45,22 +69,5 @@ const styles = {
   secondArrow: {
     animationDelay: '0.7s',
   },
+  moveLink: {},
 };
-
-// @keyframes
-const styleSheet = document.styleSheets[0];
-
-const keyframes = `
-  @keyframes move {
-    0% {
-      transform: translateX(0);
-      opacity: 1;
-    }
-    100% {
-      transform: translateX(10px);
-      opacity: 0;
-    }
-  }
-`;
-
-styleSheet.insertRule(keyframes, styleSheet.cssRules.length);

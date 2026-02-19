@@ -7,15 +7,17 @@ import Library from './Library.json';
 import Develop from './Develop.json';
 import Others from './Others.json';
 import SkillArea from './SkillArea';
+import { BadgeItem } from '../../types/skills';
 import '../../styles/Skill/Skill.scss';
 
-export default function Skill() {
-  const getBadge = (category, name) => {
+
+export default function Skill(): JSX.Element {
+  const getBadge = (category: string, name: string): string | null => {
     try {
       return require(`../../assets/badges/${category}/${name}`);
     } catch (error) {
       console.error('Image not found:', error);
-      return null; // 이미지가 없을 경우 null 반환
+      return null;
     }
   };
 
@@ -25,31 +27,31 @@ export default function Skill() {
       <div className="skill-content">
         <SkillArea
           title="Frontend"
-          badges={Frontend}
+          badges={Frontend as BadgeItem[]}
           getBadge={getBadge}
         />
 
         <SkillArea
           title="Backend"
-          badges={Backend}
+          badges={Backend as BadgeItem[]}
           getBadge={getBadge}
         />
 
         <SkillArea
           title="Framework & Library"
-          badges={Library}
+          badges={Library as BadgeItem[]}
           getBadge={getBadge}
         />
 
         <SkillArea
           title="Develop & Tooling"
-          badges={Develop}
+          badges={Develop as BadgeItem[]}
           getBadge={getBadge}
         />
 
         <SkillArea
           title="Others"
-          badges={Others}
+          badges={Others as BadgeItem[]}
           getBadge={getBadge}
         />
 

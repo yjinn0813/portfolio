@@ -10,7 +10,8 @@ import SchoolIcon from '@mui/icons-material/School';
 import WorkIcon from '@mui/icons-material/Work';
 import CallIcon from '@mui/icons-material/Call';
 
-const Header = forwardRef((props, ref) => {
+
+const Header = forwardRef<HTMLElement>((_, ref) => {
   return (
     <header ref={ref} className="header">
       <div className="nav-content">
@@ -49,4 +50,5 @@ const Header = forwardRef((props, ref) => {
   );
 });
 
+Header.displayName = 'Header';
 export default Header;

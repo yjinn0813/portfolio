@@ -7,7 +7,9 @@ import EmailIcon from '@mui/icons-material/Email';
 import BookmarkIcon from '@mui/icons-material/Bookmark';
 import GitHubIcon from '@mui/icons-material/GitHub';
 
-export default function Footer() {
+type FooterProps = Record<string, never>;
+
+const Footer: React.FC<FooterProps> = () => {
   return (
     <footer className="footer">
       <div className="ft-content">
@@ -52,3 +54,5 @@ export default function Footer() {
     </footer>
   );
 }
+
+export default Footer;

@@ -24,7 +24,7 @@ https://github.com/hjinn0813/portfolio
   - Vercel 배포
 
 ### 2차 개선 (Migration & Enhancement)
-- **기간**: 2026.02 ~ 진행 중
+- **기간**: 2026.02.05 ~ 진행 중
 - **내용**
   - JavaScript → TypeScript 마이그레이션
   - 프로젝트 구조 및 컴포넌트 리팩토링
@@ -87,6 +87,8 @@ https://github.com/hjinn0813/portfolio
  ┃ ┃ ┣ 📜apple-touch-icon.png
  ┃ ┃ ┣ 📜favicon-32x32.png
  ┃ ┃ ┗ 📜favicon.ico
+ ┃ ┣ 📂fonts
+ ┃ ┃ ┗ 📜PretendardVariable.woff2
  ┃ ┗ 📜index.html
  ┣ 📂src
  ┃ ┣ 📂assets
@@ -106,8 +108,10 @@ https://github.com/hjinn0813/portfolio
  ┃ ┃ ┃ ┗ 📜Typing.tsx
  ┃ ┃ ┣ 📂Contact
  ┃ ┃ ┃ ┗ 📜Contact.tsx
- ┃ ┃ ┣ 📂Education
- ┃ ┃ ┃ ┗ 📜Education.tsx
+ ┃ ┃ ┣ 📂Experience
+ ┃ ┃ ┃ ┣ 📜Experience.json
+ ┃ ┃ ┃ ┣ 📜Experience.tsx
+ ┃ ┃ ┃ ┗ 📜ExperienceCard.tsx
  ┃ ┃ ┣ 📂Project
  ┃ ┃ ┃ ┣ 📜Project.tsx
  ┃ ┃ ┃ ┣ 📜ProjectCard.tsx
@@ -142,8 +146,13 @@ https://github.com/hjinn0813/portfolio
  ┃ ┃ ┃ ┣ 📜Header.scss
  ┃ ┃ ┃ ┗ 📜NextBtn.scss
  ┃ ┃ ┗ 📜root.scss
+ ┃ ┣ 📂types
+ ┃ ┃ ┣ 📜experience.ts
+ ┃ ┃ ┣ 📜projects.ts
+ ┃ ┃ ┗ 📜skills.ts
  ┃ ┣ 📜App.scss
  ┃ ┣ 📜App.tsx
+ ┃ ┣ 📜global.d.ts
  ┃ ┗ 📜index.tsx
  ┣ 📜.gitignore
  ┣ 📜README.md

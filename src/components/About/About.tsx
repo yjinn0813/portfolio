@@ -1,6 +1,6 @@
 // about, intro
 
-import React, { useEffect, useRef } from 'react';
+import { useEffect, useRef } from 'react';
 import Typing from './Typing';
 import NextBtn from '../common/NextBtn';
 import '../../styles/About/About.scss';
@@ -10,11 +10,13 @@ import ScrollTrigger from 'gsap/ScrollTrigger';
 
 gsap.registerPlugin(ScrollTrigger);
 
-export default function About() {
-  const descriptRef = useRef(null);
+export default function About(): JSX.Element {
+  const descriptRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
-    const philosophyEl = descriptRef.current.querySelector('.philosophy');
+    if (!descriptRef.current) return;
+    
+    const philosophyEl = descriptRef.current.querySelector('.philosophy') as HTMLElement | null;
 
     if (philosophyEl) {
       gsap.fromTo(

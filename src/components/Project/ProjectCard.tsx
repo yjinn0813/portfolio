@@ -1,5 +1,7 @@
 /* 프로젝트 카드 컴포넌트 */
+
 import React from 'react';
+import { ProjectItem } from '../../types/projects';
 
 // swiper slide
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -8,8 +10,12 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 
-export default function ProjectCard({ project }) {
-  const getImage = (type, imageName) => {
+interface ProjectCardProps {
+  project: ProjectItem;
+}
+
+export default function ProjectCard({ project }: ProjectCardProps): JSX.Element {
+  const getImage = (type: string, imageName: string) => {
     try {
       return require(`../../assets/projects/${type}/${imageName}`);
     } catch (error) {
@@ -18,7 +24,7 @@ export default function ProjectCard({ project }) {
     }
   };
 
-  const toBrTag = (text) => {
+  const toBrTag = (text?: string) => {
     if (!text) return null;
     return text.split('\n').map((line, index) => (
       <React.Fragment key={index}>

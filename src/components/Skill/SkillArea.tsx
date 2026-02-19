@@ -1,8 +1,17 @@
 // 기술뱃지 컴포넌트
 
-import React from 'react'
+import { BadgeItem } from '../../types/skills';
 
-export default function SkillArea({ title, badges, getBadge, className }) {
+interface SkillAreaProps {
+  title: string;
+  badges: BadgeItem[];
+  getBadge: (category: string, name: string) => string | null;
+  className?: string;
+}
+
+export default function SkillArea({ 
+    title, badges, getBadge, className 
+  }: SkillAreaProps): JSX.Element {
   return (
     <div className={`sk-item ${className ?? ''}`}>
       <div className="sk-item-title">{title}</div>

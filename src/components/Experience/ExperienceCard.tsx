@@ -1,15 +1,20 @@
 // 경험 내역 카드 컴포넌트
 
-import React, { useState } from 'react'
+import { useState } from 'react';
+import { ExperienceDataItem } from '../../types/experience';
 
-export default function ExperienceCard({ data }) {
+interface ExperienceCardProps {
+  data: ExperienceDataItem;
+}
+
+export default function ExperienceCard({ data }: ExperienceCardProps): JSX.Element {
   const { period, title, type, description, links, projects } = data;
 
   // 프로젝트 인덱스 관리
-  const [openIdx, setOpenIdx] = useState(null) 
+  const [openIdx, setOpenIdx] = useState<number | null>(null) 
 
   // 토글 핸들러
-  const handleToggle = (idx) => {
+  const handleToggle = (idx: number) => {
     setOpenIdx((prev) => (prev === idx ? null : idx))
   }
 
@@ -67,7 +72,6 @@ export default function ExperienceCard({ data }) {
                 key={idx}
                 href={link.url}
                 aria-label="github"
-                alt="github"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="edu-btn"
