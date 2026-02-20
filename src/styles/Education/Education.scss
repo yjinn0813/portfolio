@@ -5,7 +5,7 @@
 .edu-inner {
   @include viewport-size;
   @media (max-width: 768px) {
-    margin: 30px 50px;
+    margin: 30px 40px;
   }
 }
 
