@@ -6,7 +6,6 @@ import NextBtn from '../common/NextBtn';
 import ProjectCard from './ProjectCard';
 import ProjectPreview from './ProjectPreview';
 import { ProjectItem } from '../../types/projects';
-import CloseIcon from '@mui/icons-material/Close';
 import '../../styles/Project/Project.scss';
 
 export default function Project(): JSX.Element {
@@ -62,17 +61,13 @@ export default function Project(): JSX.Element {
       {isClicked && (
         <div className="pj-modal-overlay" onClick={handleClose}>
           <div
-            className="pj-modal"
+            className="pj-modal terminal"
             onClick={(e) => e.stopPropagation()}
           >
-            <button className="pj-modal-close"
-              onClick={handleClose}
-              aria-label="Close modal"
-            >
-              <CloseIcon />
-            </button>
-            
-            <ProjectCard project={isClicked} />
+            <ProjectCard 
+              project={isClicked}
+              onClose={handleClose}
+            />
           </div>
         </div>
       )}
