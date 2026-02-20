@@ -28,6 +28,7 @@
   padding: 40px;
   margin: 30px 0;
   min-width: 90%;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
 
   @media (max-width: 480px) {
     font-size: 16px;
@@ -55,7 +56,7 @@
 }
 .edu-info.exp-pj > li {margin:8px 0; list-style:none;}
 .edu-info.exp-pj > li p {cursor:pointer; margin-bottom:4px; font-weight:300}
-.edu-info.exp-pj > li p:hover {color:$pink;}
+.edu-info.exp-pj > li p:hover {color:$pink; font-weight:500;}
 .edu-info.exp-pj > li p::before {content:'▸'; display:inline-block; margin-right:6px;}
 .edu-info.exp-pj > li p.open::before {transform:rotate(90deg);}
 
