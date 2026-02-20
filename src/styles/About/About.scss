@@ -13,6 +13,8 @@
 .intro {
   height: 60vh;
   width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -46,11 +48,18 @@
   flex-direction: column;
   align-items: center;
   text-align: left;
-  margin: 40px 0;
+  margin-top: 40px;
+}
+.dc-info {
+  margin-bottom:44px;
+  @media (max-width: 640px) {
+    margin-bottom: 16px;
+  }
 }
 .paragraph {
+  font-weight: 300;
   font-size: 18px;
-  margin: 48px 0;
+  margin: 40px 0;
   min-width: 660px;
 
   @media (max-width: 768px) {
@@ -60,26 +69,27 @@
   }
 }
 .philosophy {
-  // border: 0.5px solid $gray;
-  background-color: $gray;
-  border-radius: 12px;
-  padding: 32px 52px 32px 60px;
-  font-size: 16px;
-  color: $ivory;
-  min-width: 1rem !important;
-  
-  .title {
-    margin-bottom:16px;
-    margin-left:-16px;
-    color: $pink;
-  }
-
   ul {
     list-style-type: none;
-    margin-left:-12px;
+    width: 100%;
+    @media (max-width: 640px) {
+      padding: 0 0 0 10px;
+    }
     
     li {
       margin:8px 0;
+      font-size: 17px;
+      @media (max-width: 768px) {
+        font-size: 16px;
+      }
     }
+  }
+
+  p {
+    color: $pink;
+    font-size: 26px;
+    font-weight: 600;
+    margin: 8px 0;
+    width: 100%;
   }
 }

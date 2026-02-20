@@ -1,21 +1,26 @@
 [
   {
+    "category": "Develop",
     "name": "Git",
     "path": "2-Git.svg"
   },
   {
+    "category": "Develop",
     "name": "GitHub",
     "path": "2-GitHub.svg"
   },
   {
+    "category": "Develop",
     "name": "VScode",
     "path": "3-VSCode.svg"
   },
   {
+    "category": "Develop",
     "name": "Vercel",
     "path": "5-Vercel.svg"
   },
   {
+    "category": "Develop",
     "name": "Netlify",
     "path": "5-Netlify.svg"
   }

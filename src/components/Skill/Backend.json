@@ -1,25 +1,26 @@
 [
   {
+    "category": "Backend",
     "name": "php",
     "path": "02-php.svg"
   },
   {
+    "category": "Backend",
     "name": "apache",
     "path": "02-Apache.svg"
   },
   {
-    "name": "filezilla",
-    "path": "2-filezilla.svg"
-  },
-  {
+    "category": "Backend",
     "name": "maria DB",
     "path": "02-Maria_DB.svg"
   },
   {
+    "category": "Backend",
     "name": "Python",
     "path": "02-Python.svg"
   },
   {
+    "category": "Backend",
     "name": "Fast API",
     "path": "02-Fast_API.svg"
   }

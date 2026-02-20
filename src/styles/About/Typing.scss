@@ -10,7 +10,7 @@
   display: table-cell;
   vertical-align: middle;
   font-size: 32px;
-  font-weight: 700;
+  font-weight: 300;
   margin: 48px 0;
   position: relative;
   z-index: 2;
@@ -22,9 +22,12 @@
     color: $ivory;
   }
 
-  @media (max-width: 768px) {
-    font-size: 22px;
-    width: 260px;
+  @media (max-width: 640px) {
+    font-size: 24px;
+  }
+  @media (max-width: 480px) {
+    font-size: 20px;
+    width: 220px;
     height: 110px;
   }
 }

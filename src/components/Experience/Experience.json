@@ -1,0 +1,115 @@
+[
+  {
+    "id": 1,
+    "period": "2023.11 ~ 2023.12",
+    "title": "패스트캠퍼스 - 웹개발 입문 (30시간)",
+    "type": "study",
+    "description": [
+      "개발 환경 설정 (Git, GitHub, VS code)",
+      "HTML, CSS, JavaScript 기초 입문 및 실습",
+      "Netlify를 이용해 웹사이트 배포하기",
+      "간단한 마크다운 문법 이해하기"
+    ],
+    "links": [
+      {"label": "실습과제", "url": "https://github.com/hjinn0813/mbti_test"},
+      {"label": "최종과제", "url": "https://github.com/hjinn0813/namecard"}
+    ]
+  },
+  {
+    "id": 2,
+    "period": "2023.12 ~ 2024.05",
+    "title": "서울 청년취업사관학교 x 코딩온\nUI/UX 반응형 웹 디자인부터 시작하는 프론트엔드 입문 (354시간)",
+    "type": "study",
+    "description": [
+      "UI/UX 입문 및 사용자 중심 서비스 기획",
+      "Figma로 반응형 웹 디자인 실습",
+      "개발 환경 설정 (Git, GitHub, VS code)",
+      "HTML, CSS, JavaScript, jQuery, Bootstrap 입문 및 퍼블리싱 실습",
+      "React, Redux, SASS, TypeScript 입문 및 실습",
+      "3번의 팀 프로젝트 진행"
+    ],
+    "links": [
+      {"label": "Check Repo", "url": "https://github.com/hjinn0813/SeSAC-GD-3rd"}
+    ]
+  },
+  {
+    "id": 3,
+    "period": "2024.07 ~ 2024.08",
+    "title": "서울시 뉴딜 일자리 x 이젠아카데미 강남\n모던 웹 풀스택 개발자 과정 (290시간)",
+    "type": "study",
+    "description": [
+      "HTML, CSS, JavaScript, React, SASS 등 개발언어 복습",
+      "TypeScript 심화 학습",
+      "GSAP, Swiper 등 실무에서 많이 쓰이는 라이브러리 학습",
+      "2개의 개인 프로젝트 진행"
+    ],
+    "links": [
+      {"label": "Check Repo", "url": "https://github.com/hjinn0813/newdeal"}
+    ]
+  },
+  {
+    "id": 4,
+    "period": "2024.09 ~ 2026.02",
+    "title": "Start Developer Career",
+    "type": "work",
+    "projects": [
+      {
+        "id": 0,
+        "period": "2025.01 ~ 2026.02",
+        "name": "푸딘코 테이블오더",
+        "stack": ["PHP", "CSS", "JavaScript", "jQuery", "Socket.io", "Figma", "Maria DB", "AWS EC2", "Apache", "Redis"],
+        "details": [
+          "2차례 실서비스 런칭 경험",
+          "Socket.io 기반 실시간 데이터 공유 경험",
+          "간단한 PHP 로직 및 DB SQL 작성 경험",
+          "팀과 협업하며 서비스 운영 경험 강화"
+        ]
+      },
+      {
+        "id": 1,
+        "period": "2025.10 ~ 2025.12",
+        "name": "푸딘코 리액트 웹앱",
+        "stack": [
+          "React",
+          "TypeScript",
+          "Vite",
+          "TanStack Query",
+          "Axios",
+          "Zustand",
+          "Tailwind CSS",
+          "AWS EC2",
+          "Apache"
+        ],
+        "details":  [
+          "프론트엔드 선임 역할 수행",
+          "프로젝트 초기 레포 구조 및 기술 스택 선정 주도",
+          "아키텍처 설계 및 구현, 서버 상태와 클라이언트 상태 분리 구조 설계",
+          "배포 환경에서 SPA 라우팅 이슈 분석 및 개선 경험"
+        ]
+      },
+      {
+        "id": 2,
+        "period": "2024.09 ~ 2026.01",
+        "name": "펫벨업 자사몰 (외주)",
+        "stack": ["PHP", "HTML", "CSS", "JavaScript", "jQuery", "Figma", "FileZilla"],
+        "details": [
+          "그누보드 기반 영카트 쇼핑몰 구축 및 유지보수",
+          "Figma로 UI 목업 설계",
+          "반응형 웹 UI 구현",
+          "FileZilla를 통한 배포 및 서버 관리 경험"
+        ]
+      },
+      {
+        "id": 3,
+        "period": "2024.09 ~ 2024.12",
+        "name": "할로와 테이블오더 & OMS",
+        "stack": ["PHP", "HTML", "CSS", "JavaScript", "jQuery", "Figma"],
+        "details": [
+          "기존 레포 코드 분석 및 오류 수정",
+          "OMS 리뉴얼 관련 목업 제작",
+          "React 기반 화면 구조 연습 구현"
+        ]
+      }
+    ]
+  }
+]

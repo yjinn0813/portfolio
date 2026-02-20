@@ -4,6 +4,7 @@
 
 .skill-inner {
   @include viewport-size;
+
   @media (max-width: 768px) {
     margin: 30px 50px;
   }
@@ -19,7 +20,6 @@
   border-radius: 12px;
   display: flex;
   justify-content: center;
-  // align-items: center;
   flex-direction: column;
 }
 
@@ -29,7 +29,7 @@
   font-size: 18px;
 }
 .sk-item-title {
-  font-weight: 700;
+  font-weight: 500;
   border-left: 5px solid $gray;
   padding: 0 9px;
   margin: 12px 0;

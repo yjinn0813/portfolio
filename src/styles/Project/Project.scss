@@ -3,29 +3,17 @@
 @import '../root.scss';
 
 .pj-container {
-  @include viewport-size;
+  margin: 60px 100px;
+
+  @media (max-width: 768px) {
+    margin: 30px 24px;
+  }
 }
 .pj-title {
   @include page-title;
 }
 
 // 카드 컴포넌트 디자인
-.pj-card {
-  width: 95%;
-  margin: 20px 0;
-  padding: 20px;
-  border: 1px solid $gray;
-  border-radius: 12px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-
-  @media (max-width: 768px) {
-    width: 100%;
-  }
-}
-
 .pj-image {
   width: 60%;
   height: auto;
@@ -47,7 +35,7 @@
   bottom: 5px !important;
 }
 .swiper-pagination-bullet {
-  background-color: $gray !important;
+  background-color: $ivory !important;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.6) !important;
 }
 .swiper-pagination-bullet-active {
@@ -65,7 +53,8 @@
 }
 .pj-item-title {
   font-size: 22px;
-  font-weight: 700;
+  font-weight: 600;
+  margin-top: 8px;
 
   @media (max-width: 768px) {
     font-size: 18px;
@@ -75,6 +64,7 @@
 .pj-descript {
   padding: 16px 0;
   font-size: 15px;
+  font-weight: 300;
 }
 .pj-date,
 .pj-skills,
@@ -82,12 +72,13 @@
   margin: 12px 0;
 }
 .pj-info-title {
-  font-weight: 700;
-  border-left: 4px solid $gray;
+  font-weight: 600;
+  border-left: 4px solid $ivory;
   padding: 0 9px;
 }
 .pj-info-value {
   margin: 6px 0;
+  font-weight: 300;
 }
 
 // btn
@@ -96,5 +87,154 @@
   margin: 12px 0;
 }
 .openlink {
-  @include link-btn;
+  margin: 0 8px;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  color: $gray;
+  background-color: $ivory;
+  cursor: pointer;
+  
+  &:hover {
+    background-color: $pink;
+    color: $ivory;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  }
+}
+
+/* 프리뷰 */
+.pj-preview {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  border-radius: 8px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  max-width: 300px;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  }
+}
+
+.pj-preview-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 24px;
+  justify-items: center;
+}
+
+.pj-preview-bg {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+}
+
+.pj-preview-overlay {
+  position: absolute;
+  inset: 0;
+  background: #000;
+  opacity: 0.7;
+  transition: opacity 0.2s ease;
+  &:hover {opacity: 0.5;}
+}
+
+.pj-preview-content {
+  position: relative;
+  z-index: 1;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.pj-preview-title {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.3;
+}
+
+.pj-preview-subtitle {
+  font-size: 14px;
+  font-weight: 300;
+  color: #fff;
+  line-height: 1.3;
+  margin-top: 4px;
+}
+
+// 프리뷰 뱃지
+.pj-badge {
+  align-self: flex-start;
+  margin-bottom: 8px;
+  padding: 5px 10px;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 6px;
+
+  &.work {
+    background: $pink;
+    color: #fff;
+  }
+
+  &.team {
+    background: $sky;
+    color: #fff;
+  }
+
+  &.personal {
+    background: $olive;
+    color: #fff;
+  }
+}
+
+/* 모달 화면 고정 */
+.pj-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1000;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.pj-modal {
+  width: 90%;
+  max-height: 90vh;
+  background: $ivory;
+  overflow-y: auto;
+  position: relative;
+}
+
+.modal-close {
+  cursor: pointer;
+  position: relative;
+
+  &::after {
+    content: "×";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -52%);
+    font-size: 12px;
+    font-weight: 700;
+    color: $gray;
+    opacity: 0;
+    transition: opacity 0.15s ease;
+    pointer-events: none; // 클릭 방해 방지
+  }
+
+  &:hover::after {
+    opacity: 1;
+  }
 }
