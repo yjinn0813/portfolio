@@ -3,7 +3,7 @@
 @import '../root.scss';
 
 .contact-inner {
-  margin: 60px 100px;
+  margin: 60px 100px 120px;
 
   @media (max-width: 768px) {
     margin: 30px 24px 80px;
@@ -61,15 +61,9 @@
 
 // apple style
 .mac {
-  width: 100%;
-  max-width: 600px;
   border-radius: 10px;
   box-shadow: 0 8px 20px rgba(0,0,0,0.3);
   background: #7c7d7e;
-
-  @media (max-width:480px){
-    max-width: 340px;
-  }
 
   .mac-header {
     display: flex;
