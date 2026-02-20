@@ -98,6 +98,7 @@ export default function About(): JSX.Element {
               <div className="terminal-title">Work Philosophy</div>
             </div>
             <div className="terminal-body">
+              <p>Work Philosophy</p>
               <ul>
                 <li>💡 “코드를 쓰는” 사람이 아니라, “문제를 해결하는” 사람</li>
                 <li>🔍 로직의 실행 원리와 흐름을 항상 궁금해하는 사람</li> 
