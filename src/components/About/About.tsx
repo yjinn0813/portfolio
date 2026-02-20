@@ -87,15 +87,26 @@ export default function About(): JSX.Element {
           </div>
         </div>
         
-        <div className='philosophy'>
-          <h2 className='title'>Work Philosophy</h2>
-          <ul>
-            <li>💡 “코드를 쓰는” 사람이 아니라, “문제를 해결하는” 사람</li>
-            <li>🔍 로직의 실행 원리와 흐름을 항상 궁금해하는 사람</li> 
-            <li>📈 매일 꾸준히, 회사와 함께 성장하는 사람</li> 
-            <li>✨ 유저에게 편리한 UX를 제공하여 회사의 매출에 기여하는 사람</li>
-          </ul>
-        </div>
+        <>
+          <div className='terminal philosophy'>
+            <div className="terminal-header">
+              <div className="dots">
+                <span className="dot red" />
+                <span className="dot yellow" />
+                <span className="dot green" />
+              </div>
+              <div className="terminal-title">Work Philosophy</div>
+            </div>
+            <div className="terminal-body">
+              <ul>
+                <li>💡 “코드를 쓰는” 사람이 아니라, “문제를 해결하는” 사람</li>
+                <li>🔍 로직의 실행 원리와 흐름을 항상 궁금해하는 사람</li> 
+                <li>📈 매일 꾸준히, 회사와 함께 성장하는 사람</li> 
+                <li>✨ 유저에게 편리한 UX를 제공하여 회사의 매출에 기여하는 사람</li>
+              </ul>
+            </div>
+          </div>
+        </>
       </div>
       <NextBtn to="/skill" text="Check my stacks 👀" />
     </div>
