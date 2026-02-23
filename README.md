@@ -43,7 +43,6 @@ https://github.com/hjinn0813/portfolio
 | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=TypeScript&logoColor=white) | 타입 안정성 확보 및 유지보수성 개선 |
 | ![SASS](https://img.shields.io/badge/SASS-CC6699?style=flat-square&logo=Sass&logoColor=white) | 컴포넌트 단위 스타일 관리 |
 | ![MUI](https://img.shields.io/badge/MUI-007FFF?style=flat-square&logo=MUI&logoColor=white) | 일관된 UI 컴포넌트 사용 |
-| ![GSAP](https://img.shields.io/badge/GSAP-88CE02?style=flat-square&logo=GreenSock&logoColor=white) | 스크롤 기반 애니메이션 구현 |
 | ![Swiper](https://img.shields.io/badge/swiper-6332F6?style=flat-square&logo=swiper&logoColor=white) | 프로젝트 이미지 슬라이드 UI |
 
 ### Tooling
@@ -64,7 +63,7 @@ https://github.com/hjinn0813/portfolio
 
 ## 💻 주요 기능
 
-- `About` 페이지 : 타이핑 애니메이션, GSAP Scroll Trigger
+- `About` 페이지 : 타이핑 애니메이션, Intersection Observer
 
 - Header 호버 언더라인 이벤트, MUI 아이콘, 페이지 라우팅
 
