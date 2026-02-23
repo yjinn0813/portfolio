@@ -2,7 +2,7 @@
   {
     "id": 1,
     "period": "2023.11 ~ 2023.12",
-    "title": "패스트캠퍼스 - 웹개발 입문 (30시간)",
+    "title": "패스트캠퍼스 - 웹개발 입문",
     "type": "study",
     "description": [
       "개발 환경 설정 (Git, GitHub, VS code)",
@@ -18,7 +18,7 @@
   {
     "id": 2,
     "period": "2023.12 ~ 2024.05",
-    "title": "서울 청년취업사관학교 x 코딩온\nUI/UX 반응형 웹 디자인부터 시작하는 프론트엔드 입문 (354시간)",
+    "title": "서울 청년취업사관학교 x 코딩온\nUI/UX 반응형 웹 디자인부터 시작하는 프론트엔드 입문",
     "type": "study",
     "description": [
       "UI/UX 입문 및 사용자 중심 서비스 기획",
@@ -35,7 +35,7 @@
   {
     "id": 3,
     "period": "2024.07 ~ 2024.08",
-    "title": "서울시 뉴딜 일자리 x 이젠아카데미 강남\n모던 웹 풀스택 개발자 과정 (290시간)",
+    "title": "서울시 뉴딜 일자리 x 이젠아카데미 강남\n모던 웹 풀스택 개발자 과정",
     "type": "study",
     "description": [
       "HTML, CSS, JavaScript, React, SASS 등 개발언어 복습",
