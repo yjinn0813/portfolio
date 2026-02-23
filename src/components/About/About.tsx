@@ -5,11 +5,6 @@ import Typing from './Typing';
 import NextBtn from '../common/NextBtn';
 import '../../styles/About/About.scss';
 
-import gsap from 'gsap';
-import ScrollTrigger from 'gsap/ScrollTrigger';
-
-gsap.registerPlugin(ScrollTrigger);
-
 export default function About(): JSX.Element {
   const descriptRef = useRef<HTMLDivElement | null>(null);
 
@@ -19,21 +14,23 @@ export default function About(): JSX.Element {
     const philosophyEl = descriptRef.current.querySelector('.philosophy') as HTMLElement | null;
 
     if (philosophyEl) {
-      gsap.fromTo(
-        philosophyEl,
-        { opacity: 0, y: 20 },
+      const observer = new IntersectionObserver(
+        (entries, observerInstance) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              philosophyEl.classList.add('show');
+              observerInstance.unobserve(philosophyEl); // once 효과
+            }
+          });
+        },
         {
-          opacity: 1,
-          y: 0,
-          scrollTrigger: {
-            trigger: philosophyEl,
-            start: 'top 100%',
-            end: 'bottom 0%',
-            toggleActions: 'play none none none',
-            scrub: 2,
-          },
+          threshold: 0.2, // 20% 보이면 실행
         }
       );
+
+      observer.observe(philosophyEl);
+
+      return () => observer.disconnect();
     }
   }, []);
 
