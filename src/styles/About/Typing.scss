@@ -1,6 +1,6 @@
 // type animation
 
-@import '../root.scss';
+@use '../root.scss';
 
 .greeting {
   white-space: pre-wrap; // 줄바꿈 유지
@@ -19,7 +19,7 @@
     content: '|';
     position: absolute;
     animation: blink 1s step-end infinite;
-    color: $ivory;
+    color: root.$ivory;
   }
 
   @media (max-width: 640px) {

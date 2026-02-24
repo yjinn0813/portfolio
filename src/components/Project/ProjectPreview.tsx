@@ -1,3 +1,6 @@
+// project preview
+
+import React from 'react';
 import { ProjectItem } from '../../types/projects';
 
 interface ProjectPreviewProps {
@@ -5,14 +8,12 @@ interface ProjectPreviewProps {
   onClick: (project: ProjectItem) => void;
 }
 
-export default function ProjectPreview({ project, onClick }: ProjectPreviewProps): JSX.Element {
-  const getImage = (type: string, imageName?: string) => {
-    try {
-      return require(`../../assets/projects/${type}/${imageName}`);
-    } catch (error) {
-      console.error('Image not found:', type, imageName);
-      return null;
-    }
+const ProjectPreview: React.FC<ProjectPreviewProps> = ({ project, onClick }) => {
+  const images = import.meta.glob('../../assets/projects/**/*.png', { eager: true, import: 'default' });
+
+  const getImage = (type: string, imageName: string) => {
+    const path = `../../assets/projects/${type}/${imageName}`;
+    return (images as Record<string, string>)[path] || null;
   };
 
   return (
@@ -43,3 +44,5 @@ export default function ProjectPreview({ project, onClick }: ProjectPreviewProps
     </div>
   );
 }
+
+export default ProjectPreview;

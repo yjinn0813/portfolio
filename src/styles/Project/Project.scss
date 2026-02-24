@@ -1,6 +1,6 @@
 // project area design
 
-@import '../root.scss';
+@use '../root.scss';
 
 .pj-container {
   margin: 60px 100px;
@@ -10,7 +10,7 @@
   }
 }
 .pj-title {
-  @include page-title;
+  @include root.page-title;
 }
 
 // 카드 컴포넌트 디자인
@@ -35,15 +35,15 @@
   bottom: 5px !important;
 }
 .swiper-pagination-bullet {
-  background-color: $ivory !important;
+  background-color: root.$ivory !important;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.6) !important;
 }
 .swiper-pagination-bullet-active {
-  background-color: $pink !important;
+  background-color: root.$pink !important;
 }
 .swiper-button-next,
 .swiper-button-prev {
-  color: $pink !important;
+  color: root.$pink !important;
 }
 
 // project info
@@ -73,7 +73,7 @@
 }
 .pj-info-title {
   font-weight: 600;
-  border-left: 4px solid $ivory;
+  border-left: 4px solid root.$ivory;
   padding: 0 9px;
 }
 .pj-info-value {
@@ -92,13 +92,13 @@
   font-size: 16px;
   border: none;
   border-radius: 8px;
-  color: $gray;
-  background-color: $ivory;
+  color: root.$gray;
+  background-color: root.$ivory;
   cursor: pointer;
   
   &:hover {
-    background-color: $pink;
-    color: $ivory;
+    background-color: root.$pink;
+    color: root.$ivory;
     transform: translateY(-2px);
     box-shadow: 0 4px 10px rgba(0,0,0,0.2);
   }
@@ -178,17 +178,17 @@
   border-radius: 6px;
 
   &.work {
-    background: $pink;
+    background: root.$pink;
     color: #fff;
   }
 
   &.team {
-    background: $sky;
+    background: root.$sky;
     color: #fff;
   }
 
   &.personal {
-    background: $olive;
+    background: root.$olive;
     color: #fff;
   }
 }
@@ -211,7 +211,7 @@
 .pj-modal {
   width: 90%;
   max-height: 90vh;
-  background: $ivory;
+  background: root.$ivory;
   overflow-y: auto;
   position: relative;
 }
@@ -228,7 +228,7 @@
     transform: translate(-50%, -52%);
     font-size: 12px;
     font-weight: 700;
-    color: $gray;
+    color: root.$gray;
     opacity: 0;
     transition: opacity 0.15s ease;
     pointer-events: none; // 클릭 방해 방지

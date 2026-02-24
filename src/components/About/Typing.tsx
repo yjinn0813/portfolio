@@ -1,9 +1,9 @@
 // 타이핑 애니메이션 컴포넌트
 
-import { useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import '../../styles/About/Typing.scss';
 
-const Typing = (): JSX.Element => {
+const Typing: React.FC = () => {
   const content =
     '안녕하세요! \n주니어 프론트엔드 개발자, \n조혜진입니다. :) ';
 

@@ -1,6 +1,6 @@
 // about design
 
-@import '../root.scss';
+@use '../root.scss';
 
 .intro-inner {
   margin: 60px 100px;
@@ -23,7 +23,7 @@
   background-size: cover;
   border-radius: 12px;
   position: relative;
-  color: $ivory;
+  color: root.$ivory;
 
   &::before {
     content: '';
@@ -95,7 +95,7 @@
   }
 
   p {
-    color: $pink;
+    color: root.$pink;
     font-size: 26px;
     font-weight: 600;
     margin: 8px 0;

@@ -1,5 +1,6 @@
 // contact
 
+import React from 'react';
 import ContactCard from './ContactCard';
 import github from '../../assets/contact/github.png';
 import tistory from '../../assets/contact/tistory-dark.png';
@@ -34,7 +35,7 @@ const contactList = [
   },
 ];
 
-const Contact = (): JSX.Element => {
+const Contact: React.FC = () => {
   return (
     <div className="contact-inner">
       <div className="contact-title">Contact</div>

@@ -1,11 +1,11 @@
 // about, intro
 
-import { useEffect, useRef } from 'react';
+import React, { useEffect, useRef } from 'react';
 import Typing from './Typing';
 import NextBtn from '../common/NextBtn';
 import '../../styles/About/About.scss';
 
-export default function About(): JSX.Element {
+const About: React.FC = () => {
   const descriptRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
@@ -110,3 +110,5 @@ export default function About(): JSX.Element {
     </div>
   );
 }
+
+export default About;

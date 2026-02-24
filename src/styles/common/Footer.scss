@@ -1,6 +1,6 @@
 // footer design
 
-@import '../root.scss';
+@use '../root.scss';
 
 .footer {
   padding: 0;
@@ -8,7 +8,7 @@
   width: 100%;
   flex-direction: row;
   position: relative;
-  background-color: $gray;
+  background-color: root.$gray;
 }
 
 .ft-content {
@@ -22,7 +22,7 @@
 .ft-txt {
   font-size: 14px;
   line-height: 1.5;
-  color: $ivory;
+  color: root.$ivory;
 }
 
 .ft-icons {
@@ -33,6 +33,6 @@
 
 .footer-icon {
   text-decoration: none;
-  color: $ivory;
+  color: root.$ivory;
   margin: 0 10px;
 }

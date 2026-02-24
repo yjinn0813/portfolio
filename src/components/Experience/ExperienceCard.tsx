@@ -1,13 +1,13 @@
 // 경험 내역 카드 컴포넌트
 
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { ExperienceDataItem } from '../../types/experience';
 
 interface ExperienceCardProps {
   data: ExperienceDataItem;
 }
 
-export default function ExperienceCard({ data }: ExperienceCardProps): JSX.Element {
+const ExperienceCard: React.FC<ExperienceCardProps> = ({ data }) => {
   const { period, title, type, description, links, projects } = data;
 
   // 타이틀 자르기
@@ -102,3 +102,5 @@ export default function ExperienceCard({ data }: ExperienceCardProps): JSX.Eleme
     </div>
   )
 }
+
+export default ExperienceCard;
