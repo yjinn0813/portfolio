@@ -1,6 +1,6 @@
 // tech stacks
 
-import { useState } from 'react';
+import React, { useState } from 'react';
 import NextBtn from '../common/NextBtn';
 import Frontend from './Frontend.json';
 import Backend from './Backend.json';
@@ -20,17 +20,15 @@ const skillData = [
   { title: 'Others', data: Others },
 ];
 
-export default function Skill(): JSX.Element {
+const Skill: React.FC = () => {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
 
   // 뱃지 이미지 불러오기
-  const getBadge = (category: string, name: string): string | null => {
-    try {
-      return require(`../../assets/badges/${category}/${name}`);
-    } catch (error) {
-      console.error('Image not found:', error);
-      return null;
-    }
+  const images = import.meta.glob('../../assets/badges/**/*.svg', { eager: true, import: 'default' });
+
+  const getBadge= (category: string, imageName: string) => {
+    const path = `../../assets/badges/${category}/${imageName}`;
+    return (images as Record<string, string>)[path] || null;
   };
 
   return (
@@ -103,3 +101,5 @@ export default function Skill(): JSX.Element {
     </div>
   );
 }
+
+export default Skill;

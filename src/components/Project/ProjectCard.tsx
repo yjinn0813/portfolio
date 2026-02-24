@@ -15,14 +15,12 @@ interface ProjectCardProps {
   onClose: () => void;
 }
 
-export default function ProjectCard({ project, onClose }: ProjectCardProps): JSX.Element {
+const ProjectCard: React.FC<ProjectCardProps> = ({ project, onClose }) => {
+  const images = import.meta.glob('../../assets/projects/**/*.png', { eager: true, import: 'default' });
+
   const getImage = (type: string, imageName: string) => {
-    try {
-      return require(`../../assets/projects/${type}/${imageName}`);
-    } catch (error) {
-      console.error('Image not found:', type, imageName);
-      return null;
-    }
+    const path = `../../assets/projects/${type}/${imageName}`;
+    return (images as Record<string, string>)[path] || null;
   };
 
   const toBrTag = (text?: string) => {
@@ -134,3 +132,5 @@ export default function ProjectCard({ project, onClose }: ProjectCardProps): JSX
     </>
   );
 }
+
+export default ProjectCard;

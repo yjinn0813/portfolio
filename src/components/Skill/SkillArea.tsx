@@ -1,5 +1,6 @@
 // 기술뱃지 카드 컴포넌트
 
+import React from 'react';
 import { BadgeItem } from '../../types/skills';
 
 interface SkillAreaProps {
@@ -8,7 +9,7 @@ interface SkillAreaProps {
   getBadge: (category: string, name: string) => string | null;
 }
 
-export default function SkillArea({ title, badges, getBadge }: SkillAreaProps): JSX.Element {
+const SkillArea: React.FC<SkillAreaProps> = ({ title, badges, getBadge }) => {
   return (
     <>
       <div className="apple-header">
@@ -32,3 +33,5 @@ export default function SkillArea({ title, badges, getBadge }: SkillAreaProps): 
     </>
   )
 }
+
+export default SkillArea;

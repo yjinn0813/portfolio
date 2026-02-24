@@ -1,13 +1,13 @@
 // 교육 및 경험 페이지
 
-import { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import ExperienceCard from './ExperienceCard';
 import ExperienceData from './Experience.json';
 import NextBtn from '../common/NextBtn';
 import { ExperienceDataItem } from '../../types/experience';
 import '../../styles/Education/Education.scss';
 
-export default function Education(): JSX.Element {
+const Experience: React.FC = () => {
   const [activeId, setActiveId] = useState<number | null>(null);
   const itemRefs = useRef<(HTMLDivElement | null)[]>([]);
 
@@ -60,7 +60,7 @@ export default function Education(): JSX.Element {
           <div className="timeline-item" 
             key={item.id}
             data-id={item.id}
-            ref={(el) => (itemRefs.current[idx] = el)}
+            ref={(el: HTMLDivElement | null) => { itemRefs.current[idx] = el; }}
           >
             <div className={`timeline-dot ${activeId === item.id ? 'active' : '' }`} />
             <ExperienceCard data={item} />
@@ -71,3 +71,5 @@ export default function Education(): JSX.Element {
     </div>
   );
 }
+
+export default Experience;

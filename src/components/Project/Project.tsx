@@ -1,6 +1,6 @@
 /* 프로젝트 페이지 */
 
-import { useState } from 'react';
+import React, { useState } from 'react';
 import Projects from './Projects.json';
 import NextBtn from '../common/NextBtn';
 import ProjectCard from './ProjectCard';
@@ -8,7 +8,7 @@ import ProjectPreview from './ProjectPreview';
 import { ProjectItem } from '../../types/projects';
 import '../../styles/Project/Project.scss';
 
-export default function Project(): JSX.Element {
+const Project: React.FC = () => {
   // 모달 오픈
   const [isClicked, setIsClicked] = useState<ProjectItem | null>(null)
 
@@ -76,3 +76,5 @@ export default function Project(): JSX.Element {
     </div>
   );
 }
+
+export default Project;
