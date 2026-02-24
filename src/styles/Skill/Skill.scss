@@ -1,16 +1,16 @@
 // skill area design
 
-@import '../root.scss';
+@use '../root.scss';
 
 .skill-inner {
-  @include viewport-size;
+  @include root.viewport-size;
 
   @media (max-width: 768px) {
     margin: 30px 50px;
   }
 }
 .skill-title {
-  @include page-title;
+  @include root.page-title;
 }
 .skill-content {
   width: 95%;
@@ -81,7 +81,7 @@
     display: flex;
     align-items: center;
     padding: 0.5rem;
-    background-color: $white;
+    background-color: root.$white;
     border-radius: 10px 10px 0 0;
     max-height: 20px;
     border-bottom: 1px solid #E0e6ee;
@@ -105,7 +105,7 @@
     .apple-title {
       font-size: 0.9rem;
       font-weight: 500;
-      color: $gray;
+      color: root.$gray;
     }
   }
 

@@ -1,6 +1,6 @@
 // 다음 페이지 이동 버튼 스타일
 
-@import '../root.scss';
+@use '../root.scss';
 
 .move-btn {
   cursor: pointer;
@@ -23,11 +23,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: $gray;
+  color: root.$gray;
   transition: text-shadow 0.3s ease;
 
   &:hover {
-    color: $pink;
+    color: root.$pink;
     text-shadow: 0 0 18px rgba(255, 255, 255, 0.9);
   }
 

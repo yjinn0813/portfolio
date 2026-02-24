@@ -1,10 +1,10 @@
-@import './styles/root.scss';
+@use './styles/root.scss';
 
 .topbtn {
   position: fixed;
   bottom: 20px;
   right: 20px;
   z-index: 1000;
-  background-color: $pink;
-  color: $white;
+  background-color: root.$pink;
+  color: root.$white;
 }

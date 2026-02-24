@@ -1,16 +1,16 @@
 // 교육이수내역 디자인
 
-@import '../root.scss';
+@use '../root.scss';
 
 .edu-inner {
-  @include viewport-size;
+  @include root.viewport-size;
   @media (max-width: 768px) {
     margin: 30px 40px;
   }
 }
 
 .edu-title {
-  @include page-title;
+  @include root.page-title;
 }
 
 .edu-content {
@@ -41,13 +41,13 @@
   top: 24px;
   width: 14px;
   height: 14px;
-  background: $gray;
+  background: root.$gray;
   border-radius: 50%;
   z-index: 1;
   transition: 0.3s;
 
   &.active {
-    background: $pink;
+    background: root.$pink;
     transform: scale(1.2);
   }
 }
@@ -55,7 +55,7 @@
 
 // item 상세 디자인
 .edu-item {
-  background: $white;
+  background: root.$white;
   
   @media (max-width: 480px) {
     font-size: 16px;
@@ -81,7 +81,7 @@
 }
 .edu-info.exp-pj > li {margin:8px 0; list-style:none;}
 .edu-info.exp-pj > li p {cursor:pointer; margin-bottom:4px; font-weight:300}
-.edu-info.exp-pj > li p:hover {color:$pink; font-weight:500;}
+.edu-info.exp-pj > li p:hover {color: root.$pink; font-weight:500;}
 .edu-info.exp-pj > li p::before {content:'▸'; display:inline-block; margin-right:6px;}
 .edu-info.exp-pj > li p.open::before {transform:rotate(90deg);}
 
@@ -90,11 +90,11 @@
   padding: 8px 0;
 }
 .opensite {
-  @include link-btn;
+  @include root.link-btn;
 }
 .edu-btn {
   text-decoration: none;
-  color: $white;
+  color: root.$white;
 }
 
 // apple style
