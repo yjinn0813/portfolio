@@ -26,11 +26,11 @@ https://github.com/hjinn0813/portfolio
 ### 2차 개선 (Migration & Enhancement)
 - **기간**: 2026.02.05 ~ 진행 중
 - **내용**
+  - 전체 페이지 UI/UX 리뉴얼
+  - 컴포넌트 구조 분리 및 디렉토리 구조 개선
   - JavaScript → TypeScript 마이그레이션
-  - 프로젝트 구조 및 컴포넌트 리팩토링
-  - 헤더 고정 및 스크롤 UX 개선
-  - To Top 버튼 추가
-  - GSAP 스크롤 트리거 안정성 개선
+  - CRA → Vite 마이그레이션
+  - GitHub Actions 기반 CI 환경 구축
 
 <br/>
 
@@ -88,7 +88,6 @@ https://github.com/hjinn0813/portfolio
  ┃ ┃ ┗ 📜favicon.ico
  ┃ ┣ 📂fonts
  ┃ ┃ ┗ 📜PretendardVariable.woff2
- ┃ ┗ 📜index.html
  ┣ 📂src
  ┃ ┣ 📂assets
  ┃ ┃ ┣ 📂badges
@@ -97,6 +96,7 @@ https://github.com/hjinn0813/portfolio
  ┃ ┃ ┃ ┣ 📂Frontend
  ┃ ┃ ┃ ┣ 📂Library
  ┃ ┃ ┃ ┗ 📂Others
+ ┃ ┃ ┣ 📂contact
  ┃ ┃ ┣ 📂projects
  ┃ ┃ ┃ ┣ 📂personal
  ┃ ┃ ┃ ┣ 📂team
@@ -106,7 +106,8 @@ https://github.com/hjinn0813/portfolio
  ┃ ┃ ┃ ┣ 📜About.tsx
  ┃ ┃ ┃ ┗ 📜Typing.tsx
  ┃ ┃ ┣ 📂Contact
- ┃ ┃ ┃ ┗ 📜Contact.tsx
+ ┃ ┃ ┃ ┣ 📜Contact.tsx
+ ┃ ┃ ┃ ┗ 📜ContactCard.tsx
  ┃ ┃ ┣ 📂Experience
  ┃ ┃ ┃ ┣ 📜Experience.json
  ┃ ┃ ┃ ┣ 📜Experience.tsx
@@ -152,10 +153,13 @@ https://github.com/hjinn0813/portfolio
  ┃ ┣ 📜App.scss
  ┃ ┣ 📜App.tsx
  ┃ ┣ 📜global.d.ts
- ┃ ┗ 📜index.tsx
+ ┃ ┗ 📜main.tsx
  ┣ 📜.gitignore
  ┣ 📜README.md
+ ┣ 📜eslint.config.js
+ ┣ 📜index.html
  ┣ 📜package-lock.json
  ┣ 📜package.json
- ┗ 📜tsconfig.json
+ ┣ 📜tsconfig.json
+ ┗ 📜vite.config.ts
 ```
