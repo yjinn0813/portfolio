@@ -11,7 +11,7 @@ type FooterProps = Record<string, never>;
 
 const Footer: React.FC<FooterProps> = () => {
   return (
-    <footer className="footer">
+    <footer className="footer" id='footer'>
       <div className="ft-content">
         <div className="ft-txt">
           © 2024 Hyejin Cho.
