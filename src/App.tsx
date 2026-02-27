@@ -8,6 +8,7 @@ import Skill from './components/Skill/Skill';
 import Experience from './components/Experience/Experience';
 import Project from './components/Project/Project';
 import Contact from './components/Contact/Contact';
+import TopBtn from './components/common/TopBtn';
 
 function App() {
   const location = useLocation();
@@ -34,6 +35,7 @@ function App() {
         </Routes>
       </main>
       <Footer />
+      <TopBtn />
     </div>
   );
 }
