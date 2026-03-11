@@ -11,8 +11,20 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  transition: transform 0.3s ease;
+  position: fixed;
+  top: 0;
 }
 
+.header.hide {
+  transform: translateY(-100%);
+}
+
+.header.show {
+  transform: translateY(0);
+}
+
+// nav detail
 .nav-content {
   display: flex;
   align-items: center;
@@ -47,7 +59,7 @@
     position: relative;
     content: '';
     display: block;
-    border-bottom: 3px solid root.$pink;
+    border-bottom: 2px solid root.$pink;
     transition: width 250ms ease-out;
     margin-top: 4px;
     left: auto;
@@ -60,6 +72,22 @@
     right: auto;
   }
 }
+.nav-link.active {
+  color: root.$pink;
+  
+  &::after {
+    position: relative;
+    content: '';
+    display: block;
+    border-bottom: 2px solid root.$pink;
+    transition: width 250ms ease-out;
+    margin-top: 4px;
+    left: auto;
+    right: 0;
+    width: 100%;
+  }
+}
+
 
 .nav-icon {
   @media (max-width: 480px) {

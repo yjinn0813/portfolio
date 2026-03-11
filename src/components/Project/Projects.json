@@ -124,7 +124,7 @@
     "tier": "primary",
     "type": "personal",
     "image": ["portfolio1.png", "portfolio2.png", "portfolio3.png"],
-    "peroid": "\n- 2024.08.06 ~ 08.10 (초기 개발)\n- 2026.02.05 ~ (마이그레이션)",
+    "peroid": "\n- 2024.08.06 ~ 08.10 (초기 개발)\n- 2026.02.05 ~ 03.11 (마이그레이션)",
     "team": "1인",
     "descript": "개인의 기술 스택과 작업 내역 정리를 위해 기획 및 제작한 포트폴리오 사이트입니다. 순수 JS로 만들었던 사이트를 React와 SASS를 사용해 리뉴얼하며, 반복 사용되는 요소들을 컴포넌트로 관리하는 것이 작업의 효율성과 생산성 측면에서 우수하다는 것을 다시 한번 느꼈습니다.",
     "skills": ["React", "TypeScript", "JavaScript", "SASS", "MUI", "Swiper", "Vercel"],

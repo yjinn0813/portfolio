@@ -1,6 +1,5 @@
-import { useRef, useEffect } from 'react';
+import { useEffect } from 'react';
 import { Route, Routes, useLocation } from 'react-router-dom';
-import './App.scss';
 import Header from './components/common/Header';
 import Footer from './components/common/Footer';
 import About from './components/About/About';
@@ -12,18 +11,15 @@ import TopBtn from './components/common/TopBtn';
 
 function App() {
   const location = useLocation();
-  const headerRef = useRef<HTMLElement | null>(null);
 
   useEffect(() => {
     // 페이지 이동 시 헤더로 스크롤
-    if (headerRef.current) {
-      headerRef.current.scrollIntoView({ behavior: 'smooth' });
-    }
+    window.scrollTo({ top: 0, behavior: "smooth" });
   }, [location]);
 
   return (
     <div className="wrap">
-      <Header ref={headerRef} />
+      <Header />
       <main className="container">
         <Routes>
           <Route path="/" element={<About />} />

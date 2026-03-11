@@ -16,15 +16,16 @@ https://github.com/hjinn0813/portfolio
 ## 👨‍🏫 프로젝트 소개
 
 ### 1차 개발 (Initial Release)
-- **기간**: 2024.08.06 ~ 2024.08.10
+- **기간**: 2024.08.06 ~ 08.10
 - **내용**
   - React 기반 개인 포트폴리오 사이트 개발
   - SCSS, MUI를 활용한 UI 구성
   - GSAP ScrollTrigger를 활용한 인터랙션 구현
   - Vercel 배포
+- [**작업일지 확인하기**](https://hjinn0813.tistory.com/101)
 
 ### 2차 개선 (Migration & Enhancement)
-- **기간**: 2026.02.05 ~ 진행 중
+- **기간**: 2026.02.05 ~ 03.11
 - **내용**
   - 전체 페이지 UI/UX 리뉴얼
   - 컴포넌트 구조 분리 및 디렉토리 구조 개선
@@ -43,7 +44,7 @@ https://github.com/hjinn0813/portfolio
 | ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=TypeScript&logoColor=white) | 타입 안정성 확보 및 유지보수성 개선 |
 | ![SASS](https://img.shields.io/badge/SASS-CC6699?style=flat-square&logo=Sass&logoColor=white) | 컴포넌트 단위 스타일 관리 |
 | ![MUI](https://img.shields.io/badge/MUI-007FFF?style=flat-square&logo=MUI&logoColor=white) | 일관된 UI 컴포넌트 사용 |
-| ![Swiper](https://img.shields.io/badge/swiper-6332F6?style=flat-square&logo=swiper&logoColor=white) | 프로젝트 이미지 슬라이드 UI |
+| ![Swiper](https://img.shields.io/badge/Swiper-6332F6?style=flat-square&logo=swiper&logoColor=white) | 프로젝트 이미지 슬라이드 UI |
 
 ### Tooling
 | 기술       | 사용 목적                              |
@@ -52,33 +53,26 @@ https://github.com/hjinn0813/portfolio
 | ![Github](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white) | 원격 저장소 관리 및 배포 소스 관리 |
 | ![VScode](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white) | React + TypeScript 개발 환경 |
 | ![eslint](https://img.shields.io/badge/eslint-4B32C3?style=flat-square&logo=eslint&logoColor=white) | 코드 품질 및 규칙 일관성 유지 |
-| ![prettier](https://img.shields.io/badge/Prettier-F7B93E?style=flat-square&logo=prettier&logoColor=black) | 코드 스타일 자동 포맷팅 |
+| ![GitHub Actions](https://img.shields.io/badge/Github_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) | TypeScript 검사 및 ESLint 자동 실행 CI 환경 구축 |
 
 ### Deployment
 | 플랫폼 | 사용 목적 |
 | ------ | ----------------------------- |
-| ![vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white) | React 애플리케이션 배포 및 CI 기반 자동 배포 |
+| ![vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white) | 애플리케이션 자동 빌드 및 배포|
 
 <br/>
 
 ## 💻 주요 기능
 
-- `About` 페이지 : 타이핑 애니메이션, Intersection Observer
-
-- Header 호버 언더라인 이벤트, MUI 아이콘, 페이지 라우팅
-
-- `프로젝트` 페이지 : Image Carousel (swiper)
-
-- 모든 페이지 최하단에서 다음 페이지 이동 가능
-
-- 반응형 미디어쿼리 적용
-
-### [**작업일지 확인하기**](https://hjinn0813.tistory.com/101)
+- Header 호버 언더라인 이벤트 및 페이지 라우팅 구현
+- 'About' 페이지에 타이핑 애니메이션 및 Intersection Observer 적용
+- 'Experience' 페이지 상세 내용 토글 기능 구현
+- 'Project' 페이지 프리뷰 클릭 시 모달 오픈 및 Swiper 기반 Image Carousel 적용
+- 모든 페이지에 반응형 미디어쿼리, scroll-to-top 버튼 적용
 
 <br/>
 
 ## 📁 프로젝트 구조
-
 ```bash
 📦portfolio
  ┣ 📂public
@@ -95,7 +89,7 @@ https://github.com/hjinn0813/portfolio
  ┃ ┃ ┃ ┣ 📂Develop
  ┃ ┃ ┃ ┣ 📂Frontend
  ┃ ┃ ┃ ┣ 📂Library
- ┃ ┃ ┃ ┗ 📂Others
+ ┃ ┃ ┃ ┣ 📂Others
  ┃ ┃ ┣ 📂contact
  ┃ ┃ ┣ 📂projects
  ┃ ┃ ┃ ┣ 📂personal
@@ -128,7 +122,8 @@ https://github.com/hjinn0813/portfolio
  ┃ ┃ ┗ 📂common
  ┃ ┃ ┃ ┣ 📜Footer.tsx
  ┃ ┃ ┃ ┣ 📜Header.tsx
- ┃ ┃ ┃ ┗ 📜NextBtn.tsx
+ ┃ ┃ ┃ ┣ 📜NextBtn.tsx
+ ┃ ┃ ┃ ┗ 📜TopBtn.tsx
  ┃ ┣ 📂styles
  ┃ ┃ ┣ 📂About
  ┃ ┃ ┃ ┣ 📜About.scss
@@ -144,13 +139,13 @@ https://github.com/hjinn0813/portfolio
  ┃ ┃ ┣ 📂common
  ┃ ┃ ┃ ┣ 📜Footer.scss
  ┃ ┃ ┃ ┣ 📜Header.scss
- ┃ ┃ ┃ ┗ 📜NextBtn.scss
+ ┃ ┃ ┃ ┣ 📜NextBtn.scss
+ ┃ ┃ ┃ ┗ 📜TopBtn.scss
  ┃ ┃ ┗ 📜root.scss
  ┃ ┣ 📂types
  ┃ ┃ ┣ 📜experience.ts
  ┃ ┃ ┣ 📜projects.ts
  ┃ ┃ ┗ 📜skills.ts
- ┃ ┣ 📜App.scss
  ┃ ┣ 📜App.tsx
  ┃ ┣ 📜global.d.ts
  ┃ ┗ 📜main.tsx
