@@ -1,6 +1,6 @@
 // header
 
-import React, { forwardRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import '../../styles/common/Header.scss';
 
@@ -11,9 +11,30 @@ import WorkIcon from '@mui/icons-material/Work';
 import CallIcon from '@mui/icons-material/Call';
 
 
-const Header = forwardRef<HTMLElement>((_, ref) => {
+const Header = () => {
+  const [isVisible, setIsVisible] = useState(true);
+  const lastScrollY = useRef(0); // 스크롤 위치 저장
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+
+      if (currentScrollY > lastScrollY.current) {
+        setIsVisible(false); // down, hide
+      } else {
+        setIsVisible(true); // up, show
+      }
+
+      lastScrollY.current = currentScrollY;
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
-    <header ref={ref} className="header">
+    <header className={`header ${isVisible ? "show" : "hide"}`}>
       <div className="nav-content">
         <div className="nav-btn">
           <Link to="/about" className="nav-link">
@@ -48,7 +69,8 @@ const Header = forwardRef<HTMLElement>((_, ref) => {
       </div>
     </header>
   );
-});
+};
 
+// React DevTools에서 forwardRef 컴포넌트 이름 설정
 Header.displayName = 'Header';
 export default Header;

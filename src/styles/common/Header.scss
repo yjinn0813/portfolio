@@ -11,8 +11,20 @@
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  transition: transform 0.3s ease;
+  position: fixed;
+  top: 0;
 }
 
+.header.hide {
+  transform: translateY(-100%);
+}
+
+.header.show {
+  transform: translateY(0);
+}
+
+// nav detail
 .nav-content {
   display: flex;
   align-items: center;
