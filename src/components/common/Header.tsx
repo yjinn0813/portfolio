@@ -27,6 +27,13 @@ const Header = () => {
     const handleScroll = () => {
       const currentScrollY = window.scrollY;
 
+      // iOS 대응: 최상단이면 무조건 등장
+      if (currentScrollY <= 0) {
+        setIsVisible(true);
+        lastScrollY.current = 0;
+        return;
+      }
+
       if (currentScrollY > lastScrollY.current) {
         setIsVisible(false); // down, hide
       } else {
