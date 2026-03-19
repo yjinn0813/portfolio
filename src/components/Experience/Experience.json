@@ -90,7 +90,7 @@
       {
         "id": 2,
         "period": "2024.09 ~ 2026.01",
-        "name": "펫벨업 자사몰 (외주)",
+        "name": "반려동물 기능성 식품 자사몰 (외주)",
         "stack": ["PHP", "HTML", "CSS", "JavaScript", "jQuery", "Figma", "FileZilla"],
         "details": [
           "그누보드 기반 영카트 쇼핑몰 구축 및 유지보수",
@@ -102,7 +102,7 @@
       {
         "id": 3,
         "period": "2024.09 ~ 2024.12",
-        "name": "할로와 테이블오더 & OMS",
+        "name": "F&B 스타트업 테이블오더/OMS",
         "stack": ["PHP", "HTML", "CSS", "JavaScript", "jQuery", "Figma"],
         "details": [
           "기존 레포 코드 분석 및 오류 수정",
