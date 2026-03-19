@@ -14,7 +14,7 @@ const Footer: React.FC<FooterProps> = () => {
     <footer className="footer" id='footer'>
       <div className="ft-content">
         <div className="ft-txt">
-          © 2024 Hyejin Cho.
+          © 2024 Yujin Cho.
           <br />
           All rights reserved.
         </div>
@@ -41,7 +41,7 @@ const Footer: React.FC<FooterProps> = () => {
           </div>
           <div className="footer-btn">
             <a
-              href="https://github.com/hjinn0813"
+              href="https://github.com/yjinn0813"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="visit GitHub"
