@@ -5,7 +5,7 @@ import '../../styles/About/Typing.scss';
 
 const Typing: React.FC = () => {
   const content =
-    '안녕하세요! \n주니어 프론트엔드 개발자, \n조혜진입니다. :) ';
+    '안녕하세요! \n주니어 프론트엔드 개발자, \n조유진입니다. :) ';
 
   const [isAdding, setIsAdding] = useState(true);
   const [index, setIndex] = useState(0);

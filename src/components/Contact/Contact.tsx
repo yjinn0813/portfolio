@@ -17,8 +17,8 @@ const contactList = [
   },
   {
     label: 'GitHub',
-    href: 'https://github.com/hjinn0813',
-    text: 'https://github.com/hjinn0813',
+    href: 'https://github.com/yjinn0813',
+    text: 'https://github.com/yjinn0813',
     img: github,
   },
   {
@@ -29,8 +29,8 @@ const contactList = [
   },
   {
     label: 'CodePen',
-    href: 'https://codepen.io/hjinn0813',
-    text: 'https://codepen.io/hjinn0813',
+    href: 'https://codepen.io/yjinn0813',
+    text: 'https://codepen.io/yjinn0813',
     img: codepen,
   },
 ];
