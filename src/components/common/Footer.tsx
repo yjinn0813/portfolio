@@ -6,8 +6,32 @@ import '../../styles/common/Footer.scss';
 import EmailIcon from '@mui/icons-material/Email';
 import BookmarkIcon from '@mui/icons-material/Bookmark';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 type FooterProps = Record<string, never>;
+
+const footerLinks = [
+  {
+    href: "https://github.com/yjinn0813",
+    label: "visit github",
+    Icon: GitHubIcon,
+  },
+  {
+    href: "https://www.linkedin.com/in/yjinn0813",
+    label: "visit linkedin",
+    Icon: LinkedInIcon,
+  },
+  {
+    href: "https://hjinn0813.tistory.com",
+    label: "visit tech blog",
+    Icon: BookmarkIcon,
+  },
+  {
+    href: "mailto: hjc3790@gmail.com",
+    label: "send email",
+    Icon: EmailIcon,
+  }
+]
 
 const Footer: React.FC<FooterProps> = () => {
   return (
@@ -19,36 +43,18 @@ const Footer: React.FC<FooterProps> = () => {
           All rights reserved.
         </div>
         <div className="ft-icons">
-          <div className="footer-btn">
-            <a
-              href="mailto: hjc3790@gmail.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="send email"
-            >
-              <EmailIcon className="footer-icon" />
-            </a>
-          </div>
-          <div className="footer-btn">
-            <a
-              href="https://hjinn0813.tistory.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="visit tech blog"
-            >
-              <BookmarkIcon className="footer-icon" />
-            </a>
-          </div>
-          <div className="footer-btn">
-            <a
-              href="https://github.com/yjinn0813"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="visit GitHub"
-            >
-              <GitHubIcon className="footer-icon" />
-            </a>
-          </div>
+          {footerLinks.map(({ href, label, Icon }) => (
+            <div className="footer-btn" key={href}>
+              <a
+                href={href}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={label}
+              >
+                <Icon className="footer-icon" />
+              </a>
+            </div>
+          ))}
         </div>
       </div>
     </footer>
