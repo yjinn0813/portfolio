@@ -10,12 +10,6 @@ import '../../styles/Contact/Contact.scss';
 
 const contactList = [
   {
-    label: 'Email',
-    href: 'mailto:hjc3790@gmail.com',
-    text: 'mail to hjc3790@gmail.com',
-    img: gmail,
-  },
-  {
     label: 'GitHub',
     href: 'https://github.com/yjinn0813',
     text: 'https://github.com/yjinn0813',
@@ -28,11 +22,17 @@ const contactList = [
     img: tistory,
   },
   {
+    label: 'Email',
+    href: 'mailto:hjc3790@gmail.com',
+    text: 'mail to hjc3790@gmail.com',
+    img: gmail,
+  },
+  {
     label: 'CodePen',
     href: 'https://codepen.io/yjinn0813',
     text: 'https://codepen.io/yjinn0813',
     img: codepen,
-  },
+  }
 ];
 
 const Contact: React.FC = () => {
