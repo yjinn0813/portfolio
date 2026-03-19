@@ -7,9 +7,9 @@
 
 ## 💻 배포주소
 
-https://hjinn0813.vercel.app/
+https://yjinn0813.vercel.app/
 
-https://github.com/hjinn0813/portfolio
+https://github.com/yjinn0813/portfolio
 
 <br/>
 
@@ -73,7 +73,7 @@ https://github.com/hjinn0813/portfolio
 <br/>
 
 ## 📁 프로젝트 구조
-```bash
+```
 📦portfolio
  ┣ 📂public
  ┃ ┣ 📂favicon
