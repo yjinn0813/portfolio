@@ -97,17 +97,13 @@ https://github.com/yjinn0813/portfolio
  ┃ ┃ ┃ ┗ 📂work
  ┃ ┣ 📂components
  ┃ ┃ ┣ 📂About
- ┃ ┃ ┃ ┣ 📜About.tsx
  ┃ ┃ ┃ ┗ 📜Typing.tsx
  ┃ ┃ ┣ 📂Contact
- ┃ ┃ ┃ ┣ 📜Contact.tsx
  ┃ ┃ ┃ ┗ 📜ContactCard.tsx
  ┃ ┃ ┣ 📂Experience
  ┃ ┃ ┃ ┣ 📜Experience.json
- ┃ ┃ ┃ ┣ 📜Experience.tsx
  ┃ ┃ ┃ ┗ 📜ExperienceCard.tsx
  ┃ ┃ ┣ 📂Project
- ┃ ┃ ┃ ┣ 📜Project.tsx
  ┃ ┃ ┃ ┣ 📜ProjectCard.tsx
  ┃ ┃ ┃ ┣ 📜ProjectPreview.tsx
  ┃ ┃ ┃ ┗ 📜Projects.json
@@ -117,30 +113,33 @@ https://github.com/yjinn0813/portfolio
  ┃ ┃ ┃ ┣ 📜Frontend.json
  ┃ ┃ ┃ ┣ 📜Library.json
  ┃ ┃ ┃ ┣ 📜Others.json
- ┃ ┃ ┃ ┣ 📜Skill.tsx
  ┃ ┃ ┃ ┗ 📜SkillArea.tsx
  ┃ ┃ ┗ 📂common
  ┃ ┃ ┃ ┣ 📜Footer.tsx
  ┃ ┃ ┃ ┣ 📜Header.tsx
  ┃ ┃ ┃ ┣ 📜NextBtn.tsx
  ┃ ┃ ┃ ┗ 📜TopBtn.tsx
+ ┃ ┣ 📂pages
+ ┃ ┃ ┣ 📜About.tsx
+ ┃ ┃ ┣ 📜Contact.tsx
+ ┃ ┃ ┣ 📜Experience.tsx
+ ┃ ┃ ┣ 📜NotFound.tsx
+ ┃ ┃ ┣ 📜Project.tsx
+ ┃ ┃ ┗ 📜Skill.tsx
  ┃ ┣ 📂styles
- ┃ ┃ ┣ 📂About
- ┃ ┃ ┃ ┣ 📜About.scss
- ┃ ┃ ┃ ┗ 📜Typing.scss
- ┃ ┃ ┣ 📂Contact
- ┃ ┃ ┃ ┗ 📜Contact.scss
- ┃ ┃ ┣ 📂Education
- ┃ ┃ ┃ ┗ 📜Education.scss
- ┃ ┃ ┣ 📂Project
- ┃ ┃ ┃ ┗ 📜Project.scss
- ┃ ┃ ┣ 📂Skill
- ┃ ┃ ┃ ┗ 📜Skill.scss
- ┃ ┃ ┣ 📂common
+ ┃ ┃ ┣ 📂components
  ┃ ┃ ┃ ┣ 📜Footer.scss
  ┃ ┃ ┃ ┣ 📜Header.scss
  ┃ ┃ ┃ ┣ 📜NextBtn.scss
- ┃ ┃ ┃ ┗ 📜TopBtn.scss
+ ┃ ┃ ┃ ┣ 📜TopBtn.scss
+ ┃ ┃ ┃ ┗ 📜Typing.scss
+ ┃ ┃ ┣ 📂pages
+ ┃ ┃ ┃ ┣ 📜About.scss
+ ┃ ┃ ┃ ┣ 📜Contact.scss
+ ┃ ┃ ┃ ┣ 📜Education.scss
+ ┃ ┃ ┃ ┣ 📜NotFound.scss
+ ┃ ┃ ┃ ┣ 📜Project.scss
+ ┃ ┃ ┃ ┗ 📜Skill.scss
  ┃ ┃ ┗ 📜root.scss
  ┃ ┣ 📂types
  ┃ ┃ ┣ 📜experience.ts

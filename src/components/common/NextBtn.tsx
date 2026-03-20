@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { CSSProperties, useEffect } from 'react';
-import '../../styles/common/NextBtn.scss';
+import '../../styles/components/NextBtn.scss';
 
 interface NextBtnProps {
   to: string;

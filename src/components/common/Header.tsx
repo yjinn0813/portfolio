@@ -2,7 +2,7 @@
 
 import { useState, useRef, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
-import '../../styles/common/Header.scss';
+import '../../styles/components/Header.scss';
 
 import PersonIcon from '@mui/icons-material/Person';
 import ConstructionIcon from '@mui/icons-material/Construction';
