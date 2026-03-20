@@ -155,5 +155,6 @@ https://github.com/yjinn0813/portfolio
  ┣ 📜package-lock.json
  ┣ 📜package.json
  ┣ 📜tsconfig.json
+ ┣ 📜vercel.json
  ┗ 📜vite.config.ts
 ```
