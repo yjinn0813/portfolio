@@ -1,0 +1,48 @@
+// not found design
+
+@use '../root.scss';
+
+.notfound {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.notfound-content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  color: root.$gray;
+}
+
+.notfound-code {
+  font-size: 92px;
+  font-weight: 700;
+}
+
+.notfound-title {
+  font-size: 22px;
+}
+
+.notfound-desc {
+  font-size: 15px;
+  opacity: 0.6;
+}
+
+.notfound-btn {
+  all: unset;
+  background-color: root.$gray;
+  color: root.$ivory;
+  margin-top: 16px;
+  padding: 16px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+
+  &:hover {
+    transform: scale(1.05);
+    background-color: root.$pink;
+  }
+}
