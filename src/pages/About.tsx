@@ -3,7 +3,7 @@
 import React, { useEffect, useRef } from 'react';
 import Typing from '../components/About/Typing';
 import NextBtn from '../components/common/NextBtn';
-import '../styles/About/About.scss';
+import '../styles/pages/About.scss';
 
 const About: React.FC = () => {
   const descriptRef = useRef<HTMLDivElement | null>(null);

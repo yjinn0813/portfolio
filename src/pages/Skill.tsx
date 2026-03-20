@@ -10,7 +10,7 @@ import Others from '../components/Skill/Others.json';
 import SkillArea from '../components/Skill/SkillArea';
 import { BadgeItem } from '../types/skills';
 import FolderIcon from '@mui/icons-material/Folder';
-import '../styles/Skill/Skill.scss';
+import '../styles/pages/Skill.scss';
 
 const skillData = [
   { title: 'Frontend', data: Frontend },
@@ -24,10 +24,10 @@ const Skill: React.FC = () => {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
 
   // 뱃지 이미지 불러오기
-  const images = import.meta.glob('../../assets/badges/**/*.svg', { eager: true, import: 'default' });
+  const images = import.meta.glob('../assets/badges/**/*.svg', { eager: true, import: 'default' });
 
   const getBadge= (category: string, imageName: string) => {
-    const path = `../../assets/badges/${category}/${imageName}`;
+    const path = `../assets/badges/${category}/${imageName}`;
     return (images as Record<string, string>)[path] || null;
   };
 

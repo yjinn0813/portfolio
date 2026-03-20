@@ -6,7 +6,7 @@ import github from '../assets/contact/github.png';
 import tistory from '../assets/contact/tistory-dark.png';
 import codepen from '../assets/contact/codepen.png';
 import gmail from '../assets/contact/gmail.png';
-import '../styles/Contact/Contact.scss';
+import '../styles/pages/Contact.scss';
 
 const contactList = [
   {

@@ -5,7 +5,7 @@ import ExperienceCard from '../components/Experience/ExperienceCard';
 import ExperienceData from '../components/Experience/Experience.json';
 import NextBtn from '../components/common/NextBtn';
 import { ExperienceDataItem } from '../types/experience';
-import '../styles/Education/Education.scss';
+import '../styles/pages/Education.scss';
 
 const Experience: React.FC = () => {
   const [activeId, setActiveId] = useState<number | null>(null);

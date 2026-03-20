@@ -1,6 +1,6 @@
 /* 최상단 자동스크롤 버튼 */
 import React, { useState, useEffect } from 'react';
-import '../../styles/common/TopBtn.scss';
+import '../../styles/components/TopBtn.scss';
 
 const TopBtn: React.FC = () => {
   const [isShow, setIsShow] = useState<boolean>(false);

@@ -6,7 +6,7 @@ import NextBtn from '../components/common/NextBtn';
 import ProjectCard from '../components/Project/ProjectCard';
 import ProjectPreview from '../components/Project/ProjectPreview';
 import { ProjectItem } from '../types/projects';
-import '../styles/Project/Project.scss';
+import '../styles/pages/Project.scss';
 
 const Project: React.FC = () => {
   // 모달 오픈

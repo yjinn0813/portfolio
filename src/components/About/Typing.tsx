@@ -1,7 +1,7 @@
 // 타이핑 애니메이션 컴포넌트
 
 import React, { useState, useEffect } from 'react';
-import '../../styles/About/Typing.scss';
+import '../../styles/components/Typing.scss';
 
 const Typing: React.FC = () => {
   const content =
