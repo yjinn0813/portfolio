@@ -56,11 +56,6 @@
   },
   {
     "category": "Frontend",
-    "name": "vite",
-    "path": "1-vite.svg"
-  },
-  {
-    "category": "Frontend",
     "name": "Tailwind",
     "path": "01-Tailwind.svg"
   },

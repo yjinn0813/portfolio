@@ -16,6 +16,11 @@
   },
   {
     "category": "Develop",
+    "name": "vite",
+    "path": "1-vite.svg"
+  },
+  {
+    "category": "Develop",
     "name": "Vercel",
     "path": "5-Vercel.svg"
   },
@@ -23,5 +28,10 @@
     "category": "Develop",
     "name": "Netlify",
     "path": "5-Netlify.svg"
+  },
+  {
+    "category": "Develop",
+    "name": "GithubActions",
+    "path": "GithubActions.svg"
   }
 ]
