@@ -1,12 +1,12 @@
 // contact
 
 import React from 'react';
-import ContactCard from './ContactCard';
-import github from '../../assets/contact/github.png';
-import tistory from '../../assets/contact/tistory-dark.png';
-import codepen from '../../assets/contact/codepen.png';
-import gmail from '../../assets/contact/gmail.png';
-import '../../styles/Contact/Contact.scss';
+import ContactCard from '../components/Contact/ContactCard';
+import github from '../assets/contact/github.png';
+import tistory from '../assets/contact/tistory-dark.png';
+import codepen from '../assets/contact/codepen.png';
+import gmail from '../assets/contact/gmail.png';
+import '../styles/Contact/Contact.scss';
 
 const contactList = [
   {

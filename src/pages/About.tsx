@@ -1,9 +1,9 @@
 // about, intro
 
 import React, { useEffect, useRef } from 'react';
-import Typing from './Typing';
-import NextBtn from '../common/NextBtn';
-import '../../styles/About/About.scss';
+import Typing from '../components/About/Typing';
+import NextBtn from '../components/common/NextBtn';
+import '../styles/About/About.scss';
 
 const About: React.FC = () => {
   const descriptRef = useRef<HTMLDivElement | null>(null);

@@ -2,11 +2,11 @@ import { useEffect } from 'react';
 import { Route, Routes, useLocation } from 'react-router-dom';
 import Header from './components/common/Header';
 import Footer from './components/common/Footer';
-import About from './components/About/About';
-import Skill from './components/Skill/Skill';
-import Experience from './components/Experience/Experience';
-import Project from './components/Project/Project';
-import Contact from './components/Contact/Contact';
+import About from './pages/About';
+import Skill from './pages/Skill';
+import Experience from './pages/Experience';
+import Project from './pages/Project';
+import Contact from './pages/Contact';
 import TopBtn from './components/common/TopBtn';
 
 function App() {

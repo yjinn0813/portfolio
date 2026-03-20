@@ -1,11 +1,11 @@
 // 교육 및 경험 페이지
 
 import React, { useState, useRef, useEffect } from 'react';
-import ExperienceCard from './ExperienceCard';
-import ExperienceData from './Experience.json';
-import NextBtn from '../common/NextBtn';
-import { ExperienceDataItem } from '../../types/experience';
-import '../../styles/Education/Education.scss';
+import ExperienceCard from '../components/Experience/ExperienceCard';
+import ExperienceData from '../components/Experience/Experience.json';
+import NextBtn from '../components/common/NextBtn';
+import { ExperienceDataItem } from '../types/experience';
+import '../styles/Education/Education.scss';
 
 const Experience: React.FC = () => {
   const [activeId, setActiveId] = useState<number | null>(null);
