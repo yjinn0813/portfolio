@@ -1,6 +1,6 @@
 /* 프로젝트 페이지 */
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Projects from './Projects.json';
 import NextBtn from '../common/NextBtn';
 import ProjectCard from './ProjectCard';
@@ -11,6 +11,22 @@ import '../../styles/Project/Project.scss';
 const Project: React.FC = () => {
   // 모달 오픈
   const [isClicked, setIsClicked] = useState<ProjectItem | null>(null)
+
+  useEffect(() => {
+    const handleKeydown = (e: KeyboardEvent) => {
+      if (e.key === "Escape") {
+        handleClose()
+      }
+    }
+
+    if (isClicked) {
+      window.addEventListener("keydown", handleKeydown);
+    }
+
+    return () => {
+      window.removeEventListener("keydown", handleKeydown);
+    };
+  }, [isClicked])
 
   const handleOpen = (project: ProjectItem) => {
     setIsClicked(project)
