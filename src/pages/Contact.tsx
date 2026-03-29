@@ -3,7 +3,7 @@
 import React from 'react';
 import ContactCard from '../components/Contact/ContactCard';
 import github from '../assets/contact/github.png';
-import tistory from '../assets/contact/tistory-dark.png';
+import tistory from '../assets/contact/tistory.png';
 import codepen from '../assets/contact/codepen.png';
 import gmail from '../assets/contact/gmail.png';
 import '../styles/pages/Contact.scss';
@@ -23,8 +23,8 @@ const contactList = [
   },
   {
     label: 'Email',
-    href: 'mailto:hjc3790@gmail.com',
-    text: 'mail to hjc3790@gmail.com',
+    href: 'mailto:yjinn0813@gmail.com',
+    text: 'mail to yjinn0813@gmail.com',
     img: gmail,
   },
   {
