@@ -94,7 +94,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, onClose }) => {
           </div>
 
           <div className="pj-response">
-            <div className="pj-info-title">담당 파트/주요 기능</div>
+            <div className="pj-info-title">상세 설명</div>
             <div className="pj-info-value">
               {project.response.map((item, idx) => (
                 <p key={idx}>{item}</p>
