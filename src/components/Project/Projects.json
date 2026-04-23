@@ -179,7 +179,7 @@
       "cinetalk2.png",
       "cinetalk3.png"
     ],
-    "peroid": "\n- 2024.07.01 ~ 08.08 (초기 개발)\n- 2026.03.22 ~ 04.21 (마이그레이션)",
+    "peroid": "\n- 2024.07.01 ~ 08.08 (초기 개발)\n- 2026.03.22 ~ (마이그레이션)",
     "team": "1인",
     "descript": "영화 감상을 기록하고 관리하기 위한 개인 아카이빙 서비스로, 사용자 경험을 개선하는 방향으로 리팩토링을 진행했습니다. 전역 상태 관리 구조를 Redux에서 Zustand로 단순화하고, Vite·TypeScript·React Query를 도입해 성능과 유지보수성을 개선하며 프론트엔드 아키텍처 설계 경험을 쌓았습니다.",
     "skills": ["React", "TypeScript", "React Query", "Zustand", "SASS", "MUI", "Swiper", "Vite", "ESLint", "GitHub Actions", "Vercel", "Figma"],
