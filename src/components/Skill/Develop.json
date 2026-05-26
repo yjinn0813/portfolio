@@ -21,6 +21,11 @@
   },
   {
     "category": "Develop",
+    "name": "vitest",
+    "path": "vitest.svg"
+  },
+  {
+    "category": "Develop",
     "name": "Vercel",
     "path": "5-Vercel.svg"
   },
