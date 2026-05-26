@@ -33,6 +33,12 @@ https://github.com/yjinn0813/portfolio
   - CRA → Vite 마이그레이션
   - GitHub Actions 기반 CI 환경 구축
 
+### 3차 개선 (Testing Environment Setup)
+- **기간**: 2026.05.26 ~
+- **내용**
+  - Vitest + React Testing Library 기반 테스트 환경 구축
+  - 공통 컴포넌트 단위 테스트 작성
+
 <br/>
 
 ## 🛠 사용 기술
@@ -53,6 +59,7 @@ https://github.com/yjinn0813/portfolio
 | ![VScode](https://img.shields.io/badge/VS_Code-007ACC?style=flat-square&logo=visual-studio-code&logoColor=white) | React + TypeScript 개발 환경 |
 | ![vite](https://img.shields.io/badge/vite-646CFF?style=flat-square&logo=vite&logoColor=white) | 빠른 개발 서버 및 빌드 환경 구성 |
 | ![eslint](https://img.shields.io/badge/eslint-4B32C3?style=flat-square&logo=eslint&logoColor=white) | 코드 품질 및 규칙 일관성 유지 |
+| ![Vitest](https://img.shields.io/badge/vitest-000?style=flat-square&logo=vitest&logoColor=00ff74) | React 컴포넌트 단위 테스트 환경 구축 |
 | ![GitHub Actions](https://img.shields.io/badge/Github_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) | TypeScript 검사 및 ESLint 자동 실행 CI 환경 구축 |
 
 ### Deployment
@@ -99,6 +106,7 @@ https://github.com/yjinn0813/portfolio
  ┃ ┃ ┣ 📂About
  ┃ ┃ ┃ ┗ 📜Typing.tsx
  ┃ ┃ ┣ 📂Contact
+ ┃ ┃ ┃ ┣ 📜ContactCard.test.tsx
  ┃ ┃ ┃ ┗ 📜ContactCard.tsx
  ┃ ┃ ┣ 📂Experience
  ┃ ┃ ┃ ┣ 📜Experience.json
@@ -141,6 +149,8 @@ https://github.com/yjinn0813/portfolio
  ┃ ┃ ┃ ┣ 📜Project.scss
  ┃ ┃ ┃ ┗ 📜Skill.scss
  ┃ ┃ ┗ 📜root.scss
+ ┃ ┣ 📂test
+ ┃ ┃ ┗ 📜setup.ts
  ┃ ┣ 📂types
  ┃ ┃ ┣ 📜experience.ts
  ┃ ┃ ┣ 📜projects.ts
