@@ -110,8 +110,10 @@ https://github.com/yjinn0813/portfolio
  ┃ ┃ ┃ ┗ 📜ContactCard.tsx
  ┃ ┃ ┣ 📂Experience
  ┃ ┃ ┃ ┣ 📜Experience.json
+ ┃ ┃ ┃ ┣ 📜ExperienceCard.test.tsx
  ┃ ┃ ┃ ┗ 📜ExperienceCard.tsx
  ┃ ┃ ┣ 📂Project
+ ┃ ┃ ┃ ┣ 📜ProjectCard.test.tsx
  ┃ ┃ ┃ ┣ 📜ProjectCard.tsx
  ┃ ┃ ┃ ┣ 📜ProjectPreview.tsx
  ┃ ┃ ┃ ┗ 📜Projects.json
@@ -123,16 +125,24 @@ https://github.com/yjinn0813/portfolio
  ┃ ┃ ┃ ┣ 📜Others.json
  ┃ ┃ ┃ ┗ 📜SkillArea.tsx
  ┃ ┃ ┗ 📂common
+ ┃ ┃ ┃ ┣ 📜Footer.test.tsx
  ┃ ┃ ┃ ┣ 📜Footer.tsx
+ ┃ ┃ ┃ ┣ 📜Header.test.tsx
  ┃ ┃ ┃ ┣ 📜Header.tsx
+ ┃ ┃ ┃ ┣ 📜NextBtn.test.tsx
  ┃ ┃ ┃ ┣ 📜NextBtn.tsx
+ ┃ ┃ ┃ ┣ 📜TopBtn.test.tsx
  ┃ ┃ ┃ ┗ 📜TopBtn.tsx
  ┃ ┣ 📂pages
+ ┃ ┃ ┣ 📜About.test.tsx
  ┃ ┃ ┣ 📜About.tsx
  ┃ ┃ ┣ 📜Contact.tsx
+ ┃ ┃ ┣ 📜Experience.test.tsx
  ┃ ┃ ┣ 📜Experience.tsx
  ┃ ┃ ┣ 📜NotFound.tsx
+ ┃ ┃ ┣ 📜Project.test.tsx
  ┃ ┃ ┣ 📜Project.tsx
+ ┃ ┃ ┣ 📜Skill.test.tsx
  ┃ ┃ ┗ 📜Skill.tsx
  ┃ ┣ 📂styles
  ┃ ┃ ┣ 📂components
