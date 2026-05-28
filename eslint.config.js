@@ -31,4 +31,21 @@ export default [
       ...tsPlugin.configs.recommended.rules,
     },
   },
+
+  // cypress
+  {
+    files: ["cypress/**/*.ts"],
+    languageOptions: {
+      globals: {
+        ...globals.browser,
+        cy: "readonly",
+        Cypress: "readonly",
+        describe: "readonly",
+        it: "readonly",
+        beforeEach: "readonly",
+        afterEach: "readonly",
+        expect: "readonly",
+      },
+    },
+  },
 ];

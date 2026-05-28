@@ -34,10 +34,11 @@ https://github.com/yjinn0813/portfolio
   - GitHub Actions 기반 CI 환경 구축
 
 ### 3차 개선 (Testing Environment Setup)
-- **기간**: 2026.05.26 ~
+- **기간**: 2026.05.26 ~ 05.28
 - **내용**
-  - Vitest + React Testing Library 기반 테스트 환경 구축
-  - 공통 컴포넌트 단위 테스트 작성
+  - Vitest + React Testing Library 기반 유닛 테스트 환경 구축
+  - 주요 컴포넌트 및 페이지 인터랙션 테스트 작성
+  - Cypress 기반 유저 시나리오 E2E 테스트 환경 구축
 
 <br/>
 
@@ -60,6 +61,7 @@ https://github.com/yjinn0813/portfolio
 | ![vite](https://img.shields.io/badge/vite-646CFF?style=flat-square&logo=vite&logoColor=white) | 빠른 개발 서버 및 빌드 환경 구성 |
 | ![eslint](https://img.shields.io/badge/eslint-4B32C3?style=flat-square&logo=eslint&logoColor=white) | 코드 품질 및 규칙 일관성 유지 |
 | ![Vitest](https://img.shields.io/badge/vitest-000?style=flat-square&logo=vitest&logoColor=00ff74) | React 컴포넌트 단위 테스트 환경 구축 |
+| ![cypress](https://img.shields.io/badge/cypress-69D3A7?style=flat-square&logo=cypress&logoColor=white) | 유저 시나리오 기반 E2E 테스트 환경 구축 |
 | ![GitHub Actions](https://img.shields.io/badge/Github_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) | TypeScript 검사 및 ESLint 자동 실행 CI 환경 구축 |
 
 ### Deployment
@@ -82,6 +84,20 @@ https://github.com/yjinn0813/portfolio
 ## 📁 프로젝트 구조
 ```
 📦portfolio
+ ┣ 📂.github
+ ┃ ┗ 📂workflows
+ ┃ ┃ ┗ 📜ci.yml
+ ┣ 📂cypress
+ ┃ ┣ 📂e2e
+ ┃ ┃ ┣ 📜about.cy.ts
+ ┃ ┃ ┣ 📜common.cy.ts
+ ┃ ┃ ┣ 📜contact.cy.ts
+ ┃ ┃ ┣ 📜experience.cy.ts
+ ┃ ┃ ┣ 📜project.cy.ts
+ ┃ ┃ ┗ 📜skill.cy.ts
+ ┃ ┗ 📂support
+ ┃ ┃ ┣ 📜commands.ts
+ ┃ ┃ ┗ 📜e2e.ts
  ┣ 📂public
  ┃ ┣ 📂favicon
  ┃ ┃ ┣ 📜apple-touch-icon.png
@@ -170,6 +186,7 @@ https://github.com/yjinn0813/portfolio
  ┃ ┗ 📜main.tsx
  ┣ 📜.gitignore
  ┣ 📜README.md
+ ┣ 📜cypress.config.ts
  ┣ 📜eslint.config.js
  ┣ 📜index.html
  ┣ 📜package-lock.json
