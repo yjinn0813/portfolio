@@ -34,7 +34,7 @@ https://github.com/yjinn0813/portfolio
   - GitHub Actions 기반 CI 환경 구축
 
 ### 3차 개선 (Testing Environment Setup)
-- **기간**: 2026.05.26 ~
+- **기간**: 2026.05.26 ~ 05.28
 - **내용**
   - Vitest + React Testing Library 기반 유닛 테스트 환경 구축
   - 주요 컴포넌트 및 페이지 인터랙션 테스트 작성
@@ -84,6 +84,20 @@ https://github.com/yjinn0813/portfolio
 ## 📁 프로젝트 구조
 ```
 📦portfolio
+ ┣ 📂.github
+ ┃ ┗ 📂workflows
+ ┃ ┃ ┗ 📜ci.yml
+ ┣ 📂cypress
+ ┃ ┣ 📂e2e
+ ┃ ┃ ┣ 📜about.cy.ts
+ ┃ ┃ ┣ 📜common.cy.ts
+ ┃ ┃ ┣ 📜contact.cy.ts
+ ┃ ┃ ┣ 📜experience.cy.ts
+ ┃ ┃ ┣ 📜project.cy.ts
+ ┃ ┃ ┗ 📜skill.cy.ts
+ ┃ ┗ 📂support
+ ┃ ┃ ┣ 📜commands.ts
+ ┃ ┃ ┗ 📜e2e.ts
  ┣ 📂public
  ┃ ┣ 📂favicon
  ┃ ┃ ┣ 📜apple-touch-icon.png
@@ -172,6 +186,7 @@ https://github.com/yjinn0813/portfolio
  ┃ ┗ 📜main.tsx
  ┣ 📜.gitignore
  ┣ 📜README.md
+ ┣ 📜cypress.config.ts
  ┣ 📜eslint.config.js
  ┣ 📜index.html
  ┣ 📜package-lock.json
