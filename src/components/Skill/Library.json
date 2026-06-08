@@ -11,6 +11,11 @@
   },
   {
     "category": "Library",
+    "name": "mui",
+    "path": "1-mui.svg"
+  },
+  {
+    "category": "Library",
     "name": "Bootstrap",
     "path": "1-Bootstrap.svg"
   },
@@ -18,10 +23,5 @@
     "category": "Library",
     "name": "gsap",
     "path": "1-gsap.svg"
-  },
-  {
-    "category": "Library",
-    "name": "mui",
-    "path": "1-mui.svg"
   }
 ]
