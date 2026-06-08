@@ -26,6 +26,16 @@
   },
   {
     "category": "Develop",
+    "name": "cypress",
+    "path": "cypress.svg"
+  },
+  {
+    "category": "Develop",
+    "name": "GithubActions",
+    "path": "GithubActions.svg"
+  },
+  {
+    "category": "Develop",
     "name": "Vercel",
     "path": "5-Vercel.svg"
   },
@@ -33,10 +43,5 @@
     "category": "Develop",
     "name": "Netlify",
     "path": "5-Netlify.svg"
-  },
-  {
-    "category": "Develop",
-    "name": "GithubActions",
-    "path": "GithubActions.svg"
   }
 ]

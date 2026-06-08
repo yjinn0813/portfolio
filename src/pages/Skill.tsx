@@ -16,8 +16,8 @@ const skillData = [
   { title: 'Frontend', data: Frontend },
   { title: 'Backend', data: Backend },
   { title: 'Framework & Library', data: Library },
-  { title: 'Develop & Tooling', data: Develop },
-  { title: 'Others', data: Others },
+  { title: 'Development Tools', data: Develop },
+  { title: 'Collaboration Tools', data: Others },
 ];
 
 const Skill: React.FC = () => {
@@ -62,7 +62,7 @@ const Skill: React.FC = () => {
           </div>
         ))}
 
-        {/* certificate */}
+        {/* Achievement */}
         <div className="skill-folder-wrap">
           <div
             className={`skill-folder ${activeIndex === 999 ? 'active' : ''}`}
@@ -71,7 +71,7 @@ const Skill: React.FC = () => {
             }
           >
             <FolderIcon className='folder-icon' />
-            <span className='folder-title'>Certificate</span>
+            <span className='folder-title'>Achievement</span>
           </div>
 
           <div
@@ -87,7 +87,7 @@ const Skill: React.FC = () => {
                     <span className="dot yellow" />
                     <span className="dot green" />
                   </div>
-                  <div className="apple-title">Certificate</div>
+                  <div className="apple-title">Achievement</div>
                 </div>
                 <div className="sk-item-value apple-body">
                   정보처리기사 필기 합격 (2024.05)
