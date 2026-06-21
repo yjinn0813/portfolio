@@ -60,9 +60,10 @@
         "stack": ["PHP", "CSS", "JavaScript", "jQuery", "Socket.io", "Figma", "Maria DB", "AWS EC2", "Apache", "Redis"],
         "details": [
           "프론트엔드 단독 담당 및 2차례 실서비스 런칭 경험",
-          "Socket.io 기반 실시간 주문·상태 데이터 연동 구현",
-          "간단한 PHP 로직 수정 및 SQL 쿼리 작성 경험",
-          "신규 기능 기획, 화면 설계, API 연동, QA 및 배포까지 전 과정 수행"
+          "Socket.io를 활용한 실시간 주문·상태 데이터 연동 구현",
+          "초기 협업 인프라 개선을 위한 Git 도입 및 브랜치 전략 주도",
+          "신규 기능 기획, 화면 설계, API 연동, QA 및 배포까지 라이프사이클 전 과정 수행",
+          "PHP 비즈니스 로직 수정 및 SQL 쿼리 작성을 통한 백엔드 파트와의 유기적인 협업"
         ]
       },
       {
@@ -72,7 +73,7 @@
         "stack": ["React", "TypeScript", "Vite", "React Query", "Axios", "Zustand", "Tailwind CSS", "AWS EC2", "Apache" ],
         "details":  [
           "프론트엔드 리드 역할 수행",
-          "프로젝트 초기 레포지토리 구조 설계 및 기술 스택 선정 주도",
+          "프로젝트 초기 아키텍처 설계 및 기술 스택 선정 주도",
           "Zustand, React Query 기반 상태 관리 및 데이터 패칭 구조 설계",
           "AWS Apache 서버 배포 및 SPA 라우팅 이슈 분석·해결 경험"
         ]
@@ -83,9 +84,9 @@
         "name": "반려동물 기능성 식품 자사몰 (외주)",
         "stack": ["PHP", "HTML", "CSS", "JavaScript", "jQuery", "Figma", "FileZilla"],
         "details": [
-          "그누보드 기반 영카트 쇼핑몰 구축 및 유지보수",
+          "그누보드 기반 영카트 쇼핑몰 아키텍처 구축 및 유지보수",
           "Figma 목업 설계부터 반응형 웹 UI 구현까지 전반적인 프론트엔드 담당",
-          "배포(FileZilla, SSH) 경험을 통한 운영 환경 이해도 향상"
+          "SSH 및 FTP(FileZilla) 배포 경험을 통한 운영 환경 이해도 확보"
         ]
       },
       {
@@ -94,9 +95,9 @@
         "name": "F&B 스타트업 테이블오더/OMS",
         "stack": ["PHP", "HTML", "CSS", "JavaScript", "jQuery", "Figma"],
         "details": [
-          "기존 레거시 코드 분석 및 오류 수정",
-          "OMS 리뉴얼을 위한 화면 흐름 정리 및 Figma 목업 제작",
-          "React 전환을 대비한 구조 설계 및 개인 연습 구현 진행"
+          "기존 레거시 소스코드 분석을 통한 오류 수정 및 안정화",
+          "OMS 리뉴얼을 위한 유저플로우 정리 및 Figma 프로토타입 제작",
+          "React 전환을 대비한 아키텍처 설계 및 프로토타입 기능 구현 진행"
         ]
       }
     ]
