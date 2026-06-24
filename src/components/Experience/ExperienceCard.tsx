@@ -61,17 +61,23 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({ data }) => {
                   className={`project-title ${openIdx === idx ? 'open' : ''}`}
                   onClick={() => handleToggle(idx)}
                 >
-                  {project.period}, {project.name}
+                  {project.name}
                 </p>
 
                 {openIdx === idx && (
                   <ul className="sub-list">
+                    <li>개발 기간: {project.period}</li>
                     <li>
-                      <span>기술스택:</span> {project.stack.join(', ')}
+                      <span>사용 기술:</span> {project.stack.join(', ')}
                     </li>
-                    {project.details.map((detail, i) => (
-                      <li key={i}>{detail}</li>
-                    ))}
+                    <li>
+                      상세 내용:
+                      <ul className="sub-list">
+                        {project.details.map((detail, i) => (
+                          <li key={i}>{detail}</li>
+                        ))}
+                      </ul>
+                    </li>
                   </ul>
                 )}
               </li>

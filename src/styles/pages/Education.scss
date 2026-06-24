@@ -84,6 +84,7 @@
 .edu-info.exp-pj > li p:hover {color: root.$pink; font-weight:500;}
 .edu-info.exp-pj > li p::before {content:'▸'; display:inline-block; margin-right:6px;}
 .edu-info.exp-pj > li p.open::before {transform:rotate(90deg);}
+.edu-info.exp-pj > li p.open { color: root.$pink; font-weight: 500; }
 
 // github btn
 .edu-link {
@@ -104,5 +105,9 @@
 
   .apple-body {
     padding: 24px 28px 22px;
+  }
+
+  @media (max-width: 480px){
+    max-width: 320px;
   }
 }
