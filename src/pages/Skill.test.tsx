@@ -40,7 +40,7 @@ describe('Skill page', () => {
       </MemoryRouter>
     );
 
-    const certificate = screen.getByText('Certificate');
+    const certificate = screen.getByText('Achievement');
     fireEvent.click(certificate);
     expect(screen.getByText(/정보처리기사 필기 합격/i)).toBeInTheDocument();
   });
