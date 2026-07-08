@@ -25,8 +25,12 @@ const mockData: ProjectItem = {
 
   links: [
     {
-      website: 'https://example.com',
-      README: 'https://github.com/example/readme',
+      label: 'Website',
+      url: 'https://example.com',
+    },
+    {
+      label: 'README',
+      url: 'https://github.com/example/readme',
     },
   ],
 };
@@ -36,7 +40,7 @@ describe('ProjectCard', () => {
     window.open = vi.fn();
   });
 
-  // 데이터 렌더링
+  /** 프로젝트 정보 렌더링 */
   test('render project info', () => {
     render(
       <MemoryRouter>
@@ -55,7 +59,7 @@ describe('ProjectCard', () => {
     expect(image).toBeInTheDocument();
   });
 
-  // 
+  /** 모달 닫기 버튼 클릭 시 onClose 함수 호출 */
   test('call onClose when close btn clicked', () => {
     const onClose = vi.fn();
 
@@ -76,8 +80,11 @@ describe('ProjectCard', () => {
     expect(onClose).toHaveBeenCalled();
   });
 
-  //
-  test('open website link', () => {
+  /** 웹사이트 링크 열기 */
+  test.each([
+    ['Website', 'https://example.com'],
+    ['README', 'https://github.com/example/readme'],
+  ])('open %s link', (label, url) => {
     render(
       <MemoryRouter>
         <ProjectCard
@@ -87,32 +94,9 @@ describe('ProjectCard', () => {
       </MemoryRouter>
     );
 
-    const websiteBtn = screen.getByText(/website/i);
-    fireEvent.click(websiteBtn);
+    const linkBtn = screen.getByText(label);
+    fireEvent.click(linkBtn);
 
-    expect(window.open).toHaveBeenCalledWith(
-      'https://example.com',
-      '_blank'
-    );
-  });
-
-  //
-  test('open readme link', () => {
-    render(
-      <MemoryRouter>
-        <ProjectCard
-          project={mockData}
-          onClose={vi.fn()}
-        />
-      </MemoryRouter>
-    );
-
-    const readmeBtn = screen.getByText(/readme/i);
-    fireEvent.click(readmeBtn);
-
-    expect(window.open).toHaveBeenCalledWith(
-      'https://github.com/example/readme',
-      '_blank'
-    );
+    expect(window.open).toHaveBeenCalledWith(url, '_blank');
   });
 });

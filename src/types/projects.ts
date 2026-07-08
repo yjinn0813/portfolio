@@ -1,6 +1,6 @@
 export interface ProjectLink {
-  website?: string;
-  README?: string;
+  label: string;
+  url: string;
 }
 
 export interface ProjectItem {
