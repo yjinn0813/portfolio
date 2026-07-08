@@ -105,26 +105,17 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, onClose }) => {
           {/* 링크 없을 때 대비 */}
           {project.links && project.links.length > 0 && (
             <div className="pj-link">
-              {project.links[0].website && (
+              {project.links.map((link) => (
                 <button
+                  key={link.label}
                   className="openlink"
                   onClick={() =>
-                    window.open(project.links[0].website, '_blank')
+                    window.open(link.url, '_blank')
                   }
                 >
-                  Website
+                  {link.label}
                 </button>
-              )}
-              {project.links[0].README && (
-                <button
-                  className="openlink"
-                  onClick={() =>
-                    window.open(project.links[0].README, '_blank')
-                  }
-                >
-                  README
-                </button>
-              )}
+              ))}
             </div>
           )}
         </div>
