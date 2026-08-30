@@ -16,13 +16,15 @@ const mockData: ProjectItem = {
   tier: 'primary',
   image: ['portfolio-main.png'],
   skills: ['React', 'TypeScript', 'SASS', 'Vite', 'Vitest', ],
-
-  response: [
+  role:[
+    '프론트엔드 개발 단독 담당',
+    '기획, 설계, 개발, 디자인, QA, 릴리즈까지 전 과정 수행',
+  ],
+  contribute: [
     '컴포넌트 기반 구조 설계',
     'Vitest 테스트 환경 구축',
     '프로젝트 모달 인터랙션 구현',
   ],
-
   links: [
     {
       label: 'Website',

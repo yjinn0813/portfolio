@@ -14,6 +14,7 @@ export interface ProjectItem {
   team: string | number;
   descript: string;
   skills: string[];
-  response: string[];
+  role?: string[];
+  contribute: string[];
   links?: ProjectLink[];
 }

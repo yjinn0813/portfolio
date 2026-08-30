@@ -93,10 +93,22 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, onClose }) => {
             <div className="pj-info-value">{project.skills.join(', ')}</div>
           </div>
 
-          <div className="pj-response">
-            <div className="pj-info-title">상세 설명</div>
+          
+          {project.role && project.role.length > 0 && (
+            <div className="pj-role">
+              <div className="pj-info-title">담당 역할</div>
+              <div className="pj-info-value">
+                {project.role.map((item, idx) => (
+                  <p key={idx}>{item}</p>
+                ))}
+              </div>
+            </div>
+          )}
+          
+          <div className="pj-contribute">
+            <div className="pj-info-title">주요 업무 및 성과</div>
             <div className="pj-info-value">
-              {project.response.map((item, idx) => (
+              {project.contribute.map((item, idx) => (
                 <p key={idx}>{item}</p>
               ))}
             </div>
