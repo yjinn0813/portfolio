@@ -4,7 +4,7 @@ import React from 'react';
 import ContactCard from '../components/Contact/ContactCard';
 import github from '../assets/contact/github.png';
 import tistory from '../assets/contact/tistory.png';
-import codepen from '../assets/contact/codepen.png';
+import linkedin from '../assets/contact/linkedin.png';
 import gmail from '../assets/contact/gmail.png';
 import '../styles/pages/Contact.scss';
 
@@ -22,16 +22,16 @@ const contactList = [
     img: tistory,
   },
   {
+    label: 'LinkedIn',
+    href: 'https://www.linkedin.com/in/yjinn0813',
+    text: 'https://www.linkedin.com/in/yjinn0813',
+    img: linkedin,
+  },
+  {
     label: 'Email',
     href: 'mailto:yjinn0813@gmail.com',
     text: 'mail to yjinn0813@gmail.com',
     img: gmail,
-  },
-  {
-    label: 'CodePen',
-    href: 'https://codepen.io/yjinn0813',
-    text: 'https://codepen.io/yjinn0813',
-    img: codepen,
   }
 ];
 
