@@ -6,7 +6,7 @@ import '../../styles/components/Footer.scss';
 import EmailIcon from '@mui/icons-material/Email';
 import BookmarkIcon from '@mui/icons-material/Bookmark';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import TerminalIcon from '@mui/icons-material/Terminal';
 
 type FooterProps = Record<string, never>;
 
@@ -17,9 +17,9 @@ const footerLinks = [
     Icon: GitHubIcon,
   },
   {
-    href: "https://www.linkedin.com/in/yjinn0813",
-    label: "visit linkedin",
-    Icon: LinkedInIcon,
+    href: "https://codepen.io/yjinn0813",
+    label: "visit codepen",
+    Icon: TerminalIcon,
   },
   {
     href: "https://hjinn0813.tistory.com",
