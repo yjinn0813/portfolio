@@ -59,6 +59,11 @@
     "name": "Tailwind",
     "path": "01-Tailwind.svg"
   },
+    {
+    "category": "Frontend",
+    "name": "shadcn/ui",
+    "path": "shadcn.svg"
+  },
   {
     "category": "Frontend",
     "name": "SASS",
@@ -68,10 +73,5 @@
     "category": "Frontend",
     "name": "Styled Components",
     "path": "01-styled_components.svg"
-  },
-  {
-    "category": "Frontend",
-    "name": "shadcn/ui",
-    "path": "shadcn.svg"
   }
 ]
