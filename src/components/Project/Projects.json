@@ -66,7 +66,7 @@
     "team": "6인 (FE)",
     "descript": "가족이 먹을 농작물을 주말농장에서 직접 재배하는 인구는 늘고 있지만, 관련 지식이 없으면 접근이 어렵다는 점에서 착안하여 기획 및 제작한 사이트입니다. 농작물의 성장에는 날씨가 중요하여 날씨&미세먼지 위젯을 담당했습니다. React 프로젝트와 fetch()로 데이터를 출력하는 과정을 처음 경험해보며, 컴포넌트를 기반으로 작업하는 방법을 알게 되었고, 프론트엔드 개발자도 백엔드 분야의 기본적인 지식은 알아야한다는 것을 느꼈습니다.",
     "skills": ["React", "JavaScript", "Redux", "SASS", "Bootstrap", "npm", "Vercel", "Figma", "Slack", "Notion", "KakaoTalk"],
-    "role": ["날씨 위젯, 미세먼지 위젯, Not Found 페이지 제작"],
+    "role": ["담당 기능 개발, 프로젝트 일정 및 작업 상황 관리 등 역할 수행", "→ 담당 기능: 날씨 위젯, 미세먼지 위젯, Not Found 페이지"],
     "contribute": [
       "- 날씨 위젯: geolocation API로 사용자의 현재 위치를 확인하여 날씨 정보 출력",
       "- 미세먼지 위젯: '서울시 권역별 실시간 대기환경 정보'에서 강동구 정보만 추출하여 출력, 측정결과에 따라 3종의 다른 디자인 지정",
@@ -96,7 +96,7 @@
     "team": "5인 (FE)",
     "descript": "반려동물이 갑자기 아플 때 24시간 병원을 찾기 어려웠다는 실제 팀원의 경험에서 착안하여 기획 및 제작한 사이트입니다. 공간 예약에는 회원정보가 필요하여 로그인, 회원가입 페이지를 담당했습니다. 코딩 팀플을 처음 참여해보며, 하나의 페이지를 디자인부터 기능까지 제대로 만들어내기 위해 많은 양의 CSS, JS 코드가 필요하다는 것을 깨달았습니다. 또한 각자 담당하는 페이지를 만들고, 그 페이지를 모아서 하나의 사이트를 구축해내는 과정에서 스스로의 성장을 느꼈습니다.",
     "skills": ["HTML", "CSS", "JavaScript", "Bootstrap", "Netlify", "Figma", "Slack", "Notion", "Zoom", "KakaoTalk"],
-    "role": ["로그인, 회원가입, ABOUT 페이지 제작"],
+    "role": ["담당 페이지 개발, 프로젝트 일정 및 작업 상황 관리 등 역할 수행", "→ 담당 페이지: 로그인, 회원가입, ABOUT 페이지 제작"],
     "contribute": [
       "- 로그인: 아이디&비번의 확인 및 유효성 검사 실시간 진행, '네이버 로그인' API 사용한 로그인 기능",
       "- 회원가입: 아이디&비번의 값 실시간 확인, '가입완료' 버튼 클릭시 모든 필수 입력 영역 검증 및 이동, 입력한 정보들을 Local Storage에 저장하여 회원 정보가 필요한 페이지에서 이용"
@@ -121,10 +121,10 @@
     "image": ["team1-1.png", "team1-2.png"],
     "peroid": "2024.01.12 ~ 01.28",
     "team": "4인 (FE)",
-    "descript": "팀원 모두가 패션을 좋아해서 2030세대를 타겟층으로 하는 가상의 스포츠웨어 브랜드 쇼핑몰 페이지를 기획 및 디자인했습니다. Figma를 사용한 UI/UX 프로젝트였고, 팀장이라 조금 더 많은 페이지를 담당했습니다. 팀원들과 함께 실제 존재하는 사이트처럼 모든 페이지를 제작해보며, 예쁜 UI만큼 고객들이 편하게 사용할 수 있는 UX도 중요하다는 것을 느꼈습니다. 또한 기획은 상황에 따라 수시로 변화할 수 있으니 항상 유연하게 생각해야 한다는 것을 배웠습니다.",
+    "descript": "팀원 모두가 패션을 좋아해서 2030세대를 타겟층으로 하는 가상의 스포츠웨어 브랜드 쇼핑몰 페이지를 기획 및 디자인했습니다. Figma 기반 UI/UX 설계 및 프로토타이핑 프로젝트였고, 팀장이라 조금 더 많은 페이지를 담당했습니다. 팀원들과 함께 실제 존재하는 사이트처럼 모든 페이지를 제작해보며, 예쁜 UI만큼 고객들이 편하게 사용할 수 있는 UX도 중요하다는 것을 느꼈습니다. 또한 기획은 상황에 따라 수시로 변화할 수 있으니 항상 유연하게 생각해야 한다는 것을 배웠습니다.",
     "skills": ["Figma", "Slack", "Notion"],
     "role": [
-      "팀장으로 팀원들 이끌어서 프로젝트 진행"
+      "팀장으로서 팀원들의 업무 조율, 전체 일정 관리, 페이지 UI/UX 디자인, 프로토타입 연결 등 역할 수행"
     ],
     "contribute": [
       "- 웹: 맨, 우먼, 이벤트, 결제하기, 마이 페이지, 회원정보수정 페이지 제작",
@@ -156,17 +156,18 @@
     "peroid": "2026.09 ~ (in progress)",
     "team": "1인",
     "descript": "GitHub 사용자명을 기반으로 개발자의 활동 데이터를 조회하고 커밋, Pull Request, Issue 등의 정보를 시각화하여 제공하는 개발자 활동 대시보드입니다. GitHub GraphQL API를 활용한 데이터 조회 및 가공과 Chart.js 기반 데이터 시각화를 직접 구현하며, 실제 데이터를 효과적으로 구조화하고 일관된 사용자 경험으로 제공하는 것을 목표로 제작하고 있습니다.",
-    "skills": ["React", "TypeScript", "Vite", "React Query", "Zustand", "Chart.js", "Tailwind CSS", "Shadcn/ui", "Express", "pnpm", "Vercel"],
+    "skills": ["React", "TypeScript", "Vite", "React Query", "Zustand", "Chart.js", "Tailwind CSS", "Shadcn/ui", "Express", "pnpm", "GitHub Actions", "Vercel"],
     "contribute": [
       "- GitHub GraphQL API 연동을 통한 개발 활동 데이터 통합 조회",
       "- Chart.js를 활용한 데이터 시각화 및 차트 커스터마이징",
       "- 로컬 Express API 서버를 기능별 모듈로 분리하여 GitHub API 연동 구조 개선",
       "- GitHub API 응답 타입을 중앙화하여 타입 안정성 및 유지보수성 개선",
-      "- React Query 기반 비동기 데이터 캐싱으로 불필요한 API 요청 최적화",
       "- 독립적인 대시보드 카드 모듈화 설계로 UI 재사용성 및 확장성 증대",
       "- 데이터 로딩 구간에 Skeleton UI를 적용하여 사용자 경험 개선",
       "- 존재하지 않는 Github 사용자 및 경로에 대한 동적 라우팅 기반 404 예외 처리",
-      "- Vite 기반 개발 환경 구축 및 pnpm을 활용한 패키지 관리"
+      "- Vite 기반 개발 환경 구축 및 pnpm을 활용한 패키지 관리",
+      "- React Query 기반 비동기 데이터 캐싱으로 불필요한 API 요청 최적화 예정",
+      "- Github Actions 기반 CI 구축 및 Vercel 배포 예정"
     ],
     "links": [
       {
@@ -187,7 +188,7 @@
       "cinetalk2.png",
       "cinetalk3.png"
     ],
-    "peroid": "\n- 2024.07.01 ~ 08.08 (초기 개발)\n- 2026.03.22 ~ 04.21 (프론트엔드 리팩토링)\n- 2026.04.23 ~ (백엔드 통합 및 데이터 계층 개선)",
+    "peroid": "\n1. 초기 MVP 개발: 2024.07.01 ~ 08.08\n2. FE 리팩토링: 2026.03.22 ~ 04.21\n3. BE 통합 및 데이터 계층 개선: 2026.04.23 ~ (in progress)",
     "team": "1인",
     "descript": "영화 감상을 기록하고 관리하기 위한 개인 아카이빙 서비스입니다. 초기 MVP 개발 이후 사용자 경험을 개선하는 방향으로 프론트엔드 아키텍처 리팩토링을 진행했으며, 현재는 Supabase 기반 백엔드 통합 및 데이터 계층 개선 작업을 진행하며 전체 서비스 구조를 고도화하고 있습니다.",
     "skills": ["React", "TypeScript", "React Query", "Zustand", "Supabase", "SASS", "MUI", "Swiper", "Vite", "ESLint", "GitHub Actions", "npm", "Vercel", "Figma"],
@@ -224,7 +225,7 @@
       "nimbus3.png",
       "nimbus4.png"
     ],
-    "peroid": "\n- 2025.06 ~ 2025.12 (초기 개발)\n- 2026.02 (마이그레이션)",
+    "peroid": "\n1. 초기 MVP 개발: 2025.06 ~ 2025.12\n2. 마이그레이션: 2026.02",
     "team": "1인",
     "descript": "React 실무 프로젝트 투입 전 전반적인 개발 흐름과 상태 관리 패턴을 익히기 위해 제작한 글로벌 날씨 정보 웹 애플리케이션입니다. OpenWeatherMap API를 활용해 실제 서비스에 필요한 기능들을 구현하며 React + TypeScript 환경에 익숙해지는 것을 목표로 했습니다.",
     "skills": ["React", "TypeScript", "React Query", "Axios", "Tailwind CSS", "Vite", "ESLint", "GitHub Actions", "npm", "Vercel"],
@@ -256,7 +257,7 @@
     "tier": "primary",
     "type": "personal",
     "image": ["portfolio1.png", "portfolio2.png", "portfolio3.png"],
-    "peroid": "\n- 2024.08.06 ~ 08.10 (초기 개발)\n- 2026.02.05 ~ 03.11 (마이그레이션)\n- 2026.05.26 ~ 05.28 (테스트 환경 구축)",
+    "peroid": "\n1. 초기 MVP 개발: 2024.08.06 ~ 08.10\n2. 마이그레이션: 2026.02.05 ~ 03.11\n3. 테스트 환경 구축: 2026.05.26 ~ 05.28",
     "team": "1인",
     "descript": "개인의 기술 스택과 작업 내역 정리를 위해 기획 및 제작한 포트폴리오 사이트입니다. 순수 JS로 만들었던 사이트를 React와 SASS를 사용해 리뉴얼하며, 반복 사용되는 요소들을 컴포넌트로 관리하는 것이 작업의 효율성과 생산성 측면에서 우수하다는 것을 다시 한번 느꼈습니다.",
     "skills": ["React", "TypeScript", "SASS", "MUI", "Swiper", "Vite", "Vitest", "Cypress", "ESLint", "GitHub Actions", "npm", "Vercel"],

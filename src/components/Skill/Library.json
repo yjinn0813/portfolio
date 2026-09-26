@@ -11,6 +11,11 @@
   },
   {
     "category": "Library",
+    "name": "Chart.js",
+    "path": "Chartjs.svg"
+  },
+  {
+    "category": "Library",
     "name": "mui",
     "path": "1-mui.svg"
   },
@@ -23,10 +28,5 @@
     "category": "Library",
     "name": "gsap",
     "path": "1-gsap.svg"
-  },
-  {
-    "category": "Library",
-    "name": "Chart.js",
-    "path": "Chartjs.svg"
   }
 ]
