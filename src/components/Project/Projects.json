@@ -12,15 +12,16 @@
     "skills": ["PHP", "JavaScript", "jQuery", "Socket.io", "CSS", "MariaDB", "Redis", "Apache", "AWS EC2", "Figma", "Slack", "Notion", "Google Sheets"],
     "role": [
       "- 테이블오더 서비스 프론트엔드 단독 담당", 
-      "- 신규 기능 기획, 화면 설계, 개발, QA 및 서비스 릴리스까지 라이프사이클 전 과정 경험",
+      "- 신규 기능 기획부터 화면 설계, 개발, QA 및 서비스 릴리스까지 전 과정 담당",
       "- 2번의 서비스 런칭 과정에서 발생한 프론트엔드 이슈 대응 및 안정화 담당"
     ],
     "contribute": [
       "- 초기 협업 인프라 개선을 위한 Git 도입 과정에 기여",
       "- Socket.io 기반 실시간 주문 동기화 기능 구현",
       "- React·Express 기반 모노레포 PoC 제작을 통한 Socket.IO 기술 검증",
-      "- Figma를 활용한 신규 기능 화면 설계 및 UI 시안 제작",
       "- 로그인/회원가입, 마이페이지 등 신규 기능 기획 및 개발",
+      "- Figma 기반 신규 기능 화면 시안 제작 및 반응형 UI 구현",
+      "- 백엔드 개발자와 협업하여 요구사항 구체화, 인터랙션 설계, API 연동 구현",
       "- PHP 비즈니스 로직 수정 및 SQL 쿼리 작성을 통한 문제 해결 경험",
       "- 신규 포스/PG 연동에 따른 프론트엔드 수정 사항 반영 및 테스트",
       "- PHP 기반 MPA 환경의 유저 상태 동기화 문제 해결",
@@ -156,7 +157,7 @@
     "peroid": "2026.09 ~ (in progress)",
     "team": "1인",
     "descript": "GitHub 사용자명을 기반으로 개발자의 활동 데이터를 조회하고 커밋, Pull Request, Issue 등의 정보를 시각화하여 제공하는 개발자 활동 대시보드입니다. GitHub GraphQL API를 활용한 데이터 조회 및 가공과 Chart.js 기반 데이터 시각화를 직접 구현하며, 실제 데이터를 효과적으로 구조화하고 일관된 사용자 경험으로 제공하는 것을 목표로 제작하고 있습니다.",
-    "skills": ["React", "TypeScript", "Vite", "React Query", "Zustand", "Chart.js", "Tailwind CSS", "Shadcn/ui", "Express", "pnpm", "GitHub Actions", "Vercel"],
+    "skills": ["React", "TypeScript", "Vite", "React Query", "Chart.js", "Tailwind CSS", "Shadcn/ui", "Express", "pnpm", "GitHub Actions", "Vercel"],
     "contribute": [
       "- GitHub GraphQL API 연동을 통한 개발 활동 데이터 통합 조회",
       "- Chart.js를 활용한 데이터 시각화 및 차트 커스터마이징",
