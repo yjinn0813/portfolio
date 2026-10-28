@@ -105,6 +105,8 @@ https://github.com/yjinn0813/portfolio
  ┃ ┃ ┗ 📜favicon.ico
  ┃ ┣ 📂fonts
  ┃ ┃ ┗ 📜PretendardVariable.woff2
+ ┃ ┣ 📂images
+ ┃ ┃ ┗ 📜OG_image.png
  ┣ 📂src
  ┃ ┣ 📂assets
  ┃ ┃ ┣ 📂badges
