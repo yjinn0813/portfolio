@@ -4,7 +4,10 @@
   "private": true,
   "type": "module",
   "overrides": {
-    "brace-expansion": "1.1.21"
+    "brace-expansion": "1.1.21",
+    "@typescript-eslint/typescript-estree": {
+      "minimatch": "^11.0.1"
+    }
   },
   "dependencies": {
     "@emotion/react": "^11.14.0",
@@ -29,7 +32,7 @@
     "@typescript-eslint/eslint-plugin": "^8.71.1",
     "@typescript-eslint/parser": "^8.71.1",
     "@vitejs/plugin-react": "^6.1.2",
-    "@vitest/ui": "^4.1.11",
+    "@vitest/ui": "^4.1.12",
     "cypress": "^15.21.1",
     "eslint": "^9.39.5",
     "eslint-plugin-cypress": "^6.4.4",
@@ -39,7 +42,7 @@
     "jsdom": "^26.1.0",
     "typescript": "^6.0.3",
     "vite": "^8.3.3",
-    "vitest": "^4.1.11"
+    "vitest": "^4.1.12"
   },
   "scripts": {
     "dev": "vite",
