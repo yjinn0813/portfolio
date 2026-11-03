@@ -154,22 +154,20 @@
       "devorbit3.png",
       "devorbit4.png"
     ],
-    "peroid": "2026.09 ~ (in progress)",
+    "peroid": "2026.09 ~ 2026.11",
     "team": "1인",
-    "descript": "GitHub 사용자명을 기반으로 개발자의 활동 데이터를 조회하고 Commit, Pull Request, Issue 등의 정보를 시각화하여 제공하는 대시보드입니다. GitHub GraphQL API를 활용한 데이터 조회 및 가공과 Chart.js 기반 데이터 시각화를 직접 구현하며, 실제 데이터를 효과적으로 구조화하여 일관된 UX로 제공하는 것을 목표로 제작하고 있습니다.",
+    "descript": "GitHub 사용자명으로 개발자의 활동 데이터를 조회하고 Commit, Pull Request, Issue 등의 정보를 시각화하여 제공하는 대시보드입니다. GitHub GraphQL API를 통해 개발 활동 데이터를 조회하고 가공하여 Chart.js 기반 차트로 시각화하고, 실제 데이터를 일관된 UX로 제공하는 것을 목표로 제작했습니다. 또한 활동 데이터를 기반으로 개발자 Tier 시스템을 도입하여 게임화 요소를 더했습니다.",
     "skills": ["React", "TypeScript", "Vite", "React Query", "Chart.js", "Tailwind CSS", "Shadcn/ui", "Express", "pnpm", "GitHub Actions", "Vercel"],
     "contribute": [
-      "- GitHub GraphQL API 연동을 통한 개발 활동 데이터 통합 조회",
+      "- GitHub GraphQL API 연동을 통한 개발 활동 데이터 통합 조회 및 가공",
       "- Chart.js를 활용한 데이터 시각화 및 차트 커스터마이징",
-      "- 로컬 Express API 서버를 기능별 모듈로 분리하여 GitHub API 연동 구조 개선",
-      "- GitHub API 응답 타입을 중앙화하여 타입 안정성 및 유지보수성 개선",
-      "- 독립적인 대시보드 카드 모듈화 설계로 UI 재사용성 및 확장성 증대",
-      "- React Query 기반 비동기 데이터 캐싱으로 불필요한 API 요청 최적화",
-      "- 데이터 로딩 구간에 Skeleton UI를 적용하여 사용자 경험 개선",
-      "- 존재하지 않는 Github 사용자 및 경로에 대한 동적 라우팅 기반 404 예외 처리",
+      "- 개발 활동 데이터를 기반으로 한 개발자 Tier 산정 시스템 구현",
+      "- Express 서버의 기능별 모듈 분리 및 API 처리 구조 개선",
+      "- 프론트엔드·백엔드 공통 타입 정의를 통한 타입 안정성 및 유지보수성 개선",
+      "- React Query 기반 비동기 데이터 캐싱 및 API 요청 최적화",
       "- Vite 기반 개발 환경 구축 및 pnpm을 활용한 패키지 관리",
-      "- Github Actions 기반 CI 구축 및 Vercel 배포",
-      "- 디바이스 환경에 따른 공유 인터페이스 분기 및 공유 기능 구현 (진행 예정)"
+      "- GitHub Actions 기반 CI 구축 및 Vercel 배포",
+      "- Web Share API와 링크 복사를 활용한 프로필 공유 기능 구현"
     ],
     "links": [
       {
