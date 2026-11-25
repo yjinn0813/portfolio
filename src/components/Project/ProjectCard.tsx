@@ -76,7 +76,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project, onClose }) => {
             {project.type.toUpperCase()}
           </span>
           <p className="pj-item-title">{project.title}</p>
-          <div className="pj-descript">{project.descript}</div>
+          <div className="pj-descript">{toBrTag(project.descript)}</div>
 
           <div className="pj-date">
             <span className="pj-info-title">기간</span>

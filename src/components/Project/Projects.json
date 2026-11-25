@@ -8,23 +8,24 @@
     "image": ["table1.png", "table2.png"],
     "peroid": "2025.01 ~ 2026.02",
     "team": "2인 (FE 1, BE 1)",
-    "descript": "소켓 기반 실시간 주문 동기화를 지원하는 식당용 QR 테이블오더 서비스입니다. 로컬 환경 구현부터 개발 서버 테스트, 운영 배포까지 전 과정을 경험하며 실제 서비스 환경에서 프론트엔드 개발자의 역할과 책임을 체감했습니다.",
-    "skills": ["PHP", "JavaScript", "jQuery", "Socket.io", "CSS", "MariaDB", "Redis", "Apache", "AWS EC2", "Figma", "Slack", "Notion", "Google Sheets"],
+    "descript": "소켓 기반 실시간 주문 동기화를 지원하는 식당용 QR 테이블오더 서비스입니다.\n로컬 환경에서의 기능 구현부터 개발 서버 테스트와 2회의 상용 배포까지, 서비스 개발 생애주기 전반에 걸쳐 프론트엔드 개발을 단독으로 담당했습니다. 실제 매장 환경에서 발생할 수 있는 다양한 사용자 행동 흐름과 예외 상황까지 고려하여 서비스의 신뢰도와 운영 안정성 확보에 기여했습니다.",
+    "skills": ["PHP", "JavaScript", "jQuery", "Socket.io", "CSS", "MariaDB", "Apache", "AWS EC2", "Redis", "Figma", "Slack", "Notion", "Google Sheets"],
     "role": [
       "- 테이블오더 서비스 프론트엔드 단독 담당", 
-      "- 신규 기능 기획부터 화면 설계, 개발, QA 및 서비스 릴리스까지 전 과정 담당",
+      "- 신규 기능 기획부터 화면 설계, 개발, QA 및 서비스 배포까지 개발 생애주기 전 과정 수행",
+      "- 백엔드 개발자와 협업하여 기능 요구사항 구체화, 화면 흐름 및 인터랙션 설계, API 연동 수행",
       "- 2번의 서비스 런칭 과정에서 발생한 프론트엔드 이슈 대응 및 안정화 담당"
     ],
     "contribute": [
-      "- 초기 협업 인프라 개선을 위한 Git 도입 과정에 기여",
+      "- Git 기반 버전 관리 도입 제안 및 협업 프로세스 개선",
       "- Socket.io 기반 실시간 주문 동기화 기능 구현",
       "- React·Express 기반 모노레포 PoC 제작을 통한 Socket.IO 기술 검증",
-      "- 로그인/회원가입, 마이페이지 등 신규 기능 기획 및 개발",
-      "- Figma 기반 신규 기능 화면 시안 제작 및 반응형 UI 구현",
-      "- 백엔드 개발자와 협업하여 요구사항 구체화, 인터랙션 설계, API 연동 구현",
-      "- PHP 비즈니스 로직 수정 및 SQL 쿼리 작성을 통한 문제 해결 경험",
+      "- Figma를 활용한 신규 기능 화면 설계 및 UI 시안 제작",
+      "- 선·후불 결제 기능 도입에 따른 화면 흐름 설계 및 기능 구현",
+      "- 로그인/회원가입, 마이페이지 등 신규 기능의 기획 및 개발",
       "- 신규 포스/PG 연동에 따른 프론트엔드 수정 사항 반영 및 테스트",
-      "- PHP 기반 MPA 환경의 유저 상태 동기화 문제 해결",
+      "- PHP 비즈니스 로직 수정 및 SQL 쿼리 작성을 통한 문제 해결",
+      "- PHP 기반 MPA 환경의 사용자 상태 동기화 문제 해결",
       "- iOS Safari 환경의 메인 스레드 과부하 문제 해결"
     ],
     "links": [
@@ -43,16 +44,17 @@
     "image": ["react1.png", "react2.png"],
     "peroid": "2025.10 ~ 2025.12",
     "team": "3인 (FE 2, BE 1)",
-    "descript": "지도 기반 탐색과 검색을 통해 제휴 매장을 쉽게 찾고, 매장의 상세 정보 및 공유 기능을 제공하는 식당 큐레이션 웹 서비스입니다. 프로젝트 초기부터 유지보수와 확장성을 고려해 디렉토리 구조와 상태 관리 방식을 설계하며 개발을 진행했습니다.",
+    "descript": "지도 기반 탐색과 검색을 통해 제휴 매장을 쉽게 찾고, 매장의 상세 정보 및 공유 기능을 제공하는 식당 큐레이션 웹 서비스입니다.\n프로젝트 초기부터 확장성과 유지보수성을 고려하며 프론트엔드 아키텍처 전반을 설계했습니다. 이후 실제 서버 환경 배포 과정에서 발생한 SPA 라우팅 이슈를 직접 해결하며 안정적인 프론트엔드 실행 기반을 마련했습니다.",
     "skills": ["React", "TypeScript", "React Query", "Axios", "Zustand", "Tailwind CSS", "Vite", "Apache", "AWS EC2", "Figma", "Slack", "Google Sheets"],
     "role": [
-      "- 프론트엔드 2인 중 선임 개발자 역할 수행",
-      "- React 기반 웹앱 프론트엔드 아키텍처 설계 및 구현",
-      "- 초기 레포지토리 구조 및 기술 스택 선정 주도"
+      "- 프론트엔드 2인 중 선임 개발자로서 웹 어플리케이션 개발 주도",
+      "- 초기 프로젝트 구조 설계 및 핵심 기술 스택 선정 주도",
+      "- React 기반 웹 어플리케이션 프론트엔드 아키텍처 설계 및 구현"
     ],
     "contribute": [
-      "- Zustand를 활용한 로그인 상태 전역 관리",
       "- React Query와 Axios를 활용한 API 데이터 패칭 및 오류 처리 구조 설계",
+      "- Zustand를 활용한 로그인 상태 및 전역 상태 관리 구현",
+      "- AWS EC2·Apache 환경에서 웹 애플리케이션 배포 대응",
       "- Apache 환경의 SPA 라우팅 및 API 리다이렉트 충돌 개선"
     ]
   },
@@ -145,7 +147,7 @@
   {
     "id": 6,
     "title": "Frontend - 'DevOrbit'",
-    "subtitle": "GitHub 사용자 활동 데이터 분석 웹 애플리케이션",
+    "subtitle": "GitHub 사용자 활동 데이터 시각화 웹 애플리케이션",
     "tier": "primary",
     "type": "personal",
     "image": [
@@ -156,18 +158,16 @@
     ],
     "peroid": "2026.09 ~ 2026.11",
     "team": "1인",
-    "descript": "GitHub 사용자명으로 개발자의 활동 데이터를 조회하고 Commit, Pull Request, Issue 등의 정보를 시각화하여 제공하는 대시보드입니다. GitHub GraphQL API를 통해 개발 활동 데이터를 조회하고 가공하여 Chart.js 기반 차트로 시각화하고, 실제 데이터를 일관된 UX로 제공하는 것을 목표로 제작했습니다. 또한 활동 데이터를 기반으로 개발자 Tier 시스템을 도입하여 게임화 요소를 더했습니다.",
+    "descript": "GitHub 개발자 활동을 한눈에 확인할 수 있는 대시보드 서비스입니다.\nGitHub GraphQL API를 통해 Commit, Pull Request, Issue 등의 활동 데이터를 조회하고, 주요 지표를 산출하여 Chart.js 기반 차트로 시각화했습니다. 또한 개발 활동 데이터를 점수화하여 개발자 Tier를 산정하는 게임화 요소를 도입했습니다.",
     "skills": ["React", "TypeScript", "Vite", "React Query", "Chart.js", "Tailwind CSS", "Shadcn/ui", "Express", "pnpm", "GitHub Actions", "Vercel"],
     "contribute": [
-      "- GitHub GraphQL API 연동을 통한 개발 활동 데이터 통합 조회 및 가공",
-      "- Chart.js를 활용한 데이터 시각화 및 차트 커스터마이징",
-      "- 개발 활동 데이터를 기반으로 한 개발자 Tier 산정 시스템 구현",
-      "- Express 서버의 기능별 모듈 분리 및 API 처리 구조 개선",
+      "- GitHub GraphQL API 연동을 통한 활동 데이터 가공 및 Chart.js 기반 시각화",
+      "- 개발 활동 데이터 점수화 로직을 통한 개발자 Tier 산정 시스템 구현",
+      "- Express(로컬)·Vercel Functions(배포) 이중 환경 대응 및 기능별 API 모듈 분리",
       "- 프론트엔드·백엔드 공통 타입 정의를 통한 타입 안정성 및 유지보수성 개선",
       "- React Query 기반 비동기 데이터 캐싱 및 API 요청 최적화",
-      "- Vite 기반 개발 환경 구축 및 pnpm을 활용한 패키지 관리",
-      "- GitHub Actions 기반 CI 구축 및 Vercel 배포",
-      "- Web Share API와 링크 복사를 활용한 프로필 공유 기능 구현"
+      "- Web Share API와 링크 복사를 활용한 프로필 공유 기능 구현",
+      "- GitHub Actions 기반 CI 파이프라인 구성, Vercel 배포 및 이후 안정화"
     ],
     "links": [
       {
@@ -183,7 +183,7 @@
   {
     "id": 7,
     "title": "Frontend - 'cinetalk'",
-    "subtitle": "리뷰 중심의 영화 기록·공유 웹 애플리케이션",
+    "subtitle": "영상 컨텐츠 리뷰 아카이빙 웹 애플리케이션",
     "tier": "primary",
     "type": "personal",
     "image": [
@@ -194,17 +194,14 @@
     ],
     "peroid": "\n1. 초기 MVP 개발: 2024.07.01 ~ 08.08\n2. FE 리팩토링: 2026.03.22 ~ 04.21\n3. BE 통합 및 데이터 계층 개선: 2026.04.23 ~ (in progress)",
     "team": "1인",
-    "descript": "영화 감상을 기록하고 관리하기 위한 개인 아카이빙 서비스입니다. 초기 MVP 개발 이후 사용자 경험을 개선하는 방향으로 프론트엔드 아키텍처 리팩토링을 진행했으며, 현재는 Supabase 기반 백엔드 통합 및 데이터 계층 개선 작업을 진행하며 전체 서비스 구조를 고도화하고 있습니다.",
+    "descript": "개인적인 취미에서 출발해 기획·제작한 리뷰 아카이빙 서비스입니다.\n초기 MVP 개발 이후 사용자 경험과 유지보수성 개선을 위한 프론트엔드 아키텍처 리팩토링을 진행했으며, 현재는 Supabase 기반 백엔드 통합을 진행하며 데이터 관리 구조를 확장하고 있습니다.",
     "skills": ["React", "TypeScript", "React Query", "Zustand", "Supabase", "SASS", "MUI", "Swiper", "Vite", "ESLint", "GitHub Actions", "npm", "Vercel", "Figma"],
     "contribute": [
-      "- 리뷰 CRUD 및 개인 라이브러리 아카이빙 기능 구현",
-      "- 영화진흥위원회(KOBIS) API 기반 영화 검색 기능 구현",
-      "- Vite 및 TypeScript로 마이그레이션하여 개발 환경 개선",
-      "- 보일러플레이트 코드 개선을 위한 Zustand 전환 및 상태 관리 단순화",
-      "- React Query 도입을 통한 API 로직 분리 및 데이터 관리 구조 개선",
-      "- Github Actions 기반 CI 구축 (ESLint 및 TypeScript 검사 자동화)",
-      "- Supabase 기반 데이터 관리 구조 설계 및 JSON 데이터 마이그레이션",
-      "- Vercel 배포 환경의 파일명 대소문자 불일치로 인한 배포 오류 해결"
+      "- 영화진흥위원회(KOBIS) API 기반 영화 검색 및 개인 리뷰 CRUD 기능 구현",
+      "- Vite·TypeScript 마이그레이션 및 Zustand 전환을 통한 프론트엔드 구조 개선",
+      "- React Query를 활용한 API 로직 분리 및 데이터 관리 구조 개선",
+      "- Github Actions 기반 CI 파이프라인 구축 (ESLint 및 TypeScript 검사 자동화)",
+      "- Supabase 기반 DB 마이그레이션 및 Auth 인증 구조 적용 (진행 중)"
     ],
     "links": [
       {
@@ -220,28 +217,25 @@
   {
     "id": 8,
     "title": "Frontend - 'Nimbus'",
-    "subtitle": "글로벌 날씨 정보 웹 애플리케이션",
+    "subtitle": "도시 검색 및 위치 기반 날씨 정보 조회 서비스",
     "tier": "primary",
     "type": "personal",
     "image": [
-      "nimbus1.png",
       "nimbus2.png",
-      "nimbus3.png",
-      "nimbus4.png"
+      "nimbus1.png",
+      "nimbus4.png",
+      "nimbus3.png"
     ],
     "peroid": "\n1. 초기 MVP 개발: 2025.06 ~ 2025.12\n2. 마이그레이션: 2026.02",
     "team": "1인",
-    "descript": "React 실무 프로젝트 투입 전 전반적인 개발 흐름과 상태 관리 패턴을 익히기 위해 제작한 글로벌 날씨 정보 웹 애플리케이션입니다. OpenWeatherMap API를 활용해 실제 서비스에 필요한 기능들을 구현하며 React + TypeScript 환경에 익숙해지는 것을 목표로 했습니다.",
+    "descript": "React & TypeScript 개발 역량을 유지하고자 제작한 글로벌 날씨 정보 웹 애플리케이션입니다.\nOpenWeatherMap API와 Geolocation API를 활용하여 세계 주요 도시 검색 및 현재 위치 기반 날씨 조회 기능을 제공하며, 다양한 날씨 정보를 직관적으로 확인할 수 있도록 제작했습니다.",
     "skills": ["React", "TypeScript", "React Query", "Axios", "Tailwind CSS", "Vite", "ESLint", "GitHub Actions", "npm", "Vercel"],
     "contribute": [
-      "- 전세계 도시 검색 기반 날씨 조회 기능 구현 (OpenWeatherMap API)",
-      "- Geolocation API를 활용한 현재 위치 기반 날씨 위젯 구현",
-      "- React Query를 사용한 비동기 데이터 요청, 캐싱 및 로딩 상태 관리",
+      "- OpenWeatherMap API 및 Geolocation API를 활용한 주요 도시 검색·현재 위치 기반 날씨 조회 구현",
+      "- React Query를 사용한 비동기 데이터 캐싱 및 로딩 상태 관리",
       "- 데이터 로딩 전 Skeleton UI 적용으로 사용자 경험 개선",
-      "- 다크모드 전역 상태 관리 및 LocalStorage 연동",
-      "- 검색 결과(도시명)에 따른 상세 페이지 동적 라우팅 및 404 페이지 예외 처리",
-      "- CRA → Vite 마이그레이션 진행으로 유지보수성과 빌드 성능 개선",
-      "- GitHub Actions 기반 CI 환경 구성으로 PR 단계 코드 품질 검사 자동화"
+      "- CRA에서 Vite로 마이그레이션하여 빌드 성능 및 개발 환경 개선",
+      "- GitHub Actions 기반 CI 환경 구축을 통한 PR 단계 코드 품질 검사 자동화"
     ],
     "links":[
       {
@@ -256,25 +250,20 @@
   },
   {
     "id": 9,
-    "title": "Frontend - 포트폴리오 ver.2",
-    "subtitle": "React 기반 개인 포트폴리오 사이트",
+    "title": "Frontend - Portfolio",
+    "subtitle": "프론트엔드 개발 경험을 소개하는 React 기반 개인 포트폴리오 사이트",
     "tier": "primary",
     "type": "personal",
     "image": ["portfolio1.png", "portfolio2.png", "portfolio3.png"],
     "peroid": "\n1. 초기 MVP 개발: 2024.08.06 ~ 08.10\n2. 마이그레이션: 2026.02.05 ~ 03.11\n3. 테스트 환경 구축: 2026.05.26 ~ 05.28",
     "team": "1인",
-    "descript": "개인의 기술 스택과 작업 내역 정리를 위해 기획 및 제작한 포트폴리오 사이트입니다. 순수 JS로 만들었던 사이트를 React와 SASS를 사용해 리뉴얼하며, 반복 사용되는 요소들을 컴포넌트로 관리하는 것이 작업의 효율성과 생산성 측면에서 우수하다는 것을 다시 한번 느꼈습니다.",
+    "descript": "순수 JavaScript로 제작했던 초기 작업물을 React 기반으로 리뉴얼한 포트폴리오 사이트입니다.\nTypeScript 및 Vite 마이그레이션과 테스트·CI 환경 구축을 통해 코드 안정성과 유지보수성을 개선했습니다.",
     "skills": ["React", "TypeScript", "SASS", "MUI", "Swiper", "Vite", "Vitest", "Cypress", "ESLint", "GitHub Actions", "npm", "Vercel"],
     "contribute": [
-      "- Header 호버 언더라인 이벤트 및 페이지 라우팅 구현",
-      "- 'About' 페이지에 타이핑 애니메이션 및 Intersection Observer 적용",
-      "- 'Experience' 페이지 상세 내용 토글 기능 구현",
-      "- 'Project' 페이지 프리뷰 클릭 시 모달 오픈 및 Swiper 기반 Image Carousel 적용",
-      "- 기존 JavaScript 기반 코드를 TypeScript로 전환하여 타입 안정성 및 유지보수성 향상",
+      "- Intersection Observer, Image Carousel 등 인터랙티브 UI 구현",
+      "- TypeScript 및 Vite 마이그레이션을 통한 타입 안정성 및 빌드 성능 개선",
       "- GitHub Actions 기반 CI 환경 구성으로 PR 단계 코드 품질 검사 자동화",
-      "- 기존 CRA 기반 환경을 Vite으로 마이그레이션하여 빌드 성능 개선",
-      "- Vitest + React Testing Library 기반 단위 테스트 환경 구축 및 공통 컴포넌트 테스트 작성",
-      "- Cypress를 활용한 E2E 테스트 환경 구축 및 주요 사용자 시나리오 기반 테스트 코드 작성"
+      "- Vitest 및 Cypress를 활용한 단위·E2E 테스트 환경 구축"
     ],
     "links": [
       {
